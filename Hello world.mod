@@ -16,6 +16,6 @@ tags={
 	"National Focuses"
 	"Map"
 }
-name="Hello world"
-supported_version="1.13.6"
+name="world war online"
+supported_version="0.00.1"
 path="C:/Users/riyoumiya hayato/Documents/Paradox Interactive/Hearts of Iron IV/mod/Hello world"

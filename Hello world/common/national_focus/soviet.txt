@@ -826,7 +826,7 @@ focus_tree={
 	focus={
 		id=SOV_help_fra
 		icon = GFX_focus_chi_reach_out_to_france
-		x=19
+		x=7
 		y=6
 		prerequisite={focus=SOV_help_world}
 		cost=10
@@ -1767,7 +1767,7 @@ focus_tree={
 	focus={
 		id=SOV_discuss
 		icon=GFX_goal_generic_improve_relations
-		x=27
+		x=28
 		y=18
 		prerequisite={focus=SOV_stalin}
 		mutually_exclusive={focus=SOV_House_arrest_Lenin }
@@ -1798,23 +1798,6 @@ focus_tree={
 		}
 	}
 	focus={
-		id=SOV_House_arrest_Lenin
-		icon=GFX_focus_spr_masters_of_our_own_fate
-		x=29
-		y=18
-		prerequisite={focus=SOV_stalin}
-		mutually_exclusive={focus=SOV_discuss }
-		cost=10
-		ai_will_do={
-			factor=1
-		}
-		available_if_capitulated=yes
-		search_filters={
-		}
-		completion_reward={
-		}
-	}
-	focus={
 		id=SOV_internationalization
 		icon=GFX_focus_ger_great_red_menace
 		x=32
@@ -1833,7 +1816,7 @@ focus_tree={
 	focus={
 		id=SOV_Strengthen_power
 		icon=GFX_focus_generic_soviet_politics
-		x=27
+		x=28
 		y=19
 		prerequisite={focus=SOV_discuss}
 		cost=10
@@ -1847,25 +1830,9 @@ focus_tree={
 		}
 	}
 	focus={
-		id=SOV_organization_KGB
-		icon=GFX_focus_YUG_pan_slavic_congress
-		x=29
-		y=19
-		prerequisite={focus=SOV_House_arrest_Lenin}
-		cost=10
-		ai_will_do={
-			factor=1
-		}
-		available_if_capitulated=yes
-		search_filters={
-		}
-		completion_reward={
-		}
-	}
-	focus={
 		id=SOV_Unity_Party
 		icon=GFX_goal_generic_intelligence_exchange
-		x=27
+		x=28
 		y=20
 		prerequisite={focus=SOV_Strengthen_power}
 		cost=10
@@ -1879,25 +1846,9 @@ focus_tree={
 		}
 	}
 	focus={
-		id=SOV_THE_SECOND_GREAT_PRUGE
-		icon=GFX_focus_SOV_military_purge
-		x=29
-		y=22
-		prerequisite={focus=SOV_displace_NKVD}
-		cost=10
-		ai_will_do={
-			factor=1
-		}
-		available_if_capitulated=yes
-		search_filters={
-		}
-		completion_reward={
-		}
-	}
-	focus={
 		id=SOV_Continue_industrialize
 		icon = GFX_focus_generic_industry_3
-		x=27
+		x=28
 		y=21
 		prerequisite={focus=SOV_Unity_Party focus=SOV_Assassination_of_Terzerenssky }
 		cost=10
@@ -2010,72 +1961,8 @@ focus_tree={
 		id=SOV_nationalization
 		icon=GFX_focus_SOV_proclaim_soviet_hegemony
 		x=32
-		y=23
+		y=22
 		prerequisite={focus=SOV_Eliminate_the_left}
-		cost=10
-		ai_will_do={
-			factor=1
-		}
-		available_if_capitulated=yes
-		search_filters={
-		}
-		completion_reward={
-		}
-	}
-	focus={
-		id=SOV_Assassination_of_Terzerenssky
-		icon=GFX_focus_SOV_the_last_purge
-		x=29
-		y=20
-		prerequisite={focus=SOV_organization_KGB}
-		cost=10
-		ai_will_do={
-			factor=1
-		}
-		available_if_capitulated=yes
-		search_filters={
-		}
-		completion_reward={
-		}
-	}
-	focus={
-		id=SOV_displace_NKVD
-		icon=GFX_focus_eng_concessions_to_the_trade_unions
-		x=29
-		y=21
-		prerequisite={focus=SOV_Assassination_of_Terzerenssky}
-		cost=10
-		ai_will_do={
-			factor=1
-		}
-		available_if_capitulated=yes
-		search_filters={
-		}
-		completion_reward={
-		}
-	}
-	focus={
-		id=SOV_Hearts_of_iron
-		icon=GFX_focus_SOV_father_of_nations
-		x=29
-		y=23
-		prerequisite={focus=SOV_THE_SECOND_GREAT_PRUGE}
-		cost=10
-		ai_will_do={
-			factor=1
-		}
-		available_if_capitulated=yes
-		search_filters={
-		}
-		completion_reward={
-		}
-	}
-	focus={
-		id=SOV_cult_personality
-		icon=GFX_focus_spr_torchbearers_of_tomorrow
-		x=28
-		y=24
-		prerequisite={focus=SOV_Eliminate_conservatism focus=SOV_nationalization focus=SOV_Hearts_of_iron }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -2089,10 +1976,9 @@ focus_tree={
 	focus={
 		id=SOV_light_industry
 		icon = GFX_goal_generic_production2
-		x=25
+		x=31
 		y=12
-		prerequisite={focus=SOV_factory_frist}
-		mutually_exclusive={focus=SOV_heavy_industry }
+		prerequisite={focus=SOV_field_frist}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -2106,10 +1992,9 @@ focus_tree={
 	focus={
 		id=SOV_heavy_industry
 		icon = GFX_goal_generic_construct_mil_factory
-		x=23
+		x=25
 		y=12
 		prerequisite={focus=SOV_factory_frist}
-		mutually_exclusive={focus=SOV_light_industry }
 		cost=10
 		ai_will_do={
 			factor=1
