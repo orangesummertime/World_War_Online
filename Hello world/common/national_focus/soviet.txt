@@ -31,9 +31,9 @@ focus_tree={
 	focus={
 		id=SOV_lose
 		icon=GFX_goal_generic_forceful_treaty
-		x=28
+		x=30
 		y=2
-		prerequisite={focus=SOV_red_horror}
+		prerequisite={focus=SOV_cpr}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -47,7 +47,7 @@ focus_tree={
 	focus={
 		id=SOV_factory
 		icon = GFX_goal_generic_construct_mil_factory
-		x=28
+		x=30
 		y=3
 		prerequisite={focus=SOV_lose}
 		cost=10
@@ -63,7 +63,7 @@ focus_tree={
 	focus={
 		id=SOV_make_time
 		icon = GFX_focus_SOV_mobilization_plan
-		x=28
+		x=30
 		y=4
 		prerequisite={focus=SOV_factory}
 		cost=10
@@ -79,7 +79,7 @@ focus_tree={
 	focus={
 		id=SOV_war_is_worng
 		icon = GFX_focus_generic_military_academy
-		x=28
+		x=30
 		y=5
 		prerequisite={focus=SOV_make_time}
 		cost=10
@@ -95,7 +95,7 @@ focus_tree={
 	focus={
 		id=SOV_friend_GER
 		icon = GFX_focus_chi_mission_to_germany
-		x=28
+		x=30
 		y=6
 		prerequisite={focus=SOV_war_is_worng}
 		cost=10
@@ -113,7 +113,7 @@ focus_tree={
 		icon=GFX_focus_generic_join_comintern
 		x=28
 		y=7
-		prerequisite={focus=SOV_friend_GER focus=SOV_workers_peasants focus=SOV_Eliminate_opposition}
+		prerequisite={focus=SOV_workers_peasants focus=SOV_Eliminate_opposition}
 		mutually_exclusive={focus=SOV_world_revolution }
 		cost=10
 		ai_will_do={
@@ -451,7 +451,7 @@ focus_tree={
 	focus={
 		id=SOV_cpr
 		icon=GFX_goal_support_communism
-		x=26
+		x=28
 		y=2
 		prerequisite={focus=SOV_red_horror focus=SOV_all_world }
 		mutually_exclusive={focus=SOV_international_revolution }
@@ -468,7 +468,7 @@ focus_tree={
 	focus={
 		id=SOV_Ban_parliament
 		icon = GFX_goal_generic_political_pressure
-		x=26
+		x=28
 		y=3
 		prerequisite={focus=SOV_cpr}
 		mutually_exclusive={focus=SOV_detonate_cw }
@@ -487,7 +487,7 @@ focus_tree={
 	focus={
 		id=SOV_detonate_cw
 		icon = GFX_goal_generic_war_with_comintern
-		x=24
+		x=26
 		y=3
 		prerequisite={focus=SOV_cpr}
 		mutually_exclusive={focus=SOV_Ban_parliament }
@@ -506,7 +506,7 @@ focus_tree={
 	focus={
 		id=SOV_Red_Guards
 		icon = GFX_focus_SOV_builder_of_the_red_army
-		x=24
+		x=26
 		y=4
 		prerequisite={focus=SOV_detonate_cw }
 		cost=10
@@ -524,7 +524,7 @@ focus_tree={
 	focus={
 		id=SOV_Arrest_opposition
 		icon = GFX_focus_generic_support_the_left_right
-		x=26
+		x=28
 		y=4
 		prerequisite={focus=SOV_Ban_parliament }
 		cost=10
@@ -542,7 +542,7 @@ focus_tree={
 	focus={
 		id=SOV_first_pruge
 		icon = GFX_focus_SOV_military_purge
-		x=24
+		x=26
 		y=5
 		prerequisite={focus=SOV_Red_Guards }
 		cost=10
@@ -560,7 +560,7 @@ focus_tree={
 	focus={
 		id=SOV_exiled_Monsheviks
 		icon = GFX_focus_SOV_penal_battalions
-		x=26
+		x=28
 		y=5
 		prerequisite={focus=SOV_Arrest_opposition }
 		cost=10
@@ -578,7 +578,7 @@ focus_tree={
 	focus={
 		id=SOV_Eliminate_opposition
 		icon = GFX_focus_generic_join_comintern
-		x=26
+		x=28
 		y=6
 		prerequisite={focus=SOV_first_pruge focus=SOV_exiled_Monsheviks }
 		cost=10
@@ -860,7 +860,7 @@ focus_tree={
 		icon=GFX_focus_generic_soviet_politics
 		x=13
 		y=6
-		prerequisite={focus=SOV_help_world}
+		prerequisite={SOV_international_revolution}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1554,7 +1554,7 @@ focus_tree={
 		id=SOV_five_years
 		icon = GFX_focus_generic_industry_1
 		x=28
-		y=9
+		y=8
 		prerequisite={focus=SOV_make_sov}
 		cost=10
 		ai_will_do={
@@ -1570,7 +1570,7 @@ focus_tree={
 		id=SOV_factory_frist
 		icon = GFX_focus_generic_industry_2
 		x=27
-		y=11
+		y=10
 		prerequisite={focus=SOV_relationship}
 		mutually_exclusive={focus=SOV_field_frist }
 		cost=10
@@ -1587,7 +1587,7 @@ focus_tree={
 		id=SOV_field_frist
 		icon = GFX_focus_prc_agrarian_socialism
 		x=29
-		y=11
+		y=10
 		prerequisite={focus=SOV_relationship}
 		mutually_exclusive={focus=SOV_factory_frist }
 		cost=10
@@ -1604,7 +1604,7 @@ focus_tree={
 		id=SOV_livelihood
 		icon = GFX_goal_generic_consumer_goods
 		x=27
-		y=12
+		y=11
 		prerequisite={focus=SOV_factory_frist}
 		cost=10
 		ai_will_do={
@@ -1620,7 +1620,7 @@ focus_tree={
 		id=SOV_collectivization
 		icon = GFX_focus_SOV_breadbasket_of_the_union
 		x=29
-		y=12
+		y=11
 		prerequisite={focus=SOV_field_frist}
 		cost=10
 		ai_will_do={
@@ -1636,7 +1636,7 @@ focus_tree={
 		id=SOV_a_country
 		icon=GFX_focus_SOV_socialism_in_one_country
 		x=28
-		y=13
+		y=12
 		prerequisite={focus=SOV_livelihood focus=SOV_collectivization }
 		cost=10
 		ai_will_do={
@@ -1652,7 +1652,7 @@ focus_tree={
 		id=SOV_relationship
 		icon = GFX_goal_generic_production
 		x=28
-		y=10
+		y=9
 		prerequisite={focus=SOV_five_years}
 		cost=10
 		ai_will_do={
@@ -1668,7 +1668,7 @@ focus_tree={
 		id=SOV_state_declaration
 		icon=GFX_focus_generic_soviet_politics
 		x=28
-		y=14
+		y=13
 		prerequisite={focus=SOV_a_country}
 		cost=10
 		ai_will_do={
@@ -1684,7 +1684,7 @@ focus_tree={
 		id=SOV_constitution
 		icon = GFX_focus_hol_the_foundations_of_defense
 		x=28
-		y=15
+		y=14
 		prerequisite={focus=SOV_state_declaration}
 		cost=10
 		ai_will_do={
@@ -1700,7 +1700,7 @@ focus_tree={
 		id=SOV_elect
 		icon=GFX_goal_generic_neutrality_focus
 		x=28
-		y=16
+		y=15
 		prerequisite={focus=SOV_constitution}
 		cost=10
 		ai_will_do={
@@ -1716,7 +1716,7 @@ focus_tree={
 		id=SOV_stalin
 		icon=GFX_focus_fra_loyalty_stalin
 		x=28
-		y=17
+		y=16
 		prerequisite={focus=SOV_elect}
 		mutually_exclusive={focus=SOV_Trotsky focus=SOV_Bukharin }
 		cost=10
@@ -1732,8 +1732,8 @@ focus_tree={
 	focus={
 		id=SOV_Trotsky
 		icon=GFX_focus_fra_loyalty_trotzky
-		x=24
-		y=17
+		x=25
+		y=16
 		prerequisite={focus=SOV_elect}
 		mutually_exclusive={focus=SOV_stalin focus=SOV_Bukharin }
 		cost=10
@@ -1749,10 +1749,9 @@ focus_tree={
 	focus={
 		id=SOV_Bukharin
 		icon=GFX_focus_SOV_bukharinists
-		x=32
-		y=17
+		x=31
+		y=16
 		prerequisite={focus=SOV_elect}
-		prerequisite={focus=SOV_workers_peasants}
 		mutually_exclusive={focus=SOV_stalin focus=SOV_Trotsky }
 		cost=10
 		ai_will_do={
@@ -1768,7 +1767,7 @@ focus_tree={
 		id=SOV_discuss
 		icon=GFX_goal_generic_improve_relations
 		x=28
-		y=18
+		y=17
 		prerequisite={focus=SOV_stalin}
 		mutually_exclusive={focus=SOV_House_arrest_Lenin }
 		cost=10
@@ -1784,8 +1783,8 @@ focus_tree={
 	focus={
 		id=SOV_uninterrupted_revolution
 		icon=GFX_focus_SOV_international_union_of_soviet_republics
-		x=24
-		y=18
+		x=25
+		y=17
 		prerequisite={focus=SOV_Trotsky}
 		cost=10
 		ai_will_do={
@@ -1800,8 +1799,8 @@ focus_tree={
 	focus={
 		id=SOV_internationalization
 		icon=GFX_focus_ger_great_red_menace
-		x=32
-		y=18
+		x=31
+		y=17
 		prerequisite={focus=SOV_Bukharin}
 		cost=10
 		ai_will_do={
@@ -1817,7 +1816,7 @@ focus_tree={
 		id=SOV_Strengthen_power
 		icon=GFX_focus_generic_soviet_politics
 		x=28
-		y=19
+		y=18
 		prerequisite={focus=SOV_discuss}
 		cost=10
 		ai_will_do={
@@ -1833,7 +1832,7 @@ focus_tree={
 		id=SOV_Unity_Party
 		icon=GFX_goal_generic_intelligence_exchange
 		x=28
-		y=20
+		y=19
 		prerequisite={focus=SOV_Strengthen_power}
 		cost=10
 		ai_will_do={
@@ -1849,7 +1848,7 @@ focus_tree={
 		id=SOV_Continue_industrialize
 		icon = GFX_focus_generic_industry_3
 		x=28
-		y=21
+		y=20
 		prerequisite={focus=SOV_Unity_Party focus=SOV_Assassination_of_Terzerenssky }
 		cost=10
 		ai_will_do={
@@ -1864,8 +1863,8 @@ focus_tree={
 	focus={
 		id=SOV_Criticize_nationalism
 		icon=GFX_focus_spr_the_anti_fascist_workers_revolution
-		x=24
-		y=19
+		x=25
+		y=18
 		prerequisite={focus=SOV_uninterrupted_revolution}
 		cost=10
 		ai_will_do={
@@ -1880,8 +1879,8 @@ focus_tree={
 	focus={
 		id=SOV_Our_rights
 		icon = GFX_focus_por_workers_of_iberia
-		x=24
-		y=20
+		x=25
+		y=19
 		prerequisite={focus=SOV_Criticize_nationalism}
 		cost=10
 		ai_will_do={
@@ -1896,8 +1895,8 @@ focus_tree={
 	focus={
 		id=SOV_Eliminate_conservatism
 		icon=GFX_goal_generic_political_pressure
-		x=24
-		y=21
+		x=25
+		y=20
 		prerequisite={focus=SOV_Our_rights}
 		cost=10
 		ai_will_do={
@@ -1912,8 +1911,8 @@ focus_tree={
 	focus={
 		id=SOV_Change_open
 		icon=GFX_goal_generic_major_alliance
-		x=32
-		y=19
+		x=31
+		y=18
 		prerequisite={focus=SOV_internationalization}
 		cost=10
 		ai_will_do={
@@ -1928,8 +1927,8 @@ focus_tree={
 	focus={
 		id=SOV_Eliminate_note
 		icon=GFX_focus_spa_the_spanish_miracle
-		x=32
-		y=20
+		x=31
+		y=19
 		prerequisite={focus=SOV_Change_open}
 		cost=10
 		ai_will_do={
@@ -1944,8 +1943,8 @@ focus_tree={
 	focus={
 		id=SOV_Eliminate_the_left
 		icon=GFX_goal_generic_political_pressure
-		x=32
-		y=21
+		x=31
+		y=20
 		prerequisite={focus=SOV_Eliminate_note}
 		cost=10
 		ai_will_do={
@@ -1960,8 +1959,8 @@ focus_tree={
 	focus={
 		id=SOV_nationalization
 		icon=GFX_focus_SOV_proclaim_soviet_hegemony
-		x=32
-		y=22
+		x=31
+		y=21
 		prerequisite={focus=SOV_Eliminate_the_left}
 		cost=10
 		ai_will_do={
@@ -1977,7 +1976,7 @@ focus_tree={
 		id=SOV_light_industry
 		icon = GFX_goal_generic_production2
 		x=31
-		y=12
+		y=11
 		prerequisite={focus=SOV_field_frist}
 		cost=10
 		ai_will_do={
@@ -1993,7 +1992,7 @@ focus_tree={
 		id=SOV_heavy_industry
 		icon = GFX_goal_generic_construct_mil_factory
 		x=25
-		y=12
+		y=11
 		prerequisite={focus=SOV_factory_frist}
 		cost=10
 		ai_will_do={
@@ -2009,7 +2008,7 @@ focus_tree={
 		id=SOV_Electricity_plan
 		icon = GFX_focus_renounce_the_treaty_of_trianon
 		x=26
-		y=13
+		y=12
 		prerequisite={focus=SOV_livelihood}
 		cost=10
 		ai_will_do={
@@ -2025,7 +2024,7 @@ focus_tree={
 		id=SOV_computer
 		icon = GFX_focus_research
 		x=26
-		y=14
+		y=13
 		prerequisite={focus=SOV_Electricity_plan}
 		cost=10
 		ai_will_do={
@@ -2041,7 +2040,7 @@ focus_tree={
 		id=SOV_Russian_power_grid
 		icon = GFX_focus_generic_industry_2
 		x=24
-		y=14
+		y=13
 		prerequisite={focus=SOV_Electricity_plan}
 		cost=10
 		ai_will_do={
@@ -2057,7 +2056,7 @@ focus_tree={
 		id=SOV_Natural_gas_development
 		icon = GFX_goal_generic_oil_refinery
 		x=24
-		y=15
+		y=14
 		prerequisite={focus=SOV_Russian_power_grid}
 		cost=10
 		ai_will_do={
@@ -2073,7 +2072,7 @@ focus_tree={
 		id=SOV_Information_Age
 		icon = GFX_focus_research2
 		x=26
-		y=15
+		y=14
 		prerequisite={focus=SOV_computer}
 		cost=10
 		ai_will_do={
@@ -2155,6 +2154,7 @@ focus_tree={
 		x=0
 		y=1
 		prerequisite={focus=SOV_The_Inter_Siberian_Railway}
+		mutually_exclusive={focus=SOV_economic_reconstruction}
 		cost=10
 		ai_will_do={
 			factor=1
