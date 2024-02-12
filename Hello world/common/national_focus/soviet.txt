@@ -1,9 +1,10 @@
 focus_tree={
+	id = soviet
 	country={
 		factor=0
 		modifier={
 			add=10
-			tag=sov
+			tag=SOV
 		}
 	}
 	default=no
@@ -18,12 +19,12 @@ focus_tree={
 		y=1
 		prerequisite={focus=SOV_all_ruissa}
 		mutually_exclusive={focus=SOV_peace_and_love }
-		cost=10
+		cost=3
 		ai_will_do={
 			factor=1
 		}
 		available_if_capitulated=yes
-		search_filters={
+		search_filters={FOCUS_FILTER_SOV_POLITICAL_PARANOIA
 		}
 		completion_reward={
 		}
@@ -32,14 +33,14 @@ focus_tree={
 		id=SOV_lose
 		icon=GFX_goal_generic_forceful_treaty
 		x=30
-		y=2
+		y=3
 		prerequisite={focus=SOV_cpr}
 		cost=10
 		ai_will_do={
 			factor=1
 		}
 		available_if_capitulated=yes
-		search_filters={
+		search_filters={FOCUS_FILTER_SOV_POLITICAL_PARANOIA
 		}
 		completion_reward={
 		}
@@ -48,14 +49,14 @@ focus_tree={
 		id=SOV_factory
 		icon = GFX_goal_generic_construct_mil_factory
 		x=30
-		y=3
+		y=4
 		prerequisite={focus=SOV_lose}
 		cost=10
 		ai_will_do={
 			factor=1
 		}
 		available_if_capitulated=yes
-		search_filters={
+		search_filters={FOCUS_FILTER_SOV_POLITICAL_PARANOIA
 		}
 		completion_reward={
 		}
@@ -64,14 +65,14 @@ focus_tree={
 		id=SOV_make_time
 		icon = GFX_focus_SOV_mobilization_plan
 		x=30
-		y=4
+		y=5
 		prerequisite={focus=SOV_factory}
 		cost=10
 		ai_will_do={
 			factor=1
 		}
 		available_if_capitulated=yes
-		search_filters={
+		search_filters={FOCUS_FILTER_SOV_POLITICAL_PARANOIA
 		}
 		completion_reward={
 		}
@@ -80,14 +81,14 @@ focus_tree={
 		id=SOV_war_is_worng
 		icon = GFX_focus_generic_military_academy
 		x=30
-		y=5
+		y=6
 		prerequisite={focus=SOV_make_time}
 		cost=10
 		ai_will_do={
 			factor=1
 		}
 		available_if_capitulated=yes
-		search_filters={
+		search_filters={FOCUS_FILTER_SOV_POLITICAL_PARANOIA
 		}
 		completion_reward={
 		}
@@ -96,14 +97,14 @@ focus_tree={
 		id=SOV_friend_GER
 		icon = GFX_focus_chi_mission_to_germany
 		x=30
-		y=6
+		y=7
 		prerequisite={focus=SOV_war_is_worng}
 		cost=10
 		ai_will_do={
 			factor=1
 		}
 		available_if_capitulated=yes
-		search_filters={
+		search_filters={FOCUS_FILTER_SOV_POLITICAL_PARANOIA
 		}
 		completion_reward={
 		}
@@ -120,7 +121,7 @@ focus_tree={
 			factor=1
 		}
 		available_if_capitulated=yes
-		search_filters={
+		search_filters={FOCUS_FILTER_SOV_POLITICAL_PARANOIA
 		}
 		completion_reward={
 		}
@@ -438,14 +439,14 @@ focus_tree={
 		y=1
 		prerequisite={focus=SOV_all_ruissa}
 		mutually_exclusive={focus=SOV_red_horror }
-		cost=10
+		cost=3
 		ai_will_do={
 			factor=1
 		}
 		available_if_capitulated=yes
 		search_filters={
 		}
-		completion_reward={
+		completion_reward={ add_political_power = 300
 		}
 	}
 	focus={
@@ -498,9 +499,7 @@ focus_tree={
 		available_if_capitulated=yes
 		search_filters={
 		}
-		completion_reward={
-		}
-		search_filters={
+		completion_reward={custom_effect_tooltip = SOV_exiled_advisors_available_tt
 		}
 	}
 	focus={
@@ -601,14 +600,14 @@ focus_tree={
 		x=22
 		y=1
 		prerequisite={focus=SOV_all_ruissa}
-		cost=10
+		cost=3
 		ai_will_do={
 			factor=1
 		}
 		available_if_capitulated=yes
 		search_filters={
 		}
-		completion_reward={
+		completion_reward={ add_political_power = 100
 		}
 	}
 	focus={
@@ -715,6 +714,7 @@ focus_tree={
 		x=13
 		y=3
 		prerequisite={focus=SOV_Smooth_progress}
+		prerequisite={focus=SOV_international_revolution}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -826,6 +826,7 @@ focus_tree={
 	focus={
 		id=SOV_help_fra
 		icon = GFX_focus_chi_reach_out_to_france
+		x=19
 		x=7
 		y=6
 		prerequisite={focus=SOV_help_world}
@@ -860,7 +861,7 @@ focus_tree={
 		icon=GFX_focus_generic_soviet_politics
 		x=13
 		y=6
-		prerequisite={SOV_international_revolution}
+		prerequisite={focus=SOV_help_world}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1387,7 +1388,7 @@ focus_tree={
 			factor=1
 		}
 		available_if_capitulated=yes
-		search_filters={
+		search_filters={FOCUS_FILTER_SOV_POLITICAL_PARANOIA
 		}
 		completion_reward={
 		}
@@ -1402,7 +1403,7 @@ focus_tree={
 			factor=1
 		}
 		available_if_capitulated=yes
-		search_filters={
+		search_filters={FOCUS_FILTER_SOV_POLITICAL_PARANOIA
 		}
 		completion_reward={
 		}
@@ -1412,14 +1413,20 @@ focus_tree={
 		icon=GFX_focus_SOV_socialism_in_one_country
 		x=28
 		y=0
-		cost=10
+		cost=3
 		ai_will_do={
-			factor=1
+			factor=10
 		}
 		available_if_capitulated=yes
-		search_filters={
+		search_filters={ FOCUS_FILTER_SOV_POLITICAL_PARANOIA
 		}
-		completion_reward={
+		completion_reward={ add_political_power = 100 add_stability = -0.2 
+		# SOV_paranoia_high_increase_effect = yes 
+		custom_effect_tooltip = SOV_the_left_opposition_tt
+		set_variable = { SOV_left_opposition_army_support = 0.25 }
+		set_variable = { SOV_left_opposition_navy_support = 0.05 }
+		set_variable = { SOV_left_opposition_air_support = 0.15 }
+		SOV_opposition_support_large_increase_effect = yes
 		}
 	}
 	focus={
@@ -1769,7 +1776,6 @@ focus_tree={
 		x=28
 		y=17
 		prerequisite={focus=SOV_stalin}
-		mutually_exclusive={focus=SOV_House_arrest_Lenin }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1849,8 +1855,7 @@ focus_tree={
 		icon = GFX_focus_generic_industry_3
 		x=28
 		y=20
-		prerequisite={focus=SOV_Unity_Party focus=SOV_Assassination_of_Terzerenssky }
-		cost=10
+		prerequisite={focus=SOV_Unity_Party}
 		ai_will_do={
 			factor=1
 		}
@@ -1977,6 +1982,7 @@ focus_tree={
 		icon = GFX_goal_generic_production2
 		x=31
 		y=11
+		prerequisite={focus=SOV_factory_frist}
 		prerequisite={focus=SOV_field_frist}
 		cost=10
 		ai_will_do={
@@ -2154,7 +2160,6 @@ focus_tree={
 		x=0
 		y=1
 		prerequisite={focus=SOV_The_Inter_Siberian_Railway}
-		mutually_exclusive={focus=SOV_economic_reconstruction}
 		cost=10
 		ai_will_do={
 			factor=1
