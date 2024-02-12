@@ -1586,6 +1586,6 @@
  ENE_democratic_def: "$ENM_democratic$"
  ENE_fascist: "诺德兰帝国"
  ENE_fascist_def: "$ENM_fascist$"
- CZE_ONLY_AUS_subject: "波西米亚王冠领地"
- CZE_ONLY_AUS_subject_DEF: "波西米亚王冠领地"
+ CZE_ONLY_AUS_subject: "波西米亚王国"
+ CZE_ONLY_AUS_subject_DEF: "波西米亚王国"
  CZE_ONLY_AUS_subject_ADJ: "波西米亚"
