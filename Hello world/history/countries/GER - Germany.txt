@@ -1,4 +1,4 @@
-﻿capital = 64
+capital = 64
 if = {
 	limit = {
 		NOT = {
@@ -1248,6 +1248,20 @@ if = {
 			icon = "GFX_GER_light_plane_1_medium"
 		}
 	}
+
+	# create_country_leader = {
+	# 	name = GER_wilhelm_ii
+	# 	desc = "威威"
+	# 	picture = GFX_portrait_GER_wilhelm_ii
+	# 	expire = "1953.3.1"
+	# 	ideology = neutrality
+	# 	traits = {
+			
+	# 	}
+	# }
+
+	# promote_character = GER_wilhelm_ii
+
 	# Heavy Cruisers #
 	#create_equipment_variant = {
 	#	name = "Deutschland Class"

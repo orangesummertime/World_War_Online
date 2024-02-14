@@ -66,18 +66,18 @@ if = {
 		puppet = CRO
 	}
 }
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = BOS
-		autonomous_state = autonomy_personal_union
-	}
-	else = {
-		puppet = BOS
-	}
-}
+# if = {
+# 	limit = {
+# 		has_dlc = "Together for Victory"
+# 	}
+# 	set_autonomy = {
+# 		target = BOS
+# 		autonomous_state = autonomy_personal_union
+# 	}
+# 	else = {
+# 		puppet = BOS
+# 	}
+# }
 if = {
 	limit = {
 		has_dlc = "Together for Victory"
@@ -111,7 +111,7 @@ recruit_character = AUS_franz_bohme
 recruit_character = AUS_eugen_beyer
 recruit_character = AUS_julius_raab
 recruit_character = AUS_leopold_figl
-
+recruit_character = AUS_otto_von_habsburg
 
 set_politics = {
 	ruling_party = neutrality
@@ -128,3 +128,11 @@ set_popularities = {
 }
 
 set_stability = 0.50
+
+create_faction = austria_hungary
+add_to_faction = HUN
+add_to_faction = CZE
+add_to_faction = CRO
+#add_to_faction = BOS
+add_to_faction = POL
+
