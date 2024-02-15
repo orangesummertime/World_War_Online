@@ -1,0 +1,17 @@
+characters = {
+	GLZ_franz_ferdinand = {
+		name = franz_ferdinand
+		portraits={
+			civilian={
+				large="GFX_GLZ_franz_ferdinand"
+			}
+		}
+		desc = franz_ferdinand_desc
+		country_leader={
+			ideology=despotism
+			traits={ reformer }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

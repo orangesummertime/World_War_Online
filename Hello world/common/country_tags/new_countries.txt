@@ -1,0 +1,1 @@
+GLZ = "countries/Galizia.txt"
