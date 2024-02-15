@@ -1,0 +1,52 @@
+test_category = {
+	load_china_focus_tree = {
+		allowed = { original_tag = SOV }
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			load_focus_tree = china_communist_focus
+			set_country_flag = china_focus_loaded
+		}
+	}
+	revolution_flood = {
+
+		allowed = { tag = SOV }
+
+		icon = POL_looming_peasants_strike
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 14
+		is_good = no
+		fire_only_once = yes
+		
+		activation = {
+			date > 1936.1.1
+		}
+
+		visible = {
+			always = yes
+		}
+		
+		cancel_effect = {
+		
+		}
+
+		timeout_effect = {
+			set_cosmetic_tag = SOV_red
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+			load_focus_tree = soviet
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}

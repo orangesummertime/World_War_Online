@@ -1,6 +1,13 @@
 ﻿l_simp_chinese:
  austria_hungary: "奥匈帝国"
- franz_ferdinand: 0"弗朗茨·费迪南"
- franz_ferdinand_desc: "弗朗茨·费迪南原是奥匈帝国的继承人。奥匈帝国解体后，他成为了加利西亚和洛多梅利亚的国王。"
-
+ franz_ferdinand: "弗朗茨·费迪南"
+ franz_ferdinand_desc: "弗朗茨·费迪南原是奥匈帝国的继承人，主张推行开明的民族政策。奥匈帝国解体后，他成为了加利西亚和洛多梅利亚的国王。"
+ GLZ_franz_ferdinand: "弗朗茨·费迪南"
+ GLZ_franz_ferdinand_desc: "弗朗茨·费迪南原是奥匈帝国的继承人。奥匈帝国解体后，他成为了加利西亚和洛多梅利亚的国王。"
+ china_communist_focus: "中国国策树"
+ load_china_focus_tree: "加载中国国策树"
+ load_china_focus_tree_desc: "用这个决议试一下能不能加载国策树"
+ soviet: "苏联国策树"
+ revolution_flood: "革命浪潮"
+ revolution_floodd_desc: "俄国内部的矛盾不断加剧，革命浪潮正在席卷整个国家。"
  

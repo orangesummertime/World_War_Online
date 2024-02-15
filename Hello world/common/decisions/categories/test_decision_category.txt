@@ -1,0 +1,8 @@
+test_category = {
+	icon = ger_reichskommissariats
+	allowed = { 
+		
+	}
+	picture = GFX_decision_cat_picture_NOR_fascist_war
+   priority = 100
+}

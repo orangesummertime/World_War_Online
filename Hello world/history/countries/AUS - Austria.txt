@@ -83,11 +83,11 @@ if = {
 		has_dlc = "Together for Victory"
 	}
 	set_autonomy = {
-		target = POL
+		target = GLZ
 		autonomous_state = autonomy_personal_union
 	}
 	else = {
-		puppet = POL
+		puppet = GLZ
 	}
 }
 recruit_character = AUS_kurt_schuschnigg
@@ -134,5 +134,5 @@ add_to_faction = HUN
 add_to_faction = CZE
 add_to_faction = CRO
 #add_to_faction = BOS
-add_to_faction = POL
+add_to_faction = GLZ
 
