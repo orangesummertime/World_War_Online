@@ -1803,22 +1803,6 @@ focus_tree={
 		}
 	}
 	focus={
-		id=SOV_internationalization
-		icon=GFX_focus_ger_great_red_menace
-		x=31
-		y=17
-		prerequisite={focus=SOV_Bukharin}
-		cost=10
-		ai_will_do={
-			factor=1
-		}
-		available_if_capitulated=yes
-		search_filters={
-		}
-		completion_reward={
-		}
-	}
-	focus={
 		id=SOV_Strengthen_power
 		icon=GFX_focus_generic_soviet_politics
 		x=28
@@ -1917,8 +1901,8 @@ focus_tree={
 		id=SOV_Change_open
 		icon=GFX_goal_generic_major_alliance
 		x=31
-		y=18
-		prerequisite={focus=SOV_internationalization}
+		y=17
+		prerequisite={focus=SOV_Bukharin}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1933,7 +1917,7 @@ focus_tree={
 		id=SOV_Eliminate_note
 		icon=GFX_focus_spa_the_spanish_miracle
 		x=31
-		y=19
+		y=18
 		prerequisite={focus=SOV_Change_open}
 		cost=10
 		ai_will_do={
@@ -1949,7 +1933,7 @@ focus_tree={
 		id=SOV_Eliminate_the_left
 		icon=GFX_goal_generic_political_pressure
 		x=31
-		y=20
+		y=19
 		prerequisite={focus=SOV_Eliminate_note}
 		cost=10
 		ai_will_do={
@@ -1965,7 +1949,7 @@ focus_tree={
 		id=SOV_nationalization
 		icon=GFX_focus_SOV_proclaim_soviet_hegemony
 		x=31
-		y=21
+		y=20
 		prerequisite={focus=SOV_Eliminate_the_left}
 		cost=10
 		ai_will_do={
