@@ -1426,7 +1426,6 @@ focus_tree={
 		set_variable = { SOV_left_opposition_army_support = 0.25 }
 		set_variable = { SOV_left_opposition_navy_support = 0.05 }
 		set_variable = { SOV_left_opposition_air_support = 0.15 }
-		SOV_opposition_support_large_increase_effect = yes
 		}
 	}
 	focus={
