@@ -3,4 +3,12 @@ spriteTypes = {
 		name = "GFX_GLZ_franz_ferdinand"
 		texturefile = "/gfx/leaders/GLZ/franz_ferdinand.dds"
 	}
+	spriteType = {
+		name = "GFX_AUS_franz_joseph"
+		texturefile = "/gfx/leaders/AUS/franz_joseph.dds"
+	}
+	spriteType = {
+		name = "GFX_HUN_istvan_tisza"
+		texturefile = "/gfx/leaders/HUN/istvan_tisza.dds"
+	}
 }
