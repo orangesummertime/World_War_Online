@@ -79,25 +79,46 @@ test_category = {
 		cancel_effect = {
 		}
 		timeout_effect = {
+			MAN = {
+				for_each_scope_loop = {
+					array = core_states_at_game_start
+					add_core_of = PRC			
+			   }
+			}
 			PRC = {
 				inherit_technology = MAN
 				add_stability = 0.5
 				add_war_support = 0.5
 				add_political_power = 2000
 				set_cosmetic_tag = PRC_proclaimed
-				add_core_of = 526 #琉球
-				add_core_of = 817
-				add_core_of = 818
-				add_core_of = 819
-				add_core_of = 820
-				add_core_of = 330
-				add_core_of = 329
+				# add_core_of = 526 #琉球
+				# add_core_of = 817
+				# add_core_of = 818
+				# add_core_of = 819
+				# add_core_of = 820
+				# add_core_of = 330
+				# add_core_of = 329
 				annex_country = {
 					target = MAN
 					transfer_troops = yes
 				}				
 				country_event = wtt_china.204
 				change_tag_from = MAN
+			}
+		}
+	}
+
+	turn_red = {
+		allowed ={
+			always = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
 			}
 		}
 	}

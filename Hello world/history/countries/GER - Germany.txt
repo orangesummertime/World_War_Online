@@ -383,6 +383,108 @@ set_popularities = {
 	communism = 5
 	neutrality = 85
 }
+773 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+638 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+633 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+639 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+725 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+734 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+737 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+642 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+643 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+630 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+684 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+743 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+777 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+546 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+893 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+894 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+895 = {
+	start_resistance = yes
+	set_compliance = 70
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
 
 create_faction = Axis
 add_to_faction = GER
