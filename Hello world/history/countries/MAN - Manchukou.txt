@@ -10,7 +10,16 @@ set_technology = {
 	tech_trucks = 1
 	basic_train = 1
 }
-
+create_country_leader = {
+	name = guangxu
+	desc = guangxu_desc
+	picture = GFX_MAN_guangxu
+	expire = "1953.3.1"
+	ideology = despotism
+	traits = {	
+		puppet_emperor	
+	}
+}
 if = {
 	limit = { has_dlc = "Waking the Tiger" }
 	set_country_flag = MAN_northern_bandits
@@ -21,7 +30,7 @@ if = {
 	add_ideas = MAN_low_legitimacy_5
 	recruit_character = MAN_songgotu_zhanshan
 }
-
+recruit_character = MAN_aisin_gioro_guangxu
 recruit_character = MAN_aisin_gioro_puyi
 recruit_character = MAN_zhang_haipeng
 recruit_character = MAN_zhang_jinghui
@@ -198,16 +207,16 @@ if = {
 	}
 	
     set_politics = {
-	ruling_party = fascism
-	last_election = "1936.1.1"
+	ruling_party = neutrality
+	last_election = "1900.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 45
-	neutrality = 10
-	democratic = 25
-	communism = 20
+	fascism = 0
+	neutrality = 90
+	democratic = 5
+	communism = 5
 }
 
 	#generic focuses

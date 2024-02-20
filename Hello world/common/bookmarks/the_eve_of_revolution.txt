@@ -1,0 +1,141 @@
+bookmarks = {
+	bookmark = {
+		name = "the_eve_of_revolution"
+		desc = "the_eve_of_revolution_desc"
+		date = 1905.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "SOV"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_THE_EVE_OF_REVOLUTION_DESC"
+			ideology = democratic
+			#available = { always = yes } 
+			ideas = {
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+				FRA_invite_communist_ministers
+				FRA_utilize_the_leagues
+				FRA_je_suis_la_deluge
+			}
+		}
+		"USA"={
+			history = "USA_THE_EVE_OF_REVOLUTION_DESC"
+			ideology = democratic
+			ideas = {
+				home_of_the_free
+				great_depression
+				undisturbed_isolation
+			}
+			focuses = {
+				USA_war_plan_black
+				USA_limited_intervention
+				USA_reestablish_the_gold_standard
+			}
+		}
+		"ENG"={
+			history = "ENG_THE_EVE_OF_REVOLUTION_DESC"
+			ideology = democratic
+			#available = { NOT = { has_dlc = "Man the Guns" } }
+			ideas = {
+				stiff_upper_lip
+				ENG_the_war_to_end_all_wars
+				george_v
+			}
+			focuses = {
+				tizard_mission_focus
+				ENG_war_with_germany
+				ENG_war_with_italy
+			}
+		}
+		"SOV"={
+			history = "SOV_THE_EVE_OF_REVOLUTION_DESC"
+			ideology = neutrality
+			available = { has_dlc = "No Step Back" }
+			ideas = {
+				trotskyite_plot_nsb
+				SOV_second_five_year_plan_fake_1936_ns
+				SOV_politicized_military
+			}
+			focuses = {
+				SOV_behead_the_snake
+				SOV_the_supreme_soviet
+				SOV_reconvene_the_zemsky_sobor
+			}	
+		}
+		"GER"={
+			history = "GER_THE_EVE_OF_REVOLUTION_DESC"
+			ideology = neutrality
+			#available = { NOT = { has_dlc = "Waking the Tiger" } }
+			ideas = {
+				sour_loser
+				general_staff
+				GER_mefo_bills_1
+			}
+			focuses = {
+				GER_anschluss
+				GER_danzig_or_war
+				GER_ussr_war_goal
+			}
+		}
+		# "JAP"={
+		# 	history = "JAP_GATHERING_STORM_DESC"
+		# 	ideology = fascism
+		# 	ideas = {
+		# 		state_shintoism
+		# 		JAP_zaibatsus
+		# 		JAP_militarism
+		# 	}	
+		# 	focuses = {
+		# 		JAP_the_zero
+		# 		JAP_warrior_spirit
+		# 		JAP_strike_on_the_southern_resource_area
+		# 	}			
+		# }
+
+		"MAN"={
+			history = "MAN_THE_EVE_OF_REVOLUTION_DESC"
+			ideology = neutrality
+			#available = { has_dlc = "No Step Back" }
+			ideas = {
+				# trotskyite_plot_nsb
+				# SOV_second_five_year_plan_fake_1936_ns
+				# SOV_politicized_military
+			}
+			focuses = {
+				# SOV_behead_the_snake
+				# SOV_the_supreme_soviet
+				# SOV_reconvene_the_zemsky_sobor
+			}	
+		}
+		"AUS"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = neutrality
+			#available = { has_dlc = "No Step Back" }
+			ideas = {
+				trotskyite_plot_nsb
+				SOV_second_five_year_plan_fake_1936_ns
+				SOV_politicized_military
+			}
+			focuses = {
+				SOV_behead_the_snake
+				SOV_the_supreme_soviet
+				SOV_reconvene_the_zemsky_sobor
+			}	
+		}
+
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

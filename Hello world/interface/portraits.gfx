@@ -11,4 +11,8 @@ spriteTypes = {
 		name = "GFX_HUN_istvan_tisza"
 		texturefile = "/gfx/leaders/HUN/istvan_tisza.dds"
 	}
+	spriteType = {
+		name = "GFX_MAN_guangxu"
+		texturefile = "gfx/leaders/MAN/guangxu.dds"
+	}
 }
