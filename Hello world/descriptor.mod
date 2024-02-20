@@ -16,5 +16,6 @@ tags={
 	"National Focuses"
 	"Map"
 }
+replace_path="common/bookmarks"
 name="Hello world"
 supported_version="1.13.6"
