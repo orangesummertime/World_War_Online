@@ -112,7 +112,7 @@ bookmarks = {
 			}	
 		}
 		"AUS"={
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "AUS_THE_EVE_OF_REVOLUTION_DESC"
 			ideology = neutrality
 			#available = { has_dlc = "No Step Back" }
 			ideas = {
