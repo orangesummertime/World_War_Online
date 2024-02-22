@@ -486,7 +486,7 @@ set_popularities = {
 	set_garrison_strength = 1.0
 }
 
-create_faction = Axis
+# create_faction = Axis
 add_to_faction = GER
 
 

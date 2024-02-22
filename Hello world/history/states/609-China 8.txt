@@ -15,15 +15,13 @@ state={
 			infrastructure = 3 #was: 5
 			arms_factory = 1
 			industrial_complex = 1
-			3900 = {
-				naval_base = 2
-			}
+			
 		}
 
 	}
 
 	provinces={
-		900 1052 3830 3900 6969 11822 12043 
+		900 1052 3830 6969 11822 12043 #3900为德国租界
 	}
 
 	local_supplies=0.0 

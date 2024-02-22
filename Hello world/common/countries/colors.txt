@@ -102,8 +102,8 @@ POR = {
 	color_ui = rgb { 51 151 91 }
 }
 FIN = {
-	color = rgb { 205 212 228 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 72 143 68 }
+    color_ui = rgb { 72 143 68 }
 }
 IRE = {
 	color = rgb { 80 159 90 }

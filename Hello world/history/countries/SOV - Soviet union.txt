@@ -130,6 +130,18 @@ recruit_character = SOV_pavel_rybalko
 
 if = {
 	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = FIN
+		autonomous_state = autonomy_dominion
+	}
+	else = {
+		puppet = FIN
+	}
+}
+if = {
+	limit = {
 		has_dlc = "No Step Back"
 	}
 	recruit_character = SOV_anastasy_vonsyatsky
@@ -1242,7 +1254,7 @@ set_popularities = {
 	communism = 30
 }
 
-create_faction = Comintern
+# create_faction = Comintern
 add_to_faction = SOV
 add_to_faction = MON
 add_to_faction = TAN

@@ -1,0 +1,36 @@
+
+state={
+	id=935
+	name="STATE_935" # German Tianjin
+	manpower = 100000
+	
+	state_category = town
+
+	history={
+		owner = GER
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = MAN
+		victory_points = {
+			3900 1
+		}
+		buildings = {
+			infrastructure = 1 #was: 5
+			arms_factory = 0
+			industrial_complex = 1
+			air_base = 1
+			3900 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+
+	}
+
+	provinces={
+		3900
+	}
+
+	local_supplies=0.0 
+}
