@@ -28,11 +28,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id1
+		id=amnsid1
 		icon =  GFX_focus_rom_parties_end
 		x=12
 		y=4
-		prerequisite={focus=default_id14}
+		prerequisite={focus=amnsid14}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -48,8 +48,8 @@ focus_tree={
 		icon = GFX_focus_generic_support_the_left_right
 		x=2
 		y=1
-		prerequisite={focus=default_id0}
-		mutually_exclusive={focus=default_id10 focus=default_id11 }
+		prerequisite={focus=amnsid0}
+		mutually_exclusive={focus=amnsid10 focus=amnsid11 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -61,7 +61,7 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id6
+		id=amnsid6
 		x=2
 		y=2
 		prerequisite={focus=Consider_the_national_question}
@@ -76,10 +76,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id7
+		id=amnsid7
 		x=6
 		y=2
-		prerequisite={focus=default_id10}
+		prerequisite={focus=amnsid10}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -91,7 +91,7 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id9
+		id=amnsid9
 		icon = GFX_focus_usa_recruit_the_free_corps
 		x=10
 		y=2
@@ -127,8 +127,8 @@ focus_tree={
 		icon = GFX_goal_generic_attack_allies
 		x=10
 		y=1
-		prerequisite={focus=default_id0}
-		mutually_exclusive={focus=default_id4 focus=default_id10 }
+		prerequisite={focus=amnsid0}
+		mutually_exclusive={focus=amnsid4 focus=amnsid10 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -140,10 +140,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id12
+		id=amnsid12
 		x=2
 		y=3
-		prerequisite={focus=default_id6}
+		prerequisite={focus=amnsid6}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -155,10 +155,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id13
+		id=amnsid13
 		x=6
 		y=3
-		prerequisite={focus=default_id7}
+		prerequisite={focus=amnsid7}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -170,11 +170,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id14
+		id=amnsid14
 		icon = GFX_goal_generic_forceful_treaty
 		x=10
 		y=3
-		prerequisite={focus=default_id9}
+		prerequisite={focus=amnsid9}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -186,11 +186,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id15
+		id=amnsid15
 		icon = GFX_focus_generic_treaty
 		x=0
 		y=3
-		prerequisite={focus=default_id6}
+		prerequisite={focus=amnsid6}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -202,11 +202,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id16
+		id=amnsid16
 		icon = GFX_goal_generic_propaganda
 		x=2
 		y=4
-		prerequisite={focus=default_id12}
+		prerequisite={focus=amnsid12}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -218,11 +218,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id17
+		id=amnsid17
 		icon = GFX_goal_generic_construct_civ_factory
 		x=0
 		y=4
-		prerequisite={focus=default_id15}
+		prerequisite={focus=amnsid15}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -234,11 +234,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id18
+		id=amnsid18
 		icon = GFX_goal_generic_production2
 		x=0
 		y=5
-		prerequisite={focus=default_id17}
+		prerequisite={focus=amnsid17}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -250,10 +250,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id19
+		id=amnsid19
 		x=2
 		y=5
-		prerequisite={focus=default_id16}
+		prerequisite={focus=amnsid16}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -265,10 +265,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id20
+		id=amnsid20
 		x=0
 		y=6
-		prerequisite={focus=default_id18}
+		prerequisite={focus=amnsid18}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -280,10 +280,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id21
+		id=amnsid21
 		x=2
 		y=6
-		prerequisite={focus=default_id19}
+		prerequisite={focus=amnsid19}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -295,10 +295,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id22
+		id=amnsid22
 		x=2
 		y=7
-		prerequisite={focus=default_id21}
+		prerequisite={focus=amnsid21}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -310,10 +310,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id23
+		id=amnsid23
 		x=2
 		y=8
-		prerequisite={focus=default_id22}
+		prerequisite={focus=amnsid22}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -325,11 +325,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id24
+		id=amnsid24
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		x=0
 		y=8
-		prerequisite={focus=default_id22}
+		prerequisite={focus=amnsid22}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -341,11 +341,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id25
+		id=amnsid25
 		icon = GFX_focus_generic_support_the_left_right
 		x=2
 		y=9
-		prerequisite={focus=default_id23}
+		prerequisite={focus=amnsid23}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -357,12 +357,12 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id26
+		id=amnsid26
 		icon = GFX_focus_rom_abdicate
 		x=2
 		y=10
-		prerequisite={focus=default_id25}
-		prerequisite={focus=default_id25}
+		prerequisite={focus=amnsid25}
+		prerequisite={focus=amnsid25}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -374,11 +374,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id27
+		id=amnsid27
 		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		x=2
 		y=11
-		prerequisite={focus=default_id26}
+		prerequisite={focus=amnsid26}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -390,11 +390,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id28
+		id=amnsid28
 		icon = GFX_focus_generic_soviet_politics
 		x=2
 		y=12
-		prerequisite={focus=default_id27}
+		prerequisite={focus=amnsid27}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -406,11 +406,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id29
+		id=amnsid29
 		icon = GFX_focus_usa_guarantee_the_american_dream
 		x=2
 		y=13
-		prerequisite={focus=default_id28}
+		prerequisite={focus=amnsid28}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -422,11 +422,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id30
+		id=amnsid30
 		icon = GFX_focus_generic_diplomatic_treaty
 		x=0
 		y=10
-		prerequisite={focus=default_id25}
+		prerequisite={focus=amnsid25}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -438,11 +438,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id31
+		id=amnsid31
 		icon = GFX_focus_usa_union_representation_act
 		x=0
 		y=11
-		prerequisite={focus=default_id30}
+		prerequisite={focus=amnsid30}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -454,11 +454,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id32
+		id=amnsid32
 		icon = GFX_goal_generic_construct_civ_factory
 		x=0
 		y=12
-		prerequisite={focus=default_id31}
+		prerequisite={focus=amnsid31}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -470,10 +470,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id33
+		id=amnsid33
 		x=6
 		y=4
-		prerequisite={focus=default_id13}
+		prerequisite={focus=amnsid13}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -485,10 +485,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id34
+		id=amnsid34
 		x=6
 		y=5
-		prerequisite={focus=default_id33}
+		prerequisite={focus=amnsid33}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -500,10 +500,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id35
+		id=amnsid35
 		x=6
 		y=6
-		prerequisite={focus=default_id34}
+		prerequisite={focus=amnsid34}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -515,10 +515,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id36
+		id=amnsid36
 		x=6
 		y=7
-		prerequisite={focus=default_id35}
+		prerequisite={focus=amnsid35}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -530,10 +530,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id37
+		id=amnsid37
 		x=6
 		y=8
-		prerequisite={focus=default_id36}
+		prerequisite={focus=amnsid36}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -545,10 +545,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id38
+		id=amnsid38
 		x=6
 		y=9
-		prerequisite={focus=default_id37}
+		prerequisite={focus=amnsid37}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -560,10 +560,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id39
+		id=amnsid39
 		x=6
 		y=10
-		prerequisite={focus=default_id38}
+		prerequisite={focus=amnsid38}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -575,11 +575,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id40
+		id=amnsid40
 		icon = GFX_goal_support_democracy
 		x=6
 		y=11
-		prerequisite={focus=default_id39}
+		prerequisite={focus=amnsid39}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -591,10 +591,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id41
+		id=amnsid41
 		x=6
 		y=12
-		prerequisite={focus=default_id40}
+		prerequisite={focus=amnsid40}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -606,11 +606,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id42
+		id=amnsid42
 		icon = GFX_goal_generic_production
 		x=6
 		y=13
-		prerequisite={focus=default_id41}
+		prerequisite={focus=amnsid41}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -622,10 +622,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id43
+		id=amnsid43
 		x=6
 		y=14
-		prerequisite={focus=default_id42}
+		prerequisite={focus=amnsid42}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -637,10 +637,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id44
+		id=amnsid44
 		x=6
 		y=10
-		prerequisite={focus=default_id43}
+		prerequisite={focus=amnsid43}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -652,10 +652,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id45
+		id=amnsid45
 		x=4
 		y=4
-		prerequisite={focus=default_id13}
+		prerequisite={focus=amnsid13}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -667,10 +667,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id46
+		id=amnsid46
 		x=8
 		y=4
-		prerequisite={focus=default_id13}
+		prerequisite={focus=amnsid13}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -682,10 +682,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id47
+		id=amnsid47
 		x=4
 		y=5
-		prerequisite={focus=default_id45}
+		prerequisite={focus=amnsid45}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -697,11 +697,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id48
+		id=amnsid48
 		icon = GFX_goal_generic_propaganda
 		x=8
 		y=5
-		prerequisite={focus=default_id46}
+		prerequisite={focus=amnsid46}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -713,11 +713,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id49
+		id=amnsid49
 		icon = GFX_goal_generic_radar
 		x=8
 		y=6
-		prerequisite={focus=default_id48}
+		prerequisite={focus=amnsid48}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -729,11 +729,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id50
+		id=amnsid50
 		icon = GFX_focus_generic_little_entente
 		x=4
 		y=8
-		prerequisite={focus=default_id36}
+		prerequisite={focus=amnsid36}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -745,11 +745,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id51
+		id=amnsid51
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		x=4
 		y=9
-		prerequisite={focus=default_id50}
+		prerequisite={focus=amnsid50}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -761,11 +761,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id52
+		id=amnsid52
 		icon = GFX_focus_generic_self_management
 		x=4
 		y=10
-		prerequisite={focus=default_id51}
+		prerequisite={focus=amnsid51}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -777,11 +777,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id53
+		id=amnsid53
 		icon = GFX_focus_usa_voter_registration_act
 		x=10
 		y=4
-		prerequisite={focus=default_id14}
+		prerequisite={focus=amnsid14}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -793,10 +793,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id54
+		id=amnsid54
 		x=10
 		y=5
-		prerequisite={focus=default_id53}
+		prerequisite={focus=amnsid53}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -808,10 +808,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id55
+		id=amnsid55
 		x=10
 		y=6
-		prerequisite={focus=default_id54}
+		prerequisite={focus=amnsid54}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -823,10 +823,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id56
+		id=amnsid56
 		x=10
 		y=7
-		prerequisite={focus=default_id55}
+		prerequisite={focus=amnsid55}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -838,10 +838,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id57
+		id=amnsid57
 		x=10
 		y=8
-		prerequisite={focus=default_id56}
+		prerequisite={focus=amnsid56}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -853,11 +853,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id58
+		id=amnsid58
 		icon = GFX_goal_generic_propaganda
 		x=10
 		y=9
-		prerequisite={focus=default_id57}
+		prerequisite={focus=amnsid57}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -869,11 +869,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id59
+		id=amnsid59
 		icon = GFX_goal_generic_war_with_comintern
 		x=10
 		y=10
-		prerequisite={focus=default_id58}
+		prerequisite={focus=amnsid58}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -885,11 +885,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id60
+		id=amnsid60
 		icon = GFX_goal_generic_attack_allies
 		x=10
 		y=11
-		prerequisite={focus=default_id59}
+		prerequisite={focus=amnsid59}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -901,10 +901,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id61
+		id=amnsid61
 		x=10
 		y=12
-		prerequisite={focus=default_id60}
+		prerequisite={focus=amnsid60}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -916,11 +916,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id62
+		id=amnsid62
 		icon = GFX_focus_generic_strike_at_democracy1
 		x=10
 		y=13
-		prerequisite={focus=default_id61}
+		prerequisite={focus=amnsid61}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -932,11 +932,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id63
+		id=amnsid63
 		icon = GFX_focus_usa_honor_the_confederacy
 		x=12
 		y=5
-		prerequisite={focus=default_id1}
+		prerequisite={focus=amnsid1}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -948,11 +948,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id64
+		id=amnsid64
 		icon = GFX_focus_usa_reestablish_the_gold_standard
 		x=12
 		y=6
-		prerequisite={focus=default_id63}
+		prerequisite={focus=amnsid63}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -964,10 +964,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id65
+		id=amnsid65
 		x=12
 		y=9
-		prerequisite={focus=default_id57}
+		prerequisite={focus=amnsid57}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -979,10 +979,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id66
+		id=amnsid66
 		x=12
 		y=12
-		prerequisite={focus=default_id60}
+		prerequisite={focus=amnsid60}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -994,7 +994,7 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id67
+		id=amnsid67
 		icon = GFX_goal_support_democracy
 		x=25
 		y=0
@@ -1009,11 +1009,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id68
+		id=amnsid68
 		icon = GFX_focus_usa_focus_on_asia
 		x=20
 		y=1
-		prerequisite={focus=default_id67}
+		prerequisite={focus=amnsid67}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1025,11 +1025,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id69
+		id=amnsid69
 		icon = GFX_focus_usa_focus_on_europe
 		x=30
 		y=1
-		prerequisite={focus=default_id67}
+		prerequisite={focus=amnsid67}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1041,11 +1041,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id70
+		id=amnsid70
 		x=18
 		y=2
-		prerequisite={focus=default_id68}
-		mutually_exclusive={focus=default_id97 }
+		prerequisite={focus=amnsid68}
+		mutually_exclusive={focus=amnsid97 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1057,12 +1057,12 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id72
+		id=amnsid72
 		icon = GFX_focus_attack_france
 		x=32
 		y=2
-		prerequisite={focus=default_id69}
-		mutually_exclusive={focus=default_id73 }
+		prerequisite={focus=amnsid69}
+		mutually_exclusive={focus=amnsid73 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1074,11 +1074,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id73
+		id=amnsid73
 		x=28
 		y=2
-		prerequisite={focus=default_id69}
-		mutually_exclusive={focus=default_id72 }
+		prerequisite={focus=amnsid69}
+		mutually_exclusive={focus=amnsid72 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1090,10 +1090,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id75
+		id=amnsid75
 		x=32
 		y=3
-		prerequisite={focus=default_id72}
+		prerequisite={focus=amnsid72}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1105,10 +1105,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id76
+		id=amnsid76
 		x=28
 		y=3
-		prerequisite={focus=default_id73}
+		prerequisite={focus=amnsid73}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1120,10 +1120,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id77
+		id=amnsid77
 		x=22
 		y=3
-		prerequisite={focus=default_id97}
+		prerequisite={focus=amnsid97}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1135,10 +1135,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id78
+		id=amnsid78
 		x=18
 		y=3
-		prerequisite={focus=default_id70}
+		prerequisite={focus=amnsid70}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1150,10 +1150,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id79
+		id=amnsid79
 		x=18
 		y=4
-		prerequisite={focus=default_id78}
+		prerequisite={focus=amnsid78}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1165,10 +1165,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id80
+		id=amnsid80
 		x=22
 		y=4
-		prerequisite={focus=default_id77}
+		prerequisite={focus=amnsid77}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1180,10 +1180,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id81
+		id=amnsid81
 		x=32
 		y=4
-		prerequisite={focus=default_id75}
+		prerequisite={focus=amnsid75}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1195,10 +1195,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id82
+		id=amnsid82
 		x=28
 		y=4
-		prerequisite={focus=default_id76}
+		prerequisite={focus=amnsid76}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1210,10 +1210,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id83
+		id=amnsid83
 		x=18
 		y=5
-		prerequisite={focus=default_id79}
+		prerequisite={focus=amnsid79}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1225,10 +1225,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id84
+		id=amnsid84
 		x=22
 		y=5
-		prerequisite={focus=default_id80}
+		prerequisite={focus=amnsid80}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1240,10 +1240,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id85
+		id=amnsid85
 		x=32
 		y=5
-		prerequisite={focus=default_id81}
+		prerequisite={focus=amnsid81}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1256,12 +1256,12 @@ focus_tree={
 	}
 
 	focus={
-		id=default_id90
+		id=amnsid90
 		x=26
 		y=7
-		prerequisite={focus=default_id87}
-		prerequisite={focus=default_id87}
-		mutually_exclusive={focus=default_id89 }
+		prerequisite={focus=amnsid87}
+		prerequisite={focus=amnsid87}
+		mutually_exclusive={focus=amnsid89 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1274,10 +1274,10 @@ focus_tree={
 	}
 	
 	focus={
-		id=default_id92
+		id=amnsid92
 		x=28
 		y=5
-		prerequisite={focus=default_id82}
+		prerequisite={focus=amnsid82}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1289,12 +1289,12 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id93
+		id=amnsid93
 		icon = GFX_focus_generic_treaty
 		x = 2
 		x=26
 		y=8
-		prerequisite={focus=default_id90}
+		prerequisite={focus=amnsid90}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1306,10 +1306,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id94
+		id=amnsid94
 		x=32
 		y=6
-		prerequisite={focus=default_id85}
+		prerequisite={focus=amnsid85}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1321,11 +1321,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id95
+		id=amnsid95
 		x=20
 		y=6
-		prerequisite={focus=default_id83 focus=default_id84 }
-		mutually_exclusive={focus=default_id96 }
+		prerequisite={focus=amnsid83 focus=amnsid84 }
+		mutually_exclusive={focus=amnsid96 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1337,11 +1337,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id96
+		id=amnsid96
 		icon = GFX_goal_generic_intelligence_exchange
 		x=26
 		y=6
-		prerequisite={focus=default_id73 focus=default_id84 }
+		prerequisite={focus=amnsid73 focus=amnsid84 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1353,11 +1353,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id97
+		id=amnsid97
 		x=22
 		y=2
-		prerequisite={focus=default_id68}
-		mutually_exclusive={focus=default_id70 }
+		prerequisite={focus=amnsid68}
+		mutually_exclusive={focus=amnsid70 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1369,11 +1369,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id98
+		id=amnsid98
 		icon = GFX_goal_generic_occupy_states_coastal
 		x=26
 		y=7
-		prerequisite={focus=default_id96}
+		prerequisite={focus=amnsid96}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1385,10 +1385,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id101
+		id=amnsid101
 		x=20
 		y=7
-		prerequisite={focus=default_id95}
+		prerequisite={focus=amnsid95}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1400,10 +1400,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id102
+		id=amnsid102
 		x=20
 		y=8
-		prerequisite={focus=default_id101}
+		prerequisite={focus=amnsid101}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1415,10 +1415,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id103
+		id=amnsid103
 		x=20
 		y=9
-		prerequisite={focus=default_id102}
+		prerequisite={focus=amnsid102}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1430,10 +1430,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id104
+		id=amnsid104
 		x=20
 		y=10
-		prerequisite={focus=default_id103}
+		prerequisite={focus=amnsid103}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1445,10 +1445,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id105
+		id=amnsid105
 		x=22
 		y=9
-		prerequisite={focus=default_id102}
+		prerequisite={focus=amnsid102}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1460,10 +1460,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id106
+		id=amnsid106
 		x=20
 		y=11
-		prerequisite={focus=default_id104}
+		prerequisite={focus=amnsid104}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1475,11 +1475,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id107
+		id=amnsid107
 		icon = GFX_focus_attack_britain
 		x=18
 		y=11
-		prerequisite={focus=default_id104}
+		prerequisite={focus=amnsid104}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1491,10 +1491,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id108
+		id=amnsid108
 		x=22
 		y=11
-		prerequisite={focus=default_id104}
+		prerequisite={focus=amnsid104}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1506,10 +1506,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id109
+		id=amnsid109
 		x=26
 		y=11
-		prerequisite={focus=default_id104}
+		prerequisite={focus=amnsid104}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1521,10 +1521,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id110
+		id=amnsid110
 		x=30
 		y=11
-		prerequisite={focus=default_id104}
+		prerequisite={focus=amnsid104}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1536,10 +1536,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id111
+		id=amnsid111
 		x=24
 		y=11
-		prerequisite={focus=default_id104}
+		prerequisite={focus=amnsid104}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1551,11 +1551,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id112
+		id=amnsid112
 		icon = GFX_focus_attack_japan
 		x=28
 		y=11
-		prerequisite={focus=default_id104}
+		prerequisite={focus=amnsid104}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1567,10 +1567,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id113
+		id=amnsid113
 		x=20
 		y=12
-		prerequisite={focus=default_id106 focus=default_id107 focus=default_id108 focus=default_id109 focus=default_id110 focus=default_id111 focus=default_id112 }
+		prerequisite={focus=amnsid106 focus=amnsid107 focus=amnsid108 focus=amnsid109 focus=amnsid110 focus=amnsid111 focus=amnsid112 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1582,10 +1582,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id114
+		id=amnsid114
 		x=22
 		y=13
-		prerequisite={focus=default_id113}
+		prerequisite={focus=amnsid113}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1597,10 +1597,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id115
+		id=amnsid115
 		x=20
 		y=13
-		prerequisite={focus=default_id113}
+		prerequisite={focus=amnsid113}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1612,10 +1612,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id116
+		id=amnsid116
 		x=24
 		y=13
-		prerequisite={focus=default_id113}
+		prerequisite={focus=amnsid113}
 		cost=10
 		ai_will_do={
 			factor=1

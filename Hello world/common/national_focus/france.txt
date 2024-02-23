@@ -12,10 +12,10 @@ focus_tree={
 		y=2500
 	}
 	focus={
-		id=default_id0
+		id=amnsid0
 		x=30
 		y=0
-		mutually_exclusive={focus=default_id1 focus=default_id2 }
+		mutually_exclusive={focus=amnsid1 focus=amnsid2 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -27,10 +27,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id1
+		id=amnsid1
 		x=52
 		y=0
-		mutually_exclusive={focus=default_id0 focus=default_id2 }
+		mutually_exclusive={focus=amnsid0 focus=amnsid2 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -42,10 +42,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id2
+		id=amnsid2
 		x=7
 		y=0
-		mutually_exclusive={focus=default_id0 focus=default_id1 }
+		mutually_exclusive={focus=amnsid0 focus=amnsid1 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -57,11 +57,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id3
+		id=amnsid3
 		x=5
 		y=1
-		prerequisite={focus=default_id2}
-		mutually_exclusive={focus=default_id4 }
+		prerequisite={focus=amnsid2}
+		mutually_exclusive={focus=amnsid4 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -73,11 +73,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id4
+		id=amnsid4
 		x=9
 		y=1
-		prerequisite={focus=default_id2}
-		mutually_exclusive={focus=default_id3 }
+		prerequisite={focus=amnsid2}
+		mutually_exclusive={focus=amnsid3 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -89,10 +89,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id5
+		id=amnsid5
 		x=7
 		y=2
-		prerequisite={focus=default_id4 focus=default_id3 }
+		prerequisite={focus=amnsid4 focus=amnsid3 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -104,10 +104,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id6
+		id=amnsid6
 		x=7
 		y=3
-		prerequisite={focus=default_id5}
+		prerequisite={focus=amnsid5}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -119,11 +119,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id7
+		id=amnsid7
 		x=7
 		y=4
-		prerequisite={focus=default_id6}
-		prerequisite={focus=default_id6}
+		prerequisite={focus=amnsid6}
+		prerequisite={focus=amnsid6}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -135,11 +135,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id8
+		id=amnsid8
 		x=5
 		y=5
-		prerequisite={focus=default_id7}
-		mutually_exclusive={focus=default_id9 }
+		prerequisite={focus=amnsid7}
+		mutually_exclusive={focus=amnsid9 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -151,11 +151,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id9
+		id=amnsid9
 		x=9
 		y=5
-		prerequisite={focus=default_id7}
-		mutually_exclusive={focus=default_id8 }
+		prerequisite={focus=amnsid7}
+		mutually_exclusive={focus=amnsid8 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -167,10 +167,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id10
+		id=amnsid10
 		x=5
 		y=6
-		prerequisite={focus=default_id8}
+		prerequisite={focus=amnsid8}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -182,10 +182,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id11
+		id=amnsid11
 		x=9
 		y=6
-		prerequisite={focus=default_id9}
+		prerequisite={focus=amnsid9}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -197,10 +197,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id12
+		id=amnsid12
 		x=7
 		y=7
-		prerequisite={focus=default_id11 focus=default_id10 }
+		prerequisite={focus=amnsid11 focus=amnsid10 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -212,10 +212,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id13
+		id=amnsid13
 		x=3
 		y=8
-		prerequisite={focus=default_id12}
+		prerequisite={focus=amnsid12}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -227,10 +227,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id14
+		id=amnsid14
 		x=7
 		y=8
-		prerequisite={focus=default_id12}
+		prerequisite={focus=amnsid12}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -242,11 +242,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id15
+		id=amnsid15
 		x=11
 		y=8
-		prerequisite={focus=default_id12}
-		mutually_exclusive={focus=default_id16 }
+		prerequisite={focus=amnsid12}
+		mutually_exclusive={focus=amnsid16 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -258,11 +258,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id16
+		id=amnsid16
 		x=14
 		y=8
-		prerequisite={focus=default_id12}
-		mutually_exclusive={focus=default_id15 }
+		prerequisite={focus=amnsid12}
+		mutually_exclusive={focus=amnsid15 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -274,10 +274,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id17
+		id=amnsid17
 		x=3
 		y=9
-		prerequisite={focus=default_id13}
+		prerequisite={focus=amnsid13}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -289,10 +289,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id18
+		id=amnsid18
 		x=3
 		y=10
-		prerequisite={focus=default_id17}
+		prerequisite={focus=amnsid17}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -304,10 +304,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id19
+		id=amnsid19
 		x=7
 		y=9
-		prerequisite={focus=default_id14}
+		prerequisite={focus=amnsid14}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -319,10 +319,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id20
+		id=amnsid20
 		x=7
 		y=10
-		prerequisite={focus=default_id19}
+		prerequisite={focus=amnsid19}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -334,10 +334,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id21
+		id=amnsid21
 		x=11
 		y=9
-		prerequisite={focus=default_id15}
+		prerequisite={focus=amnsid15}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -349,10 +349,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id22
+		id=amnsid22
 		x=11
 		y=10
-		prerequisite={focus=default_id21}
+		prerequisite={focus=amnsid21}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -364,10 +364,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id23
+		id=amnsid23
 		x=14
 		y=9
-		prerequisite={focus=default_id16}
+		prerequisite={focus=amnsid16}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -379,10 +379,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id24
+		id=amnsid24
 		x=14
 		y=10
-		prerequisite={focus=default_id23}
+		prerequisite={focus=amnsid23}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -394,10 +394,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id25
+		id=amnsid25
 		x=17
 		y=10
-		prerequisite={focus=default_id23}
+		prerequisite={focus=amnsid23}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -409,10 +409,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id26
+		id=amnsid26
 		x=17
 		y=11
-		prerequisite={focus=default_id25}
+		prerequisite={focus=amnsid25}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -424,10 +424,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id27
+		id=amnsid27
 		x=14
 		y=11
-		prerequisite={focus=default_id24}
+		prerequisite={focus=amnsid24}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -439,10 +439,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id28
+		id=amnsid28
 		x=14
 		y=12
-		prerequisite={focus=default_id27}
+		prerequisite={focus=amnsid27}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -454,10 +454,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id29
+		id=amnsid29
 		x=17
 		y=12
-		prerequisite={focus=default_id26}
+		prerequisite={focus=amnsid26}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -469,10 +469,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id30
+		id=amnsid30
 		x=7
 		y=11
-		prerequisite={focus=default_id20}
+		prerequisite={focus=amnsid20}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -484,10 +484,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id31
+		id=amnsid31
 		x=7
 		y=12
-		prerequisite={focus=default_id30}
+		prerequisite={focus=amnsid30}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -499,10 +499,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id32
+		id=amnsid32
 		x=11
 		y=11
-		prerequisite={focus=default_id22}
+		prerequisite={focus=amnsid22}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -514,10 +514,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id33
+		id=amnsid33
 		x=11
 		y=12
-		prerequisite={focus=default_id32}
+		prerequisite={focus=amnsid32}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -529,10 +529,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id34
+		id=amnsid34
 		x=3
 		y=11
-		prerequisite={focus=default_id18}
+		prerequisite={focus=amnsid18}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -544,10 +544,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id35
+		id=amnsid35
 		x=3
 		y=12
-		prerequisite={focus=default_id34}
+		prerequisite={focus=amnsid34}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -559,10 +559,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id36
+		id=amnsid36
 		x=0
 		y=11
-		prerequisite={focus=default_id18}
+		prerequisite={focus=amnsid18}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -574,10 +574,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id37
+		id=amnsid37
 		x=0
 		y=12
-		prerequisite={focus=default_id36}
+		prerequisite={focus=amnsid36}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -589,10 +589,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id38
+		id=amnsid38
 		x=9
 		y=11
-		prerequisite={focus=default_id20}
+		prerequisite={focus=amnsid20}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -604,12 +604,12 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id39
+		id=amnsid39
 		x=5
 		y=13
-		prerequisite={focus=default_id35}
-		prerequisite={focus=default_id31}
-		mutually_exclusive={focus=default_id40 }
+		prerequisite={focus=amnsid35}
+		prerequisite={focus=amnsid31}
+		mutually_exclusive={focus=amnsid40 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -621,11 +621,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id40
+		id=amnsid40
 		x=9
 		y=13
-		prerequisite={focus=default_id31}
-		mutually_exclusive={focus=default_id39 }
+		prerequisite={focus=amnsid31}
+		mutually_exclusive={focus=amnsid39 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -637,12 +637,12 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id41
+		id=amnsid41
 		x=5
 		y=15
-		prerequisite={focus=default_id44}
-		prerequisite={focus=default_id46}
-		prerequisite={focus=default_id43}
+		prerequisite={focus=amnsid44}
+		prerequisite={focus=amnsid46}
+		prerequisite={focus=amnsid43}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -654,12 +654,12 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id42
+		id=amnsid42
 		x=9
 		y=15
-		prerequisite={focus=default_id45}
-		prerequisite={focus=default_id47}
-		prerequisite={focus=default_id43}
+		prerequisite={focus=amnsid45}
+		prerequisite={focus=amnsid47}
+		prerequisite={focus=amnsid43}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -671,10 +671,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id43
+		id=amnsid43
 		x=7
 		y=14
-		prerequisite={focus=default_id39 focus=default_id40 }
+		prerequisite={focus=amnsid39 focus=amnsid40 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -686,10 +686,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id44
+		id=amnsid44
 		x=5
 		y=14
-		prerequisite={focus=default_id39}
+		prerequisite={focus=amnsid39}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -701,10 +701,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id45
+		id=amnsid45
 		x=9
 		y=14
-		prerequisite={focus=default_id40}
+		prerequisite={focus=amnsid40}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -716,10 +716,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id46
+		id=amnsid46
 		x=3
 		y=14
-		prerequisite={focus=default_id39}
+		prerequisite={focus=amnsid39}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -731,10 +731,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id47
+		id=amnsid47
 		x=11
 		y=14
-		prerequisite={focus=default_id40}
+		prerequisite={focus=amnsid40}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -746,10 +746,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id48
+		id=amnsid48
 		x=20
 		y=13
-		prerequisite={focus=default_id29 focus=default_id63 }
+		prerequisite={focus=amnsid29 focus=amnsid63 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -761,10 +761,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id49
+		id=amnsid49
 		x=20
 		y=14
-		prerequisite={focus=default_id48}
+		prerequisite={focus=amnsid48}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -776,10 +776,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id50
+		id=amnsid50
 		x=20
 		y=15
-		prerequisite={focus=default_id49}
+		prerequisite={focus=amnsid49}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -791,11 +791,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id51
+		id=amnsid51
 		x=28
 		y=1
-		prerequisite={focus=default_id0}
-		mutually_exclusive={focus=default_id52 }
+		prerequisite={focus=amnsid0}
+		mutually_exclusive={focus=amnsid52 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -807,11 +807,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id52
+		id=amnsid52
 		x=32
 		y=1
-		prerequisite={focus=default_id0}
-		mutually_exclusive={focus=default_id51 }
+		prerequisite={focus=amnsid0}
+		mutually_exclusive={focus=amnsid51 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -823,10 +823,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id53
+		id=amnsid53
 		x=30
 		y=2
-		prerequisite={focus=default_id51 focus=default_id52 }
+		prerequisite={focus=amnsid51 focus=amnsid52 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -838,10 +838,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id54
+		id=amnsid54
 		x=30
 		y=3
-		prerequisite={focus=default_id53}
+		prerequisite={focus=amnsid53}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -853,10 +853,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id55
+		id=amnsid55
 		x=30
 		y=4
-		prerequisite={focus=default_id54}
+		prerequisite={focus=amnsid54}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -868,10 +868,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id56
+		id=amnsid56
 		x=30
 		y=5
-		prerequisite={focus=default_id55}
+		prerequisite={focus=amnsid55}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -883,10 +883,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id57
+		id=amnsid57
 		x=30
 		y=6
-		prerequisite={focus=default_id56}
+		prerequisite={focus=amnsid56}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -898,10 +898,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id58
+		id=amnsid58
 		x=30
 		y=7
-		prerequisite={focus=default_id57}
+		prerequisite={focus=amnsid57}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -913,10 +913,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id61
+		id=amnsid61
 		x=30
 		y=10
-		prerequisite={focus=default_id75}
+		prerequisite={focus=amnsid75}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -928,10 +928,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id62
+		id=amnsid62
 		x=30
 		y=11
-		prerequisite={focus=default_id61}
+		prerequisite={focus=amnsid61}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -943,10 +943,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id63
+		id=amnsid63
 		x=23
 		y=12
-		prerequisite={focus=default_id64}
+		prerequisite={focus=amnsid64}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -958,10 +958,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id64
+		id=amnsid64
 		x=23
 		y=11
-		prerequisite={focus=default_id65}
+		prerequisite={focus=amnsid65}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -973,10 +973,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id65
+		id=amnsid65
 		x=23
 		y=10
-		prerequisite={focus=default_id66}
+		prerequisite={focus=amnsid66}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -988,11 +988,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id66
+		id=amnsid66
 		x=23
 		y=9
-		prerequisite={focus=default_id67}
-		mutually_exclusive={focus=default_id68 }
+		prerequisite={focus=amnsid67}
+		mutually_exclusive={focus=amnsid68 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1004,10 +1004,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id67
+		id=amnsid67
 		x=25
 		y=8
-		prerequisite={focus=default_id58}
+		prerequisite={focus=amnsid58}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1019,11 +1019,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id68
+		id=amnsid68
 		x=27
 		y=9
-		prerequisite={focus=default_id67}
-		mutually_exclusive={focus=default_id66 }
+		prerequisite={focus=amnsid67}
+		mutually_exclusive={focus=amnsid66 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1035,10 +1035,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id69
+		id=amnsid69
 		x=27
 		y=10
-		prerequisite={focus=default_id68}
+		prerequisite={focus=amnsid68}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1050,10 +1050,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id70
+		id=amnsid70
 		x=27
 		y=11
-		prerequisite={focus=default_id69}
+		prerequisite={focus=amnsid69}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1065,10 +1065,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id71
+		id=amnsid71
 		x=27
 		y=12
-		prerequisite={focus=default_id70}
+		prerequisite={focus=amnsid70}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1080,10 +1080,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id72
+		id=amnsid72
 		x=27
 		y=13
-		prerequisite={focus=default_id71}
+		prerequisite={focus=amnsid71}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1095,10 +1095,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id73
+		id=amnsid73
 		x=27
 		y=14
-		prerequisite={focus=default_id72}
+		prerequisite={focus=amnsid72}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1110,10 +1110,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id74
+		id=amnsid74
 		x=30
 		y=8
-		prerequisite={focus=default_id58}
+		prerequisite={focus=amnsid58}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1125,10 +1125,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id75
+		id=amnsid75
 		x=30
 		y=9
-		prerequisite={focus=default_id74}
+		prerequisite={focus=amnsid74}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1140,10 +1140,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id76
+		id=amnsid76
 		x=33
 		y=9
-		prerequisite={focus=default_id77}
+		prerequisite={focus=amnsid77}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1155,10 +1155,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id77
+		id=amnsid77
 		x=33
 		y=8
-		prerequisite={focus=default_id58}
+		prerequisite={focus=amnsid58}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1170,10 +1170,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id78
+		id=amnsid78
 		x=33
 		y=10
-		prerequisite={focus=default_id76}
+		prerequisite={focus=amnsid76}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1185,10 +1185,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id79
+		id=amnsid79
 		x=33
 		y=11
-		prerequisite={focus=default_id78}
+		prerequisite={focus=amnsid78}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1200,10 +1200,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id80
+		id=amnsid80
 		x=35
 		y=9
-		prerequisite={focus=default_id77}
+		prerequisite={focus=amnsid77}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1215,10 +1215,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id81
+		id=amnsid81
 		x=35
 		y=10
-		prerequisite={focus=default_id80}
+		prerequisite={focus=amnsid80}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1230,10 +1230,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id82
+		id=amnsid82
 		x=37
 		y=9
-		prerequisite={focus=default_id77}
+		prerequisite={focus=amnsid77}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1245,10 +1245,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id83
+		id=amnsid83
 		x=37
 		y=10
-		prerequisite={focus=default_id82}
+		prerequisite={focus=amnsid82}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1260,10 +1260,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id84
+		id=amnsid84
 		x=37
 		y=11
-		prerequisite={focus=default_id115 focus=default_id83 }
+		prerequisite={focus=amnsid115 focus=amnsid83 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1275,10 +1275,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id85
+		id=amnsid85
 		x=37
 		y=12
-		prerequisite={focus=default_id84}
+		prerequisite={focus=amnsid84}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1290,10 +1290,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id86
+		id=amnsid86
 		x=37
 		y=13
-		prerequisite={focus=default_id85}
+		prerequisite={focus=amnsid85}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1305,10 +1305,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id87
+		id=amnsid87
 		x=35
 		y=13
-		prerequisite={focus=default_id85}
+		prerequisite={focus=amnsid85}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1320,10 +1320,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id88
+		id=amnsid88
 		x=39
 		y=13
-		prerequisite={focus=default_id85}
+		prerequisite={focus=amnsid85}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1335,10 +1335,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id89
+		id=amnsid89
 		x=33
 		y=13
-		prerequisite={focus=default_id85}
+		prerequisite={focus=amnsid85}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1350,10 +1350,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id90
+		id=amnsid90
 		x=41
 		y=13
-		prerequisite={focus=default_id85}
+		prerequisite={focus=amnsid85}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1365,10 +1365,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id91
+		id=amnsid91
 		x=31
 		y=13
-		prerequisite={focus=default_id85}
+		prerequisite={focus=amnsid85}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1380,10 +1380,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id92
+		id=amnsid92
 		x=43
 		y=13
-		prerequisite={focus=default_id85}
+		prerequisite={focus=amnsid85}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1395,10 +1395,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id93
+		id=amnsid93
 		x=37
 		y=14
-		prerequisite={focus=default_id91 focus=default_id89 focus=default_id87 focus=default_id86 focus=default_id88 focus=default_id90 focus=default_id92 }
+		prerequisite={focus=amnsid91 focus=amnsid89 focus=amnsid87 focus=amnsid86 focus=amnsid88 focus=amnsid90 focus=amnsid92 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1410,10 +1410,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id94
+		id=amnsid94
 		x=35
 		y=15
-		prerequisite={focus=default_id93}
+		prerequisite={focus=amnsid93}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1425,10 +1425,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id95
+		id=amnsid95
 		x=37
 		y=15
-		prerequisite={focus=default_id93}
+		prerequisite={focus=amnsid93}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1440,10 +1440,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id96
+		id=amnsid96
 		x=39
 		y=15
-		prerequisite={focus=default_id93}
+		prerequisite={focus=amnsid93}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1455,11 +1455,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id97
+		id=amnsid97
 		x=50
 		y=1
-		prerequisite={focus=default_id1}
-		mutually_exclusive={focus=default_id98 }
+		prerequisite={focus=amnsid1}
+		mutually_exclusive={focus=amnsid98 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1471,11 +1471,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id98
+		id=amnsid98
 		x=54
 		y=1
-		prerequisite={focus=default_id1}
-		mutually_exclusive={focus=default_id97 }
+		prerequisite={focus=amnsid1}
+		mutually_exclusive={focus=amnsid97 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1487,10 +1487,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id99
+		id=amnsid99
 		x=50
 		y=2
-		prerequisite={focus=default_id97}
+		prerequisite={focus=amnsid97}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1502,10 +1502,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id100
+		id=amnsid100
 		x=50
 		y=3
-		prerequisite={focus=default_id99}
+		prerequisite={focus=amnsid99}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1517,10 +1517,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id101
+		id=amnsid101
 		x=50
 		y=4
-		prerequisite={focus=default_id100}
+		prerequisite={focus=amnsid100}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1532,10 +1532,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id102
+		id=amnsid102
 		x=50
 		y=5
-		prerequisite={focus=default_id101}
+		prerequisite={focus=amnsid101}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1547,10 +1547,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id103
+		id=amnsid103
 		x=50
 		y=6
-		prerequisite={focus=default_id102}
+		prerequisite={focus=amnsid102}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1562,10 +1562,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id104
+		id=amnsid104
 		x=54
 		y=2
-		prerequisite={focus=default_id98}
+		prerequisite={focus=amnsid98}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1577,10 +1577,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id105
+		id=amnsid105
 		x=54
 		y=3
-		prerequisite={focus=default_id104}
+		prerequisite={focus=amnsid104}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1592,10 +1592,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id106
+		id=amnsid106
 		x=54
 		y=4
-		prerequisite={focus=default_id105}
+		prerequisite={focus=amnsid105}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1607,10 +1607,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id107
+		id=amnsid107
 		x=54
 		y=5
-		prerequisite={focus=default_id106}
+		prerequisite={focus=amnsid106}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1622,10 +1622,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id108
+		id=amnsid108
 		x=54
 		y=6
-		prerequisite={focus=default_id107}
+		prerequisite={focus=amnsid107}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1637,10 +1637,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id109
+		id=amnsid109
 		x=52
 		y=7
-		prerequisite={focus=default_id103 focus=default_id108 }
+		prerequisite={focus=amnsid103 focus=amnsid108 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1652,11 +1652,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id110
+		id=amnsid110
 		x=48
 		y=8
-		prerequisite={focus=default_id109}
-		prerequisite={focus=default_id109}
+		prerequisite={focus=amnsid109}
+		prerequisite={focus=amnsid109}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1668,10 +1668,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id111
+		id=amnsid111
 		x=56
 		y=8
-		prerequisite={focus=default_id109}
+		prerequisite={focus=amnsid109}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1683,10 +1683,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id112
+		id=amnsid112
 		x=48
 		y=9
-		prerequisite={focus=default_id110}
+		prerequisite={focus=amnsid110}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1698,10 +1698,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id113
+		id=amnsid113
 		x=46
 		y=9
-		prerequisite={focus=default_id110}
+		prerequisite={focus=amnsid110}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1713,10 +1713,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id114
+		id=amnsid114
 		x=44
 		y=9
-		prerequisite={focus=default_id110}
+		prerequisite={focus=amnsid110}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1728,10 +1728,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id115
+		id=amnsid115
 		x=44
 		y=10
-		prerequisite={focus=default_id114 focus=default_id113 focus=default_id112 }
+		prerequisite={focus=amnsid114 focus=amnsid113 focus=amnsid112 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1743,10 +1743,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id116
+		id=amnsid116
 		x=52
 		y=8
-		prerequisite={focus=default_id109}
+		prerequisite={focus=amnsid109}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1758,10 +1758,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id117
+		id=amnsid117
 		x=52
 		y=9
-		prerequisite={focus=default_id116}
+		prerequisite={focus=amnsid116}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1773,10 +1773,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id118
+		id=amnsid118
 		x=52
 		y=10
-		prerequisite={focus=default_id117}
+		prerequisite={focus=amnsid117}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1788,10 +1788,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id119
+		id=amnsid119
 		x=52
 		y=11
-		prerequisite={focus=default_id118}
+		prerequisite={focus=amnsid118}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1803,10 +1803,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id120
+		id=amnsid120
 		x=50
 		y=11
-		prerequisite={focus=default_id118}
+		prerequisite={focus=amnsid118}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1818,10 +1818,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id121
+		id=amnsid121
 		x=54
 		y=11
-		prerequisite={focus=default_id118}
+		prerequisite={focus=amnsid118}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1833,10 +1833,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id122
+		id=amnsid122
 		x=56
 		y=9
-		prerequisite={focus=default_id111}
+		prerequisite={focus=amnsid111}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1848,10 +1848,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id123
+		id=amnsid123
 		x=56
 		y=10
-		prerequisite={focus=default_id122}
+		prerequisite={focus=amnsid122}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1863,10 +1863,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id124
+		id=amnsid124
 		x=56
 		y=11
-		prerequisite={focus=default_id123 focus=default_id130 focus=default_id131 }
+		prerequisite={focus=amnsid123 focus=amnsid130 focus=amnsid131 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1878,10 +1878,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id125
+		id=amnsid125
 		x=56
 		y=12
-		prerequisite={focus=default_id124}
+		prerequisite={focus=amnsid124}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1893,11 +1893,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id126
+		id=amnsid126
 		x=54
 		y=12
-		prerequisite={focus=default_id120 focus=default_id119 focus=default_id121 }
-		mutually_exclusive={focus=default_id127 }
+		prerequisite={focus=amnsid120 focus=amnsid119 focus=amnsid121 }
+		mutually_exclusive={focus=amnsid127 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1909,11 +1909,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id127
+		id=amnsid127
 		x=50
 		y=12
-		prerequisite={focus=default_id120 focus=default_id119 focus=default_id121 }
-		mutually_exclusive={focus=default_id126 }
+		prerequisite={focus=amnsid120 focus=amnsid119 focus=amnsid121 }
+		mutually_exclusive={focus=amnsid126 }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1925,10 +1925,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id128
+		id=amnsid128
 		x=58
 		y=9
-		prerequisite={focus=default_id111}
+		prerequisite={focus=amnsid111}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1940,10 +1940,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id129
+		id=amnsid129
 		x=60
 		y=9
-		prerequisite={focus=default_id111}
+		prerequisite={focus=amnsid111}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1955,10 +1955,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id130
+		id=amnsid130
 		x=58
 		y=10
-		prerequisite={focus=default_id128}
+		prerequisite={focus=amnsid128}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1970,10 +1970,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id131
+		id=amnsid131
 		x=60
 		y=10
-		prerequisite={focus=default_id129}
+		prerequisite={focus=amnsid129}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1985,10 +1985,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id132
+		id=amnsid132
 		x=50
 		y=13
-		prerequisite={focus=default_id127}
+		prerequisite={focus=amnsid127}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -2000,10 +2000,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id133
+		id=amnsid133
 		x=50
 		y=14
-		prerequisite={focus=default_id132}
+		prerequisite={focus=amnsid132}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -2015,10 +2015,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id134
+		id=amnsid134
 		x=54
 		y=13
-		prerequisite={focus=default_id126}
+		prerequisite={focus=amnsid126}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -2030,10 +2030,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id135
+		id=amnsid135
 		x=54
 		y=14
-		prerequisite={focus=default_id134}
+		prerequisite={focus=amnsid134}
 		cost=10
 		ai_will_do={
 			factor=1
