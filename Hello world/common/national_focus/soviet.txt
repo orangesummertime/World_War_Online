@@ -293,7 +293,7 @@ focus_tree={
 		icon = GFX_goal_support_communism
 		x=34
 		y=10
-		prerequisite={focus=SOV_tf_ac}
+		prerequisite={focus=SOV_gemingsiwei}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -455,7 +455,6 @@ focus_tree={
 		x=28
 		y=2
 		prerequisite={focus=SOV_red_horror focus=SOV_all_world }
-		mutually_exclusive={focus=SOV_international_revolution }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -490,7 +489,7 @@ focus_tree={
 		icon = GFX_goal_generic_war_with_comintern
 		x=26
 		y=3
-		prerequisite={focus=SOV_cpr}
+		prerequisite={focus=SOV_cpr focus=SOV_international_revolution}
 		mutually_exclusive={focus=SOV_Ban_parliament }
 		cost=10
 		ai_will_do={
@@ -616,7 +615,6 @@ focus_tree={
 		x=22
 		y=2
 		prerequisite={focus=SOV_all_world}
-		mutually_exclusive={focus=SOV_cpr }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1965,7 +1963,6 @@ focus_tree={
 		icon = GFX_goal_generic_production2
 		x=31
 		y=11
-		prerequisite={focus=SOV_factory_frist}
 		prerequisite={focus=SOV_field_frist}
 		cost=10
 		ai_will_do={
