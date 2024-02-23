@@ -13,7 +13,7 @@ focus_tree={
 		y=2000
 	}
 	focus={
-		id=default_id0
+		id=keep_alone
 		icon = GFX_focus_generic_self_management
 		x=6
 		y=0
@@ -44,7 +44,7 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id4
+		id=Consider_the_national_question
 		icon = GFX_focus_generic_support_the_left_right
 		x=2
 		y=1
@@ -64,7 +64,7 @@ focus_tree={
 		id=default_id6
 		x=2
 		y=2
-		prerequisite={focus=default_id4}
+		prerequisite={focus=Consider_the_national_question}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -95,7 +95,7 @@ focus_tree={
 		icon = GFX_focus_usa_recruit_the_free_corps
 		x=10
 		y=2
-		prerequisite={focus=default_id11}
+		prerequisite={focus=Crackdown_on_people_of_color}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -107,11 +107,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id10
+		id=Maintain_the_status_quo
 		x=6
 		y=1
-		prerequisite={focus=default_id0}
-		mutually_exclusive={focus=default_id4 focus=default_id11 }
+		prerequisite={focus=keep_alone}
+		mutually_exclusive={focus=Consider_the_national_question focus=Crackdown_on_people_of_color }
 		cost=10
 		ai_will_do={
 			factor=1
@@ -123,7 +123,7 @@ focus_tree={
 		}
 	}
 	focus={
-		id=default_id11
+		id=Crackdown_on_people_of_color
 		icon = GFX_goal_generic_attack_allies
 		x=10
 		y=1
