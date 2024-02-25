@@ -32,7 +32,7 @@ focus_tree={
 		icon =  GFX_focus_rom_parties_end
 		x=12
 		y=4
-		prerequisite={focus=amnsid14}
+		prerequisite={focus=Strengthening_the_policy_of_racial_segregation}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -207,11 +207,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid16
+		id=Federal_Press_Act
 		icon = GFX_goal_generic_propaganda
 		x=2
 		y=4
-		prerequisite={focus=amnsid12}
+		prerequisite={focus=Stop_persecuting_the_left_wing}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -223,11 +223,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid17
+		id=Federal_Infrastructure_Act
 		icon = GFX_goal_generic_construct_civ_factory
 		x=0
 		y=4
-		prerequisite={focus=amnsid15}
+		prerequisite={focus=Expand_government_functions}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -239,11 +239,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid18
+		id=state_intervention_in_the_economy
 		icon = GFX_goal_generic_production2
 		x=0
 		y=5
-		prerequisite={focus=amnsid17}
+		prerequisite={focus=Federal_Infrastructure_Act}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -255,10 +255,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid19
+		id=Public_opinion_promotion
+		icon = GFX_goal_generic_radar
 		x=2
 		y=5
-		prerequisite={focus=amnsid16}
+		prerequisite={focus=Federal_Press_Act}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -270,10 +271,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid20
+		id=Expansion_of_public_works
+		icon = GFX_goal_generic_consumer_goods
 		x=0
 		y=6
-		prerequisite={focus=amnsid18}
+		prerequisite={focus=state_intervention_in_the_economy}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -285,10 +287,10 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid21
+		id=The_American_Freedom_and_Liberation_Movement
 		x=2
 		y=6
-		prerequisite={focus=amnsid19}
+		prerequisite={focus=Public_opinion_promotion}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -786,7 +788,7 @@ focus_tree={
 		icon = GFX_focus_usa_voter_registration_act
 		x=10
 		y=4
-		prerequisite={focus=amnsid14}
+		prerequisite={focus=Strengthening_the_policy_of_racial_segregation}
 		cost=10
 		ai_will_do={
 			factor=1
