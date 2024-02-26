@@ -36,7 +36,7 @@ recruit_character = ALB_jocelyn_percy
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.3.5"
+	last_election = "1903.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
