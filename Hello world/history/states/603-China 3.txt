@@ -13,7 +13,7 @@ state={
 			arms_factory = 2
 
 		}
-		1905.1.1 = {
+		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4
 				infrastructure = 2

@@ -101,7 +101,7 @@ set_research_slots = 3
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1905.5.19"
+	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = no
 }
