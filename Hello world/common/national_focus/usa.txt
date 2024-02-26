@@ -28,7 +28,7 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid1
+		id=Meritocracy
 		icon =  GFX_focus_rom_parties_end
 		x=12
 		y=4
@@ -288,6 +288,7 @@ focus_tree={
 	}
 	focus={
 		id=The_American_Freedom_and_Liberation_Movement
+	    icon = GFX_focus_generic_strike_at_democracy3
 		x=2
 		y=6
 		prerequisite={focus=Public_opinion_promotion}
@@ -302,10 +303,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid22
+		id=Political_equality
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		x=2
 		y=7
-		prerequisite={focus=amnsid21}
+		prerequisite={focus=The_American_Freedom_and_Liberation_Movement}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -317,10 +319,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid23
+		id=Expand_public_opinion_rights
+		icon = GFX_focus_YUG_pan_slavic_congress
 		x=2
 		y=8
-		prerequisite={focus=amnsid22}
+		prerequisite={focus=Political_equality}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -332,11 +335,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid24
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		id=Encourage_labor_to_participate_in_politics
+		icon = GFX_focus_ITA_workers_unions
 		x=0
 		y=8
-		prerequisite={focus=amnsid22}
+		prerequisite={focus=Political_equality}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -382,7 +385,7 @@ focus_tree={
 	}
 	focus={
 		id=amnsid27
-		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		icon = GFX_focus_ITA_liberation_or_death
 		x=2
 		y=11
 		prerequisite={focus=amnsid26}
@@ -398,7 +401,7 @@ focus_tree={
 	}
 	focus={
 		id=amnsid28
-		icon = GFX_focus_generic_soviet_politics
+		icon = GFX_focus_ITA_corpo_volontari_della_liberta
 		x=2
 		y=12
 		prerequisite={focus=amnsid27}
@@ -413,7 +416,7 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid29
+		id="I_have_a_dream"
 		icon = GFX_focus_usa_guarantee_the_american_dream
 		x=2
 		y=13
@@ -477,10 +480,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid33
+		id=Suppressing_domestic_extremists
+		icon = GFX_goal_generic_secret_weapon
 		x=6
 		y=4
-		prerequisite={focus=amnsid13}
+		prerequisite={focus=Apply_pressure_on_European_forces_in_the_United_States}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -492,10 +496,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid34
+		id=To_deter_left_right_supporters
+		icon = GFX_focus_GRE_an_orthodox_state
 		x=6
 		y=5
-		prerequisite={focus=amnsid33}
+		prerequisite={focus=Suppressing_domestic_extremists}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -510,7 +515,7 @@ focus_tree={
 		id=amnsid35
 		x=6
 		y=6
-		prerequisite={focus=amnsid34}
+		prerequisite={focus=To_deter_left_right_supporters}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -630,6 +635,7 @@ focus_tree={
 	}
 	focus={
 		id=amnsid43
+		icon = GFX_focus_eng_chiefs_of_staff_committee
 		x=6
 		y=14
 		prerequisite={focus=amnsid42}
@@ -659,10 +665,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid45
+		id=Suppressing_resistance_forces_in_South_America
+		icon = GFX_goal_anti_comintern_pact
 		x=4
 		y=4
-		prerequisite={focus=amnsid13}
+		prerequisite={focus=Apply_pressure_on_European_forces_in_the_United_States}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -674,10 +681,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid46
+		id=Control_inappropriate_speech
+		icon = GFX_goal_generic_forceful_treaty
 		x=8
 		y=4
-		prerequisite={focus=amnsid13}
+		prerequisite={focus=Apply_pressure_on_European_forces_in_the_United_States}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -689,10 +697,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid47
+		id=Forcing_Canada_to_submit
+		icon = GFX_focus_eng_bring_the_dominions_back_into_the_fold
 		x=4
 		y=5
-		prerequisite={focus=amnsid45}
+		prerequisite={focus=Suppressing_resistance_forces_in_South_America}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -704,11 +713,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid48
+		id=Information_Communication_Law
 		icon = GFX_goal_generic_propaganda
 		x=8
 		y=5
-		prerequisite={focus=amnsid46}
+		prerequisite={focus=Control_inappropriate_speech}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -720,11 +729,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid49
+		id=Secondary_review_of_publications
 		icon = GFX_goal_generic_radar
 		x=8
 		y=6
-		prerequisite={focus=amnsid48}
+		prerequisite={focus=Information_Communication_Law}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -784,7 +793,7 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid53
+		id=Abolish_the_right_of_people_of_color_to_vote
 		icon = GFX_focus_usa_voter_registration_act
 		x=10
 		y=4
@@ -800,10 +809,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid54
+		id=Abolish_the_13th_Amendment_to_the_Constitution
+		icon = GFX_focus_generic_self_management
 		x=10
 		y=5
-		prerequisite={focus=amnsid53}
+		prerequisite={focus=Abolish_the_right_of_people_of_color_to_vote}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -815,10 +825,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid55
+		id=Expand_presidential_powers
+		icon = GFX_focus_ger_bulwark_against_bolshevism
 		x=10
 		y=6
-		prerequisite={focus=amnsid54}
+		prerequisite={focus=Abolish_the_13th_Amendment_to_the_Constitution}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -939,11 +950,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid63
+		id=Appointment_of_experts
 		icon = GFX_focus_usa_honor_the_confederacy
 		x=12
 		y=5
-		prerequisite={focus=amnsid1}
+		prerequisite={focus=Meritocracy}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -955,11 +966,11 @@ focus_tree={
 		}
 	}
 	focus={
-		id=amnsid64
+		id=Adjusting_tax_laws
 		icon = GFX_focus_usa_reestablish_the_gold_standard
 		x=12
 		y=6
-		prerequisite={focus=amnsid63}
+		prerequisite={focus=Appointment_of_experts}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1468,6 +1479,7 @@ focus_tree={
 	}
 	focus={
 		id=amnsid106
+		icon = GFX_goal_generic_military_deal
 		x=20
 		y=11
 		prerequisite={focus=amnsid104}
@@ -1483,7 +1495,7 @@ focus_tree={
 	}
 	focus={
 		id=amnsid107
-		icon = GFX_focus_attack_britain
+		icon = GFX_goal_generic_military_deal
 		x=18
 		y=11
 		prerequisite={focus=amnsid104}
@@ -1499,6 +1511,7 @@ focus_tree={
 	}
 	focus={
 		id=amnsid108
+		icon = GFX_goal_generic_military_deal
 		x=22
 		y=11
 		prerequisite={focus=amnsid104}
@@ -1514,6 +1527,7 @@ focus_tree={
 	}
 	focus={
 		id=amnsid109
+		icon = GFX_goal_generic_military_deal
 		x=26
 		y=11
 		prerequisite={focus=amnsid104}
@@ -1529,6 +1543,7 @@ focus_tree={
 	}
 	focus={
 		id=amnsid110
+		icon = GFX_goal_generic_military_deal
 		x=30
 		y=11
 		prerequisite={focus=amnsid104}
@@ -1544,6 +1559,7 @@ focus_tree={
 	}
 	focus={
 		id=amnsid111
+		icon = GFX_goal_generic_military_deal
 		x=24
 		y=11
 		prerequisite={focus=amnsid104}
@@ -1559,7 +1575,7 @@ focus_tree={
 	}
 	focus={
 		id=amnsid112
-		icon = GFX_focus_attack_japan
+		icon = GFX_goal_generic_military_deal
 		x=28
 		y=11
 		prerequisite={focus=amnsid104}
