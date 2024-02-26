@@ -111,7 +111,7 @@ focus_tree={
 	}
 	focus={
 		id=SOV_make_sov
-		icon = GFX_focus_ITA_workers_unions
+		icon=GFX_focus_generic_join_comintern
 		x=28
 		y=7
 		prerequisite={focus=SOV_workers_peasants focus=SOV_Eliminate_opposition}
@@ -225,7 +225,7 @@ focus_tree={
 	}
 	focus={
 		id=SOV_workers_peasants
-		icon = GFX_focus_ITA_peasants_rise
+		icon = GFX_goal_generic_national_unity
 		x=32
 		y=6
 		prerequisite={focus=SOV_socialist_construction}
@@ -644,7 +644,7 @@ focus_tree={
 	}
 	focus={
 		id=SOV_Smooth_progress
-		icon = GFX_focus_generic_women_in_military
+		icon = GFX_goal_generic_attack_allies
 		x=18
 		y=2
 		prerequisite={focus=SOV_all_world}
@@ -759,7 +759,7 @@ focus_tree={
 	}
 	focus={
 		id=SOV_help_world
-		icon = GFX_focus_SOV_proclaim_soviet_hegemony
+		icon = GFX_focus_generic_join_comintern
 		x=13
 		y=5
 		prerequisite={focus=SOV_friend_fra focus=SOV_let_them_die }
@@ -1460,7 +1460,7 @@ focus_tree={
 	}
 	focus={
 		id=SOV_ele
-		icon = GFX_goal_generic_production
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		x=21
 		y=11
 		prerequisite={focus=SOV_lenin}
