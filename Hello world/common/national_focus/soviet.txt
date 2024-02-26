@@ -1460,7 +1460,7 @@ focus_tree={
 	}
 	focus={
 		id=SOV_ele
-		icon = GFX_goal_support_democracy
+		icon = GFX_goal_generic_production
 		x=21
 		y=11
 		prerequisite={focus=SOV_lenin}
