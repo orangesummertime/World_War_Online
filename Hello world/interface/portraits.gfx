@@ -15,4 +15,12 @@ spriteTypes = {
 		name = "GFX_MAN_guangxu"
 		texturefile = "gfx/leaders/MAN/guangxu.dds"
 	}
+	spriteType = {
+		name = "GFX_HUN_mihaly_karolyi"
+		texturefile = "gfx/leaders/HUN/mihaly_karolyi.dds"
+	}
+	spriteType = {
+		name = "GFX_CRO_stjepan_radic"
+		texturefile = "gfx/leaders/CRO/stjepan_radic.dds"
+	}
 }
