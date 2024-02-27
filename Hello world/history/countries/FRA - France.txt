@@ -60,7 +60,16 @@ set_research_slots = 3
 set_stability = 0.5
 add_command_power = 20
 
-
+create_country_leader = {
+	name = emile_loubet
+	desc = emile_loubet_desc
+	picture = GFX_FRA_emile_loubet
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -1289,4 +1298,5 @@ if = {
 			icon = "GFX_FRA_basic_medium_tank_medium"
 		}
 	}
+	
 }

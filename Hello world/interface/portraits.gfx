@@ -23,4 +23,8 @@ spriteTypes = {
 		name = "GFX_CRO_stjepan_radic"
 		texturefile = "gfx/leaders/CRO/stjepan_radic.dds"
 	}
+	spriteType = {
+		name = "GFX_FRA_emile_loubet"
+		texturefile = "gfx/leaders/FRA/emile_loubet.dds"
+	}
 }
