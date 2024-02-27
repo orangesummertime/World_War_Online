@@ -17,6 +17,19 @@ if = {
 		}
 	}
 }
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1900.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 10
+	democratic = 10
+	fascism = 0
+	neutrality = 80
+}
 
 set_research_slots = 3
 set_stability = 0.7
@@ -101,5 +114,15 @@ if = {
 	add_opinion_modifier = { 
 		target = YUG
 		modifier = BFTB_incongruous_neighbors
+	}
+}
+create_country_leader = {
+	name = mihaly_karolyi
+	desc = mihaly_karolyi_desc
+	picture = GFX_HUN_mihaly_karolyi
+	expire = "1953.3.1"
+	ideology = despotism
+	traits = {	
+			
 	}
 }

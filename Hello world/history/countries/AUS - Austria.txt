@@ -66,6 +66,19 @@ if = {
 		puppet = CRO
 	}
 }
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = BOH
+		autonomous_state = autonomy_personal_union
+	}
+	else = {
+		puppet = BOH
+	}
+}
 # if = {
 # 	limit = {
 # 		has_dlc = "Together for Victory"
@@ -131,10 +144,11 @@ set_stability = 0.50
 
 create_faction = austria_hungary
 add_to_faction = HUN
-add_to_faction = CZE
+#add_to_faction = CZE
 add_to_faction = CRO
 #add_to_faction = BOS
 add_to_faction = GLZ
+add_to_faction = BOH
 
 create_country_leader = {
 	name = AUS_franz_joseph
