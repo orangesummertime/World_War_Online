@@ -46,13 +46,13 @@ set_stability = 0.9
 set_war_support = 0.5
 recruit_character = GLZ_franz_ferdinand
 create_country_leader = {
-	name = franz_ferdinand
-	desc = franz_ferdinand_desc
-	picture = GFX_GLZ_franz_ferdinand
+	name = tomas_garrigue_masaryk
+	desc = tomas_garrigue_masaryk_desc
+	picture = GFX_BOH_tomas_garrigue_masaryk
 	expire = "1953.3.1"
 	ideology = despotism
 	traits = {
-		
+		independence_leader
 	}
 }
 

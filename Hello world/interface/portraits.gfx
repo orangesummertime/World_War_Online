@@ -27,4 +27,8 @@ spriteTypes = {
 		name = "GFX_FRA_emile_loubet"
 		texturefile = "gfx/leaders/FRA/emile_loubet.dds"
 	}
+	spriteType = {
+		name = "GFX_BOH_tomas_garrigue_masaryk"
+		texturefile = "gfx/leaders/BOH/tomas_garrigue_masaryk.dds"
+	}
 }
