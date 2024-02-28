@@ -31,4 +31,16 @@ spriteTypes = {
 		name = "GFX_BOH_tomas_garrigue_masaryk"
 		texturefile = "gfx/leaders/BOH/tomas_garrigue_masaryk.dds"
 	}
+	spriteType = {
+		name = "GFX_SOV_nicholas_ii"
+		texturefile = "gfx/leaders/SOV/nicholas_ii.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_theodore_roosevelt"
+		texturefile = "gfx/leaders/USA/theodore_roosevelt.dds"
+	}
+	spriteType = {
+		name = "GFX_ENG_arthur_james_balfour"
+		texturefile = "gfx/leaders/ENG/arthur_james_balfour.dds"
+	}
 }

@@ -3,7 +3,16 @@
 oob = "USA_1905"
 
 starting_train_buffer = 5
-
+create_country_leader = {
+	name = theodore_roosevelt
+	desc = theodore_roosevelt_desc
+	picture = GFX_USA_theodore_roosevelt
+	expire = "1953.3.1"
+	ideology = liberalism
+	traits = {	
+			
+	}
+}
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "USA_1905_naval_mtg"
@@ -219,7 +228,11 @@ set_popularities = {
 	democratic = 99
 	communism = 1
 }
-
+set_party_name = {
+	ideology = democratic
+	long_name = republicans
+	name = republicans
+}
 recruit_character = USA_earl_browder
 recruit_character = USA_william_dudley_pelley
 recruit_character = USA_franklin_delano_roosevelt

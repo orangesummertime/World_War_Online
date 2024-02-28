@@ -15,7 +15,21 @@ set_party_name = {
 	long_name = SOV_fascism_party_russian_long
 	name = SOV_fascism_party_russian
 }
-
+set_party_name = {
+	ideology = neutrality
+	long_name = romanov
+	name = romanov
+}
+create_country_leader = {
+	name = nicholas_ii
+	desc = nicholas_ii_desc
+	picture = GFX_SOV_nicholas_ii
+	expire = "1918.7.17"
+	ideology = despotism
+	traits = {	
+			
+	}
+}
 #COUNTRY LEADERS
 recruit_character = SOV_iosif_stalin
 recruit_character = SOV_supreme_soviet #This is a fake character! Proper country leader role is added via focus
@@ -964,10 +978,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
-	fascism = 10
-	neutrality = 30
-	communism = 30
+	democratic = 10
+	fascism = 0
+	neutrality = 80
+	communism = 10
 }
 
 # create_faction = Comintern
