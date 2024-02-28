@@ -179,7 +179,13 @@ set_convoys = 5
 
 set_stability = 0.25
 set_war_support = 0.5
-
+give_military_access = GER
+give_military_access = SOV
+give_military_access = FRA
+give_military_access = ENG
+give_military_access = USA
+give_military_access = JAP
+give_military_access = AUS
 if = {
 		limit = { has_dlc = "Waking the Tiger" }
 

@@ -764,4 +764,3 @@ FIN_PAR_01 =
 		# FIN didn't have any Airborne divisions.  Have independent sequence.
 	}
 }
-

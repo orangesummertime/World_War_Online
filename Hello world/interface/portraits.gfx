@@ -43,4 +43,8 @@ spriteTypes = {
 		name = "GFX_ENG_arthur_james_balfour"
 		texturefile = "gfx/leaders/ENG/arthur_james_balfour.dds"
 	}
+	spriteType = {
+		name = "GFX_JAP_meiji"
+		texturefile = "gfx/leaders/JAP/meiji.dds"
+	}
 }
