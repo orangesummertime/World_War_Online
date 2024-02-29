@@ -163,7 +163,7 @@ focus_tree={
 		icon = GFX_focus_usa_focus_on_europe
 		x=6
 		y=3
-		prerequisite={focus=USA_Maintain_the_status_quo}
+		prerequisite={focus=USA_Managing_American_Forces}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -416,7 +416,7 @@ focus_tree={
 		}
 	}
 	focus={
-		id="I_have_a_dream"
+		id=USA_I_have_a_dream
 		icon = GFX_focus_usa_guarantee_the_american_dream
 		x=2
 		y=13
@@ -513,6 +513,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_35
+		icon = GFX_goal_generic_neutrality_focus
 		x=6
 		y=6
 		prerequisite={focus=USA_To_deter_left_right_supporters}
@@ -528,6 +529,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_36
+		icon = GFX_goal_generic_forceful_treaty
 		x=6
 		y=7
 		prerequisite={focus=USA_35}
@@ -543,6 +545,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_37
+		icon = GFX_focus_generic_military_academy
 		x=6
 		y=8
 		prerequisite={focus=USA_36}
@@ -558,6 +561,23 @@ focus_tree={
 	}
 	focus={
 		id=USA_38
+		icon = GFX_focus_generic_support_the_left_right
+		x=6
+		y=9
+		prerequisite={focus=USA_36}
+		cost=10
+		ai_will_do={
+			factor=1
+		}
+		available_if_capitulated=yes
+		search_filters={
+		}
+		completion_reward={
+		}
+	}
+	focus={
+		id=USA_51
+		icon = GFX_goal_generic_political_pressure
 		x=6
 		y=9
 		prerequisite={focus=USA_37}
@@ -573,6 +593,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_39
+		icon = GFX_focus_generic_treaty
 		x=6
 		y=10
 		prerequisite={focus=USA_38}
@@ -604,6 +625,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_41
+		icon = GFX_focus_usa_recruit_the_free_corps
 		x=6
 		y=12
 		prerequisite={focus=USA_40}
@@ -639,21 +661,6 @@ focus_tree={
 		x=6
 		y=14
 		prerequisite={focus=USA_42}
-		cost=10
-		ai_will_do={
-			factor=1
-		}
-		available_if_capitulated=yes
-		search_filters={
-		}
-		completion_reward={
-		}
-	}
-	focus={
-		id=USA_44
-		x=6
-		y=10
-		prerequisite={focus=USA_43}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -842,6 +849,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_56
+		icon = GFX_focus_usa_reestablish_the_gold_standard
 		x=10
 		y=7
 		prerequisite={focus=USA_Expand_presidential_powers}
@@ -857,6 +865,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_57
+		icon = GFX_focus_chi_mission_to_the_us
 		x=10
 		y=8
 		prerequisite={focus=USA_56}
@@ -920,6 +929,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_61
+		icon = GFX_focus_generic_diplomatic_treaty
 		x=10
 		y=12
 		prerequisite={focus=USA_60}
@@ -967,7 +977,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_Adjusting_tax_laws
-		icon = GFX_focus_usa_reestablish_the_gold_standard
+		icon = GFX_goal_generic_consumer_goods
 		x=12
 		y=6
 		prerequisite={focus=USA_Appointment_of_experts}
@@ -983,6 +993,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_65
+		icon = GFX_focus_hol_the_foundations_of_defense
 		x=12
 		y=9
 		prerequisite={focus=USA_57}
@@ -998,6 +1009,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_66
+		icon = GFX_focus_attack_mexico
 		x=12
 		y=12
 		prerequisite={focus=USA_60}
@@ -1271,25 +1283,7 @@ focus_tree={
 		}
 		completion_reward={
 		}
-	}
-
-	focus={
-		id=USA_90
-		x=26
-		y=7
-		prerequisite={focus=USA_87}
-		prerequisite={focus=USA_87}
-		mutually_exclusive={focus=USA_89 }
-		cost=10
-		ai_will_do={
-			factor=1
-		}
-		available_if_capitulated=yes
-		search_filters={
-		}
-		completion_reward={
-		}
-	}
+	} 
 	
 	focus={
 		id=USA_92
