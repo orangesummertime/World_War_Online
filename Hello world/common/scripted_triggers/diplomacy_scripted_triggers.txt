@@ -32,56 +32,65 @@
 
 # This specifically overrides the rule check as to whether or not you can guarantee other ideologies
 DIPLOMACY_GUARANTEE_ENABLE_TRIGGER_OVERRIDES_GAME = {
-	NOT = {
-		has_game_rule = {
-			rule = allow_guarantees
-			option = LIMITED
-		}
+	# NOT = {
+	# 	has_game_rule = {
+	# 		rule = allow_guarantees
+	# 		option = LIMITED
+	# 	}
+	# }
+	custom_trigger_tooltip = {
+		tooltip = DISABLE_GUARANTEE_TT
+		always = no
+	
 	}
 }
 
 DIPLOMACY_GUARANTEE_ENABLE_TRIGGER = {
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_guarantees
-				option = ALWAYS_FREE
-			}
-		}
-		always = yes
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_guarantees
-				option = LIMITED
-			}
-		}
-		always = yes # Handled by game logic.
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_guarantees
-				option = SAME_IDEOLOGY
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_GUARANTEES_SAME_IDEOLOGY_TOOLTIP
-			has_government = FROM
-		}
-	}
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = allow_guarantees
-				option = BLOCKED
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = RULE_ALLOW_GUARANTEES_BLOCKED_TOOLTIP
-			always = no
-		}
+	# if = {
+	# 	limit = {
+	# 		has_game_rule = {
+	# 			rule = allow_guarantees
+	# 			option = ALWAYS_FREE
+	# 		}
+	# 	}
+	# 	always = yes
+	# }
+	# if = {
+	# 	limit = {
+	# 		has_game_rule = {
+	# 			rule = allow_guarantees
+	# 			option = LIMITED
+	# 		}
+	# 	}
+	# 	always = yes # Handled by game logic.
+	# }
+	# if = {
+	# 	limit = {
+	# 		has_game_rule = {
+	# 			rule = allow_guarantees
+	# 			option = SAME_IDEOLOGY
+	# 		}
+	# 	}
+	# 	custom_trigger_tooltip = {
+	# 		tooltip = RULE_ALLOW_GUARANTEES_SAME_IDEOLOGY_TOOLTIP
+	# 		has_government = FROM
+	# 	}
+	# }
+	# if = {
+	# 	limit = {
+	# 		has_game_rule = {
+	# 			rule = allow_guarantees
+	# 			option = BLOCKED
+	# 		}
+	# 	}
+	# 	custom_trigger_tooltip = {
+	# 		tooltip = RULE_ALLOW_GUARANTEES_BLOCKED_TOOLTIP
+	# 		always = no
+	# 	}
+	# }
+	custom_trigger_tooltip = {
+		tooltip = DISABLE_GUARANTEE_TT
+		always = no
 	}
 }
 
