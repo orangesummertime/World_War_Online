@@ -1072,6 +1072,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_70
+		icon = GFX_focus_chi_collaboration_with_the_japanese
 		x=18
 		y=2
 		prerequisite={focus=USA_68}
@@ -1105,6 +1106,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_73
+		icon = GFX_goal_tfv_burn_the_royal_portraits
 		x=28
 		y=2
 		prerequisite={focus=USA_69}
@@ -1121,6 +1123,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_75
+		icon = GFX_goal_generic_military_sphere
 		x=32
 		y=3
 		prerequisite={focus=USA_72}
@@ -1136,6 +1139,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_76
+		icon = GFX_focus_por_workers_of_iberia
 		x=28
 		y=3
 		prerequisite={focus=USA_73}
@@ -1151,6 +1155,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_77
+		icon = GFX_goal_generic_construct_civ_factory
 		x=22
 		y=3
 		prerequisite={focus=USA_97}
@@ -1166,6 +1171,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_78
+		icon = GFX_goal_generic_construct_mil_factory
 		x=18
 		y=3
 		prerequisite={focus=USA_70}
@@ -1181,6 +1187,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_79
+		icon=GFX_goal_generic_consumer_goods
 		x=18
 		y=4
 		prerequisite={focus=USA_78}
@@ -1196,6 +1203,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_80
+		icon = GFX_goal_generic_oil_refinery
 		x=22
 		y=4
 		prerequisite={focus=USA_77}
@@ -1211,6 +1219,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_81
+		icon = GFX_goal_generic_consumer_goods
 		x=32
 		y=4
 		prerequisite={focus=USA_75}
@@ -1226,6 +1235,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_82
+		icon = GFX_focus_chi_british_cooperation
 		x=28
 		y=4
 		prerequisite={focus=USA_76}
@@ -1241,6 +1251,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_83
+		icon = GFX_focus_usa_honor_the_confederacy
 		x=18
 		y=5
 		prerequisite={focus=USA_79}
@@ -1256,6 +1267,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_84
+		icon=GFX_goal_generic_improve_relations
 		x=22
 		y=5
 		prerequisite={focus=USA_80}
@@ -1271,6 +1283,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_85
+		icon = GFX_focus_generic_industry_2
 		x=32
 		y=5
 		prerequisite={focus=USA_81}
@@ -1287,6 +1300,7 @@ focus_tree={
 	
 	focus={
 		id=USA_92
+		icon = GFX_focus_generic_treaty
 		x=28
 		y=5
 		prerequisite={focus=USA_82}
@@ -1302,7 +1316,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_93
-		icon = GFX_focus_generic_treaty
+		icon = GFX_focus_generic_little_entente
 		x = 2
 		x=28
 		y=6
@@ -1319,6 +1333,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_94
+		icon = GFX_goal_generic_position_armies
 		x=32
 		y=6
 		prerequisite={focus=USA_85}
@@ -1334,6 +1349,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_95
+		icon = GFX_goal_generic_war_with_comintern
 		x=20
 		y=6
 		prerequisite={focus=USA_83 focus=USA_84 }
@@ -1366,6 +1382,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_97
+		icon = GFX_focus_hol_the_foundations_of_defense
 		x=22
 		y=2
 		prerequisite={focus=USA_68}
@@ -1398,6 +1415,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_101
+		icon = GFX_goal_generic_military_sphere
 		x=20
 		y=7
 		prerequisite={focus=USA_95}
@@ -1413,6 +1431,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_102
+		icon = GFX_goal_generic_territory_or_war
 		x=20
 		y=8
 		prerequisite={focus=USA_101}
@@ -1428,6 +1447,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_103
+		icon = GFX_goal_anti_comintern_pact
 		x=20
 		y=9
 		prerequisite={focus=USA_102}
@@ -1443,6 +1463,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_104
+		icon = GFX_goal_generic_wolf_pack
 		x=20
 		y=10
 		prerequisite={focus=USA_103}
@@ -1458,6 +1479,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_105
+		icon=GFX_focus_spr_the_anti_fascist_workers_revolution
 		x=22
 		y=9
 		prerequisite={focus=USA_102}
@@ -1585,6 +1607,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_113
+		icon = GFX_goal_generic_attack_allies
 		x=20
 		y=12
 		prerequisite={focus=USA_106 focus=USA_107 focus=USA_108 focus=USA_109 focus=USA_110 focus=USA_111 focus=USA_112 }
@@ -1600,6 +1623,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_114
+		icon = GFX_focus_generic_strike_at_democracy1
 		x=22
 		y=13
 		prerequisite={focus=USA_113}
@@ -1615,6 +1639,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_115
+		icon = GFX_goal_generic_political_pressure
 		x=20
 		y=13
 		prerequisite={focus=USA_113}
@@ -1630,6 +1655,7 @@ focus_tree={
 	}
 	focus={
 		id=USA_116
+		icon = GFX_goal_generic_radar
 		x=24
 		y=13
 		prerequisite={focus=USA_113}
