@@ -360,7 +360,7 @@ recruit_character = JAP_kijuro_shidehara
 
 if = {
 	limit = {
-		has_dlc = "Waking The Tiger"
+		has_dlc = "Waking the Tiger"
 	}
 	set_autonomy = {
 		target = KOR
