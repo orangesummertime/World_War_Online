@@ -1,0 +1,8 @@
+scripted_gui = {
+	sub_ideology = {
+		context_type = selected_country_context
+		visible = {
+			always = yes
+		}
+	}
+}

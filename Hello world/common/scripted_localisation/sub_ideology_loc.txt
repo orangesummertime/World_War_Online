@@ -1,0 +1,147 @@
+defined_text = { 
+	name = GetSubIdeology
+	
+	text = {
+		trigger = {
+			has_government = democratic
+		}
+		localization_key = "[GetSubIdeologyDem]"
+	}
+	text = {
+		trigger = {
+			has_government = fascism
+		}
+		localization_key = "[GetSubIdeologyFas]"
+	}text = {
+		trigger = {
+			has_government = neutrality
+		}
+		localization_key = "[GetSubIdeologyNeu]"
+	}text = {
+		trigger = {
+			has_government = communism
+		}
+		localization_key = "[GetSubIdeologyCom]"
+	}
+	
+	}
+defined_text = {
+		name = GetSubIdeologyDem
+		text = {
+			trigger = {
+				has_country_leader_ideology = liberalism
+			}
+			localization_key = liberalism	
+		}
+		text = {
+			trigger = {
+				has_country_leader_ideology = conservatism
+			}
+			localization_key = conservatism	
+		}text = {
+			trigger = {
+				has_country_leader_ideology = socialism
+			}
+			localization_key = socialism
+		}
+}
+defined_text = {
+		name = GetSubIdeologyFas
+		text = {
+			trigger = {
+				has_country_leader_ideology = fascism_ideology
+			}
+			localization_key = fascism_ideology	
+		}
+		text = {
+			trigger = {
+				has_country_leader_ideology = nazism
+			}
+			localization_key = nazism	
+		}text = {
+			trigger = {
+				has_country_leader_ideology = national_socialism
+			}
+			localization_key = national_socialism
+		}text = {
+			trigger = {
+				has_country_leader_ideology = falangism
+			}
+			localization_key = falangism
+		}text = {
+			trigger = {
+				has_country_leader_ideology = rexism
+			}
+			localization_key = rexism
+		}text = {
+			trigger = {
+				has_country_leader_ideology = nazism_gen
+			}
+			localization_key = nazism_gen
+		}	
+}
+defined_text = {
+		name = GetSubIdeologyNeu
+		text = {
+			trigger = {
+				has_country_leader_ideology = despotism
+			}
+			localization_key = despotism	
+		}
+		text = {
+			trigger = {
+				has_country_leader_ideology = centrism
+			}
+			localization_key = centrism	
+		}text = {
+			trigger = {
+				has_country_leader_ideology = moderatism
+			}
+			localization_key = moderatism
+		}text = {
+			trigger = {
+				has_country_leader_ideology = oligarchism
+			}
+			localization_key = oligarchism
+		}	
+}
+defined_text = {
+		name = GetSubIdeologyCom
+		text = {
+			trigger = {
+				has_country_leader_ideology = communism_ideology
+			}
+			localization_key = communism_ideology	
+		}
+		text = {
+			trigger = {
+				has_country_leader_ideology = stalinism
+			}
+			localization_key = stalinism	
+		}text = {
+			trigger = {
+				has_country_leader_ideology = leninism
+			}
+			localization_key = leninism
+		}text = {
+			trigger = {
+				has_country_leader_ideology = trotskyism
+			}
+			localization_key = trotskyism
+		}text = {
+			trigger = {
+				has_country_leader_ideology = maoism
+			}
+			localization_key = maoism
+		}text = {
+			trigger = {
+				has_country_leader_ideology = marxism
+			}
+			localization_key = marxism
+		}text = {
+			trigger = {
+				has_country_leader_ideology = anti_revisionism
+			}
+			localization_key = anti_revisionism
+		}
+	}
