@@ -3,7 +3,7 @@ ideas={
 	country = {
 
 		puzzle = {
-			picture = spr_political_violence
+			picture = political_violence
 			allowed_civil_war = {
 				original_tag = SOV
 				always = no
