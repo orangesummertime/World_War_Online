@@ -1,6 +1,5 @@
 ideas={
 
-
 	country = {
 
 		puzzle = {
@@ -9,8 +8,8 @@ ideas={
 				original_tag = SOV
 				always = no
 			}
-		
-			on_add = { 
+
+		    modifier = {
 				communism_drift = 0.2
 				democratic_drift = 0.2
 				fascism_drift = 0.2
