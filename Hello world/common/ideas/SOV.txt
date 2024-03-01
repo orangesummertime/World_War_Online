@@ -3,8 +3,8 @@ ideas={
 
 	country = {
 
-		SOV_puzzle = {
-			picture = generic_coastal_defense_ships2
+		puzzle = {
+			picture = spr_political_violence
 			allowed_civil_war = {
 				original_tag = SOV
 				always = no
@@ -22,7 +22,6 @@ ideas={
 
 			cancel = { 
 				has_government = communism
-				has_completed_focus = SOV_make_sov
 			}
 		}
 	}
