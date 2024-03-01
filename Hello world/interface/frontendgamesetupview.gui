@@ -515,7 +515,7 @@ guiTypes = {
 			textureFile = ""
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
-			text = "FE_SELECT_SCENARIO"
+			text = "FE_HISTORY_INTRODUCTION"
 			maxWidth = 340
 			maxHeight = 30
 			format = center
@@ -548,7 +548,7 @@ guiTypes = {
 			position = { x = 110 y = 274 }
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
-			text = "BM_HISTORY_TITLE"
+			text = "BM_THE_EVE_OF_REVOLUTION"
 			maxWidth = 340
 			maxHeight = 30
 			format = centre
