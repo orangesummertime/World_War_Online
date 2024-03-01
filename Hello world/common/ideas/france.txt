@@ -38,6 +38,29 @@ ideas = {
 				industrial_capacity_dockyard = -0.1
 			}
 		}
+		FRA_puzzle = {
+			picture = generic_coastal_defense_ships2
+			allowed_civil_war = {
+				original_tag = FRA
+				always = no
+			}
+		
+			on_add = { 
+				communism_drift = 0.2
+				democratic_drift = 0.2
+				fascism_drift = 0.2
+			}
+			on_remove = { 
+				political_power_gain = 1
+				command_power_gain = 1
+			}
+
+			cancel = { 
+				has_government = communism
+				has_completed_focus = SOV_make_sov
+			}
+		}
+	}
 		FRA_inefficient_economy_1 = {
 			picture = generic_local_self_management
 			allowed = {

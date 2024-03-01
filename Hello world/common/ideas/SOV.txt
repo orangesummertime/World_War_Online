@@ -1,11 +1,13 @@
 ideas={
-	country = {
-		puzzle_idea = {
-			
-			picture = generic_coastal_defense_ships2
 
+
+	country = {
+
+		SOV_puzzle = {
+			picture = generic_coastal_defense_ships2
 			allowed_civil_war = {
-				has_government = neutrality
+				original_tag = SOV
+				always = no
 			}
 		
 			on_add = { 
