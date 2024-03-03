@@ -1,0 +1,27 @@
+ideas={
+
+	country = {
+
+		puzzle = {
+			picture = political_violence
+			allowed_civil_war = {
+				original_tag = SOV
+				always = no
+			}
+
+		    modifier = {
+				communism_drift = 0.2
+				democratic_drift = 0.2
+				fascism_drift = 0.2
+			}
+			on_remove = { 
+				political_power_gain = 1
+				command_power_gain = 1
+			}
+
+			cancel = { 
+				has_government = communism
+			}
+		}
+	}
+}	

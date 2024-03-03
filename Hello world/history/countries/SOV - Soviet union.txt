@@ -1,14 +1,8 @@
 ﻿
-####
-#### NO STEP BACK
-####
-
-
-#You don't want Russian party names? Just remove these lines
 set_party_name = {
 	ideology = communism
-	long_name = SOV_communism_party_russian_long
-	name = SOV_communism_party_russian
+	long_name = SOV_Russian_Social_Democratic_Labour_Party
+	name = SOV_Russian_Social_Democratic_Labour_Party
 }
 set_party_name = {
 	ideology = fascism
@@ -19,6 +13,11 @@ set_party_name = {
 	ideology = neutrality
 	long_name = romanov
 	name = romanov
+}
+set_party_name = {
+	ideology = democratic
+	long_name = Constitutional_Democratic_Party
+	name = Constitutional_Democratic_Party
 }
 create_country_leader = {
 	name = nicholas_ii
@@ -31,7 +30,7 @@ create_country_leader = {
 	}
 }
 #COUNTRY LEADERS
-recruit_character = SOV_iosif_stalin
+recruit_character = SOV_mikhail_kalinin
 recruit_character = SOV_supreme_soviet #This is a fake character! Proper country leader role is added via focus
 if = {
 	limit = {
@@ -860,11 +859,7 @@ if = {
 set_country_flag = SOV_TEST_REMOVE_VANILLA_ADVISORS_flag
 
 add_ideas = {	
-	home_of_revolution
-	trotskyite_plot_nsb
-	SOV_politicized_military
-
-	SOV_genrikh_yagoda #NKVD Chief (political advisor)
+	puzzle	
 }
 
 
@@ -973,7 +968,7 @@ set_convoys = 50
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1933.7.1"
+	last_election = "1904.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
