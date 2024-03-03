@@ -1,0 +1,24 @@
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\1-France.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\799-Hatay.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\677-Aleppo.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\553-Lebanon.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\554-Syria.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\680-Deir-az-Zur.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\676-Mosul.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\291-Iraq.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\859-Dammam.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\855-Tabuk.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\679-Hejaz.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\856-Asir-Makkah.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\293-Yemen.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\454-Israel.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\455-Jordan.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\675-Al Hajara.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\680-Deir-az-Zur.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\184-Thrace.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\731-Central Macedonia.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\185-Epirus.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\805-Northern Epirus.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\44-Albania.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\934-Shkoder.txt' mode='w' encoding='utf-8'>
+<_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\106-Macedonia.txt' mode='w' encoding='utf-8'>

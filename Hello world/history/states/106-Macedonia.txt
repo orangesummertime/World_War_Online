@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = SER
+owner = TUR
+add_core_of = TUR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -20,7 +21,6 @@ state={
 		add_core_of = YUG
 		add_core_of = MAC
 		add_claim_by = BUL
-		add_core_of = SER
 	}
 
 	provinces={
