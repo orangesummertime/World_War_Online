@@ -6,7 +6,7 @@ state={
 		add_core_of = SAU
 	}
 	provinces={
-		1033 2027 2095  8092 12101 12455 #5027 7970
+		1033 2027 2095  8092 12101 12455 2033 #5027 7970
 	}
 	manpower=500000
 	state_category = pastoral
