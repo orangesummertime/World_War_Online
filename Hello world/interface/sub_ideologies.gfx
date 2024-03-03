@@ -109,4 +109,23 @@ spriteTypes = {
 		name = "GFX_ideology_anarchism"
 		texturefile = "gfx/interface/ideologies/anarchism.dds"
 	}
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democracy"
+		texturefile = "gfx/interface/ideologies/authoritarian_democracy.dds"
+	}
+	#monarchism
+	spriteType = {
+		name = "GFX_ideology_monarchism"
+		texturefile = "gfx/interface/ideologies/monarchism.dds"
+	}
+	#authoritarian_conservatism
+	spriteType = {
+		name = "GFX_ideology_authoritarian_conservatism"
+		texturefile = "gfx/interface/ideologies/authoritarian_conservatism.dds"
+	}
+	#national_socialism same as nazism
+	spriteType = {
+		name = "GFX_ideology_national_socialism"
+		texturefile = "gfx/interface/ideologies/nazism.dds"
+	}
 }

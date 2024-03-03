@@ -1,0 +1,34 @@
+focus_tree={
+	country={
+		factor=0
+		modifier={
+			add = 10
+			tag = AST
+		}
+	default=no
+	continuous_focus_position={
+		x=45
+		y=1000
+	}
+	focus = {
+		id=claim_the_greater_deutschland
+		icon = GFX_goal_generic_germany
+	}
+	x=10
+	y=10
+	cost=10
+	ai_will_do={
+		factor=1
+	}
+	available_if_capitulated=yes
+	search_filters={}
+	completion_reward={
+		ROOT = {
+			declare_war_on = {
+				target = GER
+				type = annex_everything
+			}
+		}
+	}
+}
+}

@@ -166,6 +166,21 @@ defined_text = {
 		}
 		localization_key = revisionist_zionism
 	}
+	#威权民主主义
+	text = {
+		trigger = {
+			has_country_leader_ideology = authoritarian_democracy
+		}
+		localization_key = authoritarian_democracy
+	}
+	#君主独裁主义monarchism
+	text = {
+		trigger = {
+			has_country_leader_ideology = monarchism
+		}
+		localization_key = monarchism
+	}
+
 }
 defined_text = {
 	name = GetSubIdeologyFas
