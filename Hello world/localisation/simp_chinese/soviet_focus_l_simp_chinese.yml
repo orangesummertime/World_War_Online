@@ -29,7 +29,7 @@
  SOV_criticize_desc: "一只故意捉弄人的蝴蝶,让人永远也捕捉不住。\n—罗莎·卢森堡"
  SOV_International_column: "支援法国革命"
  SOV_International_column_desc: "上一次这样的革命并不遥远,也不过是发生在34年前而已。我们有理由相信一点,那就是苏维埃俄国这样的政权有可能在法兰西的土地上建立。因此,我们必须全力支持发生在里昂的工人运动,支持里昂无产阶级第三次大规模武装起义。"
- SOV_friend_fra: "支援法兰西无产者革命"
+ SOV_friend_FRA: "支援法兰西无产者革命"
  SOV_friend_fra_desc: "前进,前进,冲向敌人的炮口,冲过枪林弹雨,奔赴胜利！\n—《巴黎进行曲》"
  SOV_let_them_die: "让巴枯宁分子自生自灭去吧"
  SOV_let_them_die_desc: "投机主义者总认为革命是闹着玩的,他们根本没把它的重要性当回事。俄罗斯革命之所以能够胜利,建立在一系列的复杂政治条件之上。固然这是让人鼓舞的,但这并不代表着法兰西拥有着同样的政治条件。他们冒着葬送无产阶级政治生命的风险贸然发动这种革命,不仅是对社会主义的轻视,更是一种不成熟的表现。我们的政权刚刚稳定不久,现在无法抽出力量来支援这场没有充足准备的革命行动。"
@@ -363,10 +363,10 @@ USA_57: "构建美利坚民族意识"
 USA_57_desc: " "
 USA_25: "确定女性选举权"
 USA_25_desc: " "
-USA_51: "加强国民警卫队"
-USA_51_desc: " "
-USA_38: "维护资格性选举制"
-USA_38_desc: " "
+USA_Strengthening_the_National_Guard: "加强国民警卫队"
+USA_Strengthening_the_National_Guard_desc: " "
+USA_Maintain_the_qualification_election_system: "维护资格性选举制"
+USA_Maintain_the_qualification_election_system_desc: " "
 USA_58: "鼓励宏大叙事"
 USA_58_desc: " "
 USA_65: "公共教育改革"
@@ -487,21 +487,45 @@ USA_114: "消灭红色恐怖分子"
 USA_114_desc: " "
 USA_116: "地方反共宣传"
 USA_116_desc: " "
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+FRA_2: "遥远的红色记忆"
+FRA_2_desc: " "
+FRA_1: "维护正统传承"
+FRA_1_desc: " "
+FRA_0: "扼杀总罢工"
+FRA_0_desc: " "
+FRA_4: "在警卫队中宣传"
+FRA_4_desc: " "
+FRA_3: "在军队中宣传"
+FRA_3_desc: " "
+FRA_137: "工业现代化"
+FRA_137_desc: " "
+FRA_51: "确保军队忠诚"
+FRA_51_desc: " "
+FRA_52: "确保国民警卫队忠诚"
+FRA_52_desc: " "
+FRA_136: "陆海空军现代化"
+FRA_136_desc: " "
+FRA_97: "收买宪兵队官员"
+FRA_97_desc: " "
+FRA_98: "接触旧派军官"
+FRA_98_desc: " "
+FRA_5: "与部分反对派警察合作"
+FRA_5_desc: " "
+FRA_139: "基建投资"
+FRA_139_desc: " "
+FRA_138: "科研人才引入"
+FRA_138_desc: " "
+FRA_140: "日化工业投资"
+FRA_140_desc: " "
+FRA_53: "对国家安全机构进行清洗"
+FRA_53_desc: " "
+FRA_152: "信息化作战"
+FRA_152_desc: " "
+FRA_155: "导弹研究"
+FRA_155_desc: " "
+FRA_156: "火炮改进"
+FRA_156_desc: " "
+FRA_99: "安插低级文官"
+FRA_99_desc: " "
+FRA_104: "安插低级武官"
+FRA_104_desc: " "

@@ -560,24 +560,8 @@ focus_tree={
 		}
 	}
 	focus={
-		id=USA_38
+		id=USA_Maintain_the_qualification_election_system
 		icon = GFX_focus_generic_support_the_left_right
-		x=6
-		y=9
-		prerequisite={focus=USA_36}
-		cost=10
-		ai_will_do={
-			factor=1
-		}
-		available_if_capitulated=yes
-		search_filters={
-		}
-		completion_reward={
-		}
-	}
-	focus={
-		id=USA_51
-		icon = GFX_goal_generic_political_pressure
 		x=6
 		y=9
 		prerequisite={focus=USA_37}
@@ -596,7 +580,7 @@ focus_tree={
 		icon = GFX_focus_generic_treaty
 		x=6
 		y=10
-		prerequisite={focus=USA_38}
+		prerequisite={focus=USA_Maintain_the_qualification_election_system}
 		cost=10
 		ai_will_do={
 			factor=1
@@ -768,7 +752,7 @@ focus_tree={
 		}
 	}
 	focus={
-		id=USA_51
+		id=USA_Strengthening_the_National_Guard
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		x=4
 		y=9
@@ -788,7 +772,7 @@ focus_tree={
 		icon = GFX_focus_generic_self_management
 		x=4
 		y=10
-		prerequisite={focus=USA_51}
+		prerequisite={focus=USA_Strengthening_the_National_Guard}
 		cost=10
 		ai_will_do={
 			factor=1
