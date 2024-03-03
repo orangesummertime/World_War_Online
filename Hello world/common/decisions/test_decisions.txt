@@ -122,4 +122,17 @@ test_category = {
 			}
 		}
 	}
+
+	news = {
+		complete_effect = {
+			news_event = {
+				id = wwo_news.1
+			}
+		}
+	}
+	austria_ft = {
+		AUS = {
+			load_focus_tree = austria
+		}
+	}
 }

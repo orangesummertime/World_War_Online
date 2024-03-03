@@ -1,0 +1,36 @@
+add_namespace = wwo_news
+news_event = {
+	id = wwo_news.1
+	title = wwo_news.1.t
+	desc = wwo_news.1.d
+	picture = GFX_report_event_chinese_soldiers_02
+	trigger = {
+		date > 1905.1.1
+	}
+	fire_only_once = yes
+	major = yes
+	immediate = {
+		set_global_flag = nippon_russian_war_ended
+	}
+	option = {
+		name = wwo_news.1.a
+		trigger = {
+			tag = SOV
+		}
+	}
+	option = {
+		name = wwo_news.1.b
+		trigger = {
+			tag =JAP
+		}
+	}
+	#皆不是
+	option = {
+		name = wwo_news.1.c
+		trigger = {
+			AND = {
+			NOT = {tag = SOV}
+			NOT = {tag = JAP}}
+		}
+	}
+}
