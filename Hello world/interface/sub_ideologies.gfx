@@ -128,4 +128,9 @@ spriteTypes = {
 		name = "GFX_ideology_national_socialism"
 		texturefile = "gfx/interface/ideologies/nazism.dds"
 	}
+	#bolshevism
+	spriteType = {
+		name = "GFX_ideology_bolshevism"
+		texturefile = "gfx/interface/ideologies/bolshevism.dds"
+	}
 }
