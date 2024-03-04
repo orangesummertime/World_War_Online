@@ -25,6 +25,7 @@ news_event = {
 			}
 			SOV = {
 				transfer_state = 408
+				transfer_state = 655
 				add_stability = -0.2
 				add_war_support = -0.2
 			}
