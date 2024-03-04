@@ -1,5 +1,6 @@
 add_namespace = wwo_news
 news_event = {
+	#日俄战争的终结
 	id = wwo_news.1
 	title = wwo_news.1.t
 	desc = wwo_news.1.d
@@ -18,11 +19,19 @@ news_event = {
 		trigger = {
 			tag = SOV
 		}
+		effect = {
+			add_stability = -0.2
+			add_war_support = -0.2
+		}
 	}
 	option = {
 		name = wwo_news.1.b
 		trigger = {
 			tag =JAP
+		}
+		effect = {
+			add_stability = 0.2
+			add_war_support = 0.2
 		}
 	}
 	#皆不是
