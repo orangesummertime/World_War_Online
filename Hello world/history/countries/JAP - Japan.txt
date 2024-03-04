@@ -28,7 +28,11 @@ create_country_leader = {
 		meiji_reform
 	}
 }
-
+declare_war_on = {
+	target = SOV
+	type = take_state_focus
+	generator = { 525 527 745 } 
+}
 
 609 = {
 	start_resistance = yes
@@ -264,19 +268,28 @@ set_convoys = 400
 # 		autonomous_state = autonomy_puppet
 # 	}
 # }
-# if = {
-# 	limit = { 
-# 		has_dlc = "Waking the Tiger"
-# 	}
-# 	set_autonomy = {
-# 		target = MEN
-# 		autonomous_state = autonomy_wtt_imperial_protectorate
-# 	}
-# 	set_autonomy = {
-# 		target = MAN
-# 		autonomous_state = autonomy_wtt_imperial_protectorate
-# 	}
-# }
+if = {
+	limit = { 
+		has_dlc = "Waking the Tiger"
+	}
+	set_autonomy = {
+		target = KOR
+		autonomous_state = autonomy_wtt_imperial_protectorate
+	}
+	
+}
+if = {
+	limit = { 
+		NOT = {
+			has_dlc = "Waking the Tiger"
+		}
+	}
+	set_autonomy = {
+		target = KOR
+		autonomous_state = autonomy_integrated_puppet
+	}
+	
+}
 
 set_politics = {
 	ruling_party = neutrality
@@ -358,18 +371,18 @@ recruit_character = JAP_sanzo_nosaka
 recruit_character = JAP_hiroshi_oshima
 recruit_character = JAP_kijuro_shidehara
 
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	set_autonomy = {
-		target = KOR
-		autonomous_state = autonomy_wtt_imperial_protectorate
-	}
-	else = {
-		puppet = KOR
-	}
-}
+# if = {
+# 	limit = {
+# 		has_dlc = "Waking the Tiger"
+# 	}
+# 	set_autonomy = {
+# 		target = KOR
+# 		autonomous_state = autonomy_wtt_imperial_protectorate
+# 	}
+# 	else = {
+# 		puppet = KOR
+# 	}
+# }
 if = {
 	limit = {
 		has_dlc = "La Resistance"

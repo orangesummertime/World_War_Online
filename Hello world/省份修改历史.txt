@@ -36,3 +36,11 @@
 <_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\451-Derna.txt' mode='w' encoding='utf-8'>
 <_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\273-Italian Africa.txt' mode='w' encoding='utf-8'>
 <_io.TextIOWrapper name='F:\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\World_War_Online\\Hello world\\history\\states\\434-Arunachal Pradesh.txt' mode='w' encoding='utf-8'>
+743-GER.txt
+761-SOV.txt
+714-SOV.txt
+716-JAP.txt
+328-JAP.txt
+717-JAP.txt
+408-JAP.txt
+655-JAP.txt
