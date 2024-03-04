@@ -1,6 +1,7 @@
-add_namespace = wwo_news
+add_namespace = wwo_news	
+#日俄战争的终结
 news_event = {
-	#日俄战争的终结
+
 	id = wwo_news.1
 	title = wwo_news.1.t
 	desc = wwo_news.1.d
@@ -13,6 +14,29 @@ news_event = {
 	major = yes
 	immediate = {
 		set_global_flag = nippon_russian_war_ended
+		hidden_effect = {
+			#日本和苏联的稳定性和战争支持度
+			MAN = {
+				transfer_state = 714
+				transfer_state = 761
+				transfer_state = 716
+				transfer_state = 328
+				transfer_state = 717
+			}
+			SOV = {
+				transfer_state = 408
+				add_stability = -0.2
+				add_war_support = -0.2
+			}
+			JAP = {
+				white_peace = {
+					tag = SOV
+					message = nippon_russian_war_ended_tt
+				}
+				add_stability = 0.2
+				add_stability = 0.2
+			}
+		}	
 	}
 	option = {
 		name = wwo_news.1.a
@@ -20,8 +44,10 @@ news_event = {
 			tag = SOV
 		}
 		effect = {
-			add_stability = -0.2
-			add_war_support = -0.2
+			SOV = {
+				add_stability = -0.2
+				add_war_support = -0.2
+			}
 		}
 	}
 	option = {
@@ -30,8 +56,10 @@ news_event = {
 			tag =JAP
 		}
 		effect = {
-			add_stability = 0.2
-			add_war_support = 0.2
+			JAP = {
+				add_stability = 0.2
+				add_war_support = 0.2
+			}
 		}
 	}
 	#皆不是
