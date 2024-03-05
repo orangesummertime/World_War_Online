@@ -28,6 +28,7 @@ set_technology = {
 	CAS1 = 1
 	naval_bomber1 = 1
 }
+give_military_access = GER
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1900.3.5"

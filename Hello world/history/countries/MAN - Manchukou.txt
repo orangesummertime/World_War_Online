@@ -224,6 +224,7 @@ set_popularities = {
 	democratic = 5
 	communism = 5
 }
+oob = "MAN_1905"
 
 	#generic focuses
 	complete_national_focus = army_effort

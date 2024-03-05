@@ -19,6 +19,7 @@ set_technology = {
 	oil_processing = 1
 	fuel_refining = 1
 }
+give_military_access = GER
 set_technology = {
 	early_fighter = 1
 	fighter1 = 1

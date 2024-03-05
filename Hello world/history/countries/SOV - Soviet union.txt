@@ -718,27 +718,9 @@ capital = 219
 
 starting_train_buffer = 3.0
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
+
 	set_oob = "SOV_1905"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "SOV_1905_nsb"
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "SOV_1905_naval_mtg"
-	else = {
-		set_naval_oob = "SOV_1905_naval_legacy"
-	}
-}
+
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "SOV_1905_air_bba"
