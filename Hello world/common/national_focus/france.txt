@@ -624,7 +624,7 @@ focus_tree={
 		id=FRA_40
 		x=9
 		y=13
-		prerequisite={focus=FRA_31}
+		prerequisite={focus=FRA_31 focus=FRA_35}
 		mutually_exclusive={focus=FRA_39 }
 		cost=10
 		ai_will_do={
@@ -1655,7 +1655,6 @@ focus_tree={
 		id=FRA_110
 		x=48
 		y=8
-		prerequisite={focus=FRA_109}
 		prerequisite={focus=FRA_109}
 		cost=10
 		ai_will_do={
