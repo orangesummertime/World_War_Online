@@ -131,7 +131,7 @@ set_technology = {
 # 		gwtank = 1
 # 		basic_light_tank = 1
 # 	}
-	set_oob = "JAP_1936"
+	set_oob = "JAP_1905"
 # }
 # if = {
 # 	limit = {

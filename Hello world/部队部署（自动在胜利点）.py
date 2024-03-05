@@ -19,6 +19,10 @@ def extract_and_write_division_templates(source_path, destination_path):
                     if brace_count == 0 and inside_block:
                         inside_block = False
                         dest.write('\n')
+                                #读到units = {时停止
+                if 'units = {' in line:
+                    break
+
         print("所有division_template块已提取并写入到目标文件。")
     except FileNotFoundError:
         print("文件未找到，请检查路径。")
@@ -62,6 +66,17 @@ def find_victory_points_paths(root_dir, tag):
     return victory_points_ids
 
 def generate_divisions(template_names, division_count, destination_path, tag):
+    # 显示所有的division_template
+    print("所有可用的师模板：")
+    for idx, name in enumerate(template_names, 1):
+        print(f"{idx}. {name}")
+    
+    # 要求用户选择要排除的模板
+    excluded_indexes = input("请键入你希望排除的模板，生成division块时其将不会被选择").split()
+    # 将用户输入的索引转换为整数，并从列表中排除这些模板
+    excluded_templates = [template_names[int(idx) - 1] for idx in excluded_indexes if idx.isdigit() and 1 <= int(idx) <= len(template_names)]
+    # 更新template_names以排除用户选定的模板
+    template_names = [name for name in template_names if name not in excluded_templates]
     vp_ids_hoi4 = find_victory_points_paths(r"F:\Steam\steamapps\common\Hearts of Iron IV\history\states", tag)
     vp_ids_mod = find_victory_points_paths(r"F:\Documents\Paradox Interactive\Hearts of Iron IV\mod\World_War_Online\Hello world\history\states", tag)
     location_ids = vp_ids_hoi4 + vp_ids_mod
