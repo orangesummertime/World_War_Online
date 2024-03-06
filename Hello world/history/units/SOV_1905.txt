@@ -1,7 +1,7 @@
-﻿division_template = {
-	name = "Hohei Shidan" 			# (Square) Infantry Division - 4 infantry regiments (3k men each), 1 field artillery regiment - abstracted into infantry,
-	division_names_group = JAP_INF_01
-									# 1 engineering regiment, 1 recon regiment
+division_template = {
+	name = "Strelkovaya Diviziya"			# Rifle Division
+	division_names_group = SOV_INF_01
+
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -12,61 +12,71 @@
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
-		infantry = { x = 3 y = 0 }
-		infantry = { x = 3 y = 1 }
-		infantry = { x = 3 y = 2 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
+		#recon = { x = 0 y = 0 } 		# Recon bn had 16 L tanks, 10 ACs, 1x mot inf co #Eng and recon removed and they seem rather OP. Could revisit if balance changes
+		#engineer = { x = 0 y = 1 } 	# (semi-mot) Engineer bn
+		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 1x 152mm bn + 2x 122mm bn
 	}
 }
 
 division_template = {
-	name = "Kihei Shidan" 			# Cavalry Division - 2 Cavalry Division regiments (3k men); 1 mounted artillery regiment
-	division_names_group = JAP_CAV_01
+	name = "Gornostrelkovaya Diviziya"		# Mountain Division
+	division_names_group = SOV_MNT_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }	
+		mountaineers = { x = 2 y = 1 }	
+		mountaineers = { x = 2 y = 2 }	
+		mountaineers = { x = 3 y = 0 }	
+		mountaineers = { x = 3 y = 1 }	
+		mountaineers = { x = 3 y = 2 }	
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 		# Engineer bn
+		artillery = { x = 0 y = 1 } 	# Heavy Arty Regiment had 2x 122mm bn
+	}
+}
+
+
+division_template = {
+	name = "Kavaleriyskaya Diviziya" 	# Cavalry Division
+	division_names_group = SOV_CAV_01
+
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
 	}
 }
 
-
 division_template = {
-	name = "Rikusentai"				#This template covers SNLF divisions; historically there were roughly 5 total, with 1 being paratroopers
-	division_names_group = JAP_MAR_01
-	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-		marine = { x = 0 y = 2 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
-		marine = { x = 1 y = 2 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }
-	}	
-	priority = 2
-}
+	name = "NKVD Pogranichnaya Diviziya"			# NKVD Border Guard Division - Garrison units (older experience, older equipment)
+	division_names_group = SOV_GAR_01
 
-division_template = {
-	name = "Chuton-chi Shidan" 			# Garrison template - represents Imperial Manchukuo Army infantry divisions: 2 infantry regiments (3k men) -- militia (lowest equipment, experience)
-	division_names_group = JAP_GAR_01
-										# Also represents (over-sized) IJN Base Defense Unit (island, city and naval base garrisons): 2 infantry rgts (3k men), 1 field artillery rgt (abstracted), 1 engineering rgt
 	regiments = {
-		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 0 }	
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 	}
+	support = 	{
+		military_police = { x = 0 y = 0 }
+	}
 	priority = 0
+	is_locked = yes 
 }
+
+
 
 units = {
 
@@ -75,10 +85,10 @@ units = {
             is_name_ordered = yes
             name_order = 1
         }
-        location = 12421
-        division_template = "Hohei Shidan"
+        location = 11241
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.6
+        start_equipment_factor = 0.7
     }
             
     division= {
@@ -86,30 +96,8 @@ units = {
             is_name_ordered = yes
             name_order = 2
         }
-        location = 3962
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.4
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 1
-        }
-        location = 7169
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.8
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 1
-        }
-        location = 4572
-        division_template = "Kihei Shidan"
+        location = 3520
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.6
     }
@@ -117,10 +105,21 @@ units = {
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 3
+            name_order = 1
         }
-        location = 7186
-        division_template = "Hohei Shidan"
+        location = 3580
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.5
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+        location = 4724
+        division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.5
     }
@@ -130,21 +129,10 @@ units = {
             is_name_ordered = yes
             name_order = 2
         }
-        location = 1092
-        division_template = "Chuton-chi Shidan"
+        location = 10696
+        division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.9
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 2
-        }
-        location = 9950
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.8
+        start_equipment_factor = 0.6
     }
             
     division= {
@@ -152,8 +140,30 @@ units = {
             is_name_ordered = yes
             name_order = 3
         }
-        location = 11932
-        division_template = "Chuton-chi Shidan"
+        location = 10696
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.3
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 2
+        }
+        location = 11349
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.9
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 3
+        }
+        location = 3255
+        division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.7
     }
@@ -163,10 +173,10 @@ units = {
             is_name_ordered = yes
             name_order = 4
         }
-        location = 9950
-        division_template = "Chuton-chi Shidan"
+        location = 11405
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.5
+        start_equipment_factor = 0.9
     }
             
     division= {
@@ -174,10 +184,65 @@ units = {
             is_name_ordered = yes
             name_order = 4
         }
-        location = 10433
-        division_template = "Hohei Shidan"
+        location = 11405
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 5
+        }
+        location = 9357
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.4
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 5
+        }
+        location = 10696
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 6
+        }
+        location = 108
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.9
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 7
+        }
+        location = 12644
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 3
+        }
+        location = 9098
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.5
     }
             }
 units = {
@@ -187,10 +252,10 @@ units = {
             is_name_ordered = yes
             name_order = 1
         }
-        location = 12355
-        division_template = "Chuton-chi Shidan"
+        location = 12189
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.9
+        start_equipment_factor = 0.6
     }
             
     division= {
@@ -198,8 +263,41 @@ units = {
             is_name_ordered = yes
             name_order = 2
         }
-        location = 10521
-        division_template = "Chuton-chi Shidan"
+        location = 6774
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.3
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+        location = 7526
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.5
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 3
+        }
+        location = 11719
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 2
+        }
+        location = 12189
+        division_template = "NKVD Pogranichnaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.4
     }
@@ -209,41 +307,8 @@ units = {
             is_name_ordered = yes
             name_order = 1
         }
-        location = 7670
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.4
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 2
-        }
-        location = 681
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.6
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 1
-        }
-        location = 10521
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.9
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 2
-        }
-        location = 11629
-        division_template = "Hohei Shidan"
+        location = 7672
+        division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.8
     }
@@ -251,54 +316,10 @@ units = {
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 3
-        }
-        location = 11643
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.7
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 3
-        }
-        location = 11643
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.6
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 3
-        }
-        location = 3753
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.7
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
             name_order = 4
         }
-        location = 12355
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.4
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 4
-        }
-        location = 681
-        division_template = "Chuton-chi Shidan"
+        location = 4649
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.5
     }
@@ -308,10 +329,10 @@ units = {
             is_name_ordered = yes
             name_order = 5
         }
-        location = 7670
-        division_template = "Hohei Shidan"
+        location = 11719
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.4
+        start_equipment_factor = 0.8
     }
             
     division= {
@@ -319,10 +340,10 @@ units = {
             is_name_ordered = yes
             name_order = 6
         }
-        location = 3753
-        division_template = "Hohei Shidan"
+        location = 7582
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.9
+        start_equipment_factor = 0.4
     }
             
     division= {
@@ -330,10 +351,43 @@ units = {
             is_name_ordered = yes
             name_order = 7
         }
-        location = 11629
-        division_template = "Hohei Shidan"
+        location = 725
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.7
+        start_equipment_factor = 0.5
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 2
+        }
+        location = 10379
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 3
+        }
+        location = 753
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.4
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 3
+        }
+        location = 1504
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
     }
             
     division= {
@@ -341,8 +395,8 @@ units = {
             is_name_ordered = yes
             name_order = 8
         }
-        location = 9623
-        division_template = "Hohei Shidan"
+        location = 4649
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.8
     }
@@ -352,30 +406,8 @@ units = {
             is_name_ordered = yes
             name_order = 9
         }
-        location = 12342
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.5
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 10
-        }
-        location = 7670
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.4
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 11
-        }
-        location = 10433
-        division_template = "Hohei Shidan"
+        location = 7582
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.8
     }
@@ -383,98 +415,10 @@ units = {
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 12
+            name_order = 10
         }
-        location = 10463
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.9
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 5
-        }
-        location = 12342
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.5
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 6
-        }
-        location = 7670
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.6
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 13
-        }
-        location = 12412
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.4
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 4
-        }
-        location = 3723
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.5
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 14
-        }
-        location = 10521
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.7
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 15
-        }
-        location = 7652
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.5
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 7
-        }
-        location = 10433
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.5
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 8
-        }
-        location = 12342
-        division_template = "Chuton-chi Shidan"
+        location = 4805
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.3
     }
@@ -482,10 +426,142 @@ units = {
     division= {
         division_name = {
             is_name_ordered = yes
+            name_order = 4
+        }
+        location = 725
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.6
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 4
+        }
+        location = 10368
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.5
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
             name_order = 5
         }
-        location = 681
-        division_template = "Kihei Shidan"
+        location = 725
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.9
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 6
+        }
+        location = 10379
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.6
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 11
+        }
+        location = 725
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.6
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 5
+        }
+        location = 6774
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.4
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 6
+        }
+        location = 7672
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 12
+        }
+        location = 10466
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 7
+        }
+        location = 4649
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.3
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 7
+        }
+        location = 1545
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 13
+        }
+        location = 10379
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.3
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 14
+        }
+        location = 6774
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.6
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 15
+        }
+        location = 753
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.5
     }
@@ -495,87 +571,10 @@ units = {
             is_name_ordered = yes
             name_order = 16
         }
-        location = 11629
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.4
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 9
-        }
-        location = 3695
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.8
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 17
-        }
-        location = 11629
-        division_template = "Hohei Shidan"
+        location = 4805
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.7
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 6
-        }
-        location = 12412
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.8
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 18
-        }
-        location = 10521
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.8
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 19
-        }
-        location = 3695
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.6
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 10
-        }
-        location = 9623
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.7
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 7
-        }
-        location = 681
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.6
     }
             
     division= {
@@ -583,118 +582,8 @@ units = {
             is_name_ordered = yes
             name_order = 8
         }
-        location = 681
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.4
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 11
-        }
-        location = 9623
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.7
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 9
-        }
-        location = 4551
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.5
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 20
-        }
-        location = 12355
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.7
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 10
-        }
-        location = 12412
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.7
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 11
-        }
-        location = 10521
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.6
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 12
-        }
-        location = 12412
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.4
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 13
-        }
-        location = 11629
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.4
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 21
-        }
-        location = 12412
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.5
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 12
-        }
-        location = 12342
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.3
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 13
-        }
-        location = 3723
-        division_template = "Chuton-chi Shidan"
+        location = 7582
+        division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.8
     }
@@ -702,67 +591,12 @@ units = {
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 14
+            name_order = 9
         }
-        location = 11643
-        division_template = "Chuton-chi Shidan"
+        location = 1504
+        division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.5
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 22
-        }
-        location = 7670
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.4
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 15
-        }
-        location = 3753
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.5
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 16
-        }
-        location = 681
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.9
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 14
-        }
-        location = 9623
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.4
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 15
-        }
-        location = 9623
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.5
+        start_equipment_factor = 0.7
     }
             
     division= {
@@ -770,10 +604,54 @@ units = {
             is_name_ordered = yes
             name_order = 17
         }
-        location = 10463
-        division_template = "Chuton-chi Shidan"
+        location = 753
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.5
+        start_equipment_factor = 0.7
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 8
+        }
+        location = 10466
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.6
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 10
+        }
+        location = 10379
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.4
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 11
+        }
+        location = 10466
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 12
+        }
+        location = 10379
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
     }
             
     division= {
@@ -781,8 +659,8 @@ units = {
             is_name_ordered = yes
             name_order = 18
         }
-        location = 681
-        division_template = "Chuton-chi Shidan"
+        location = 4649
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.9
     }
@@ -792,52 +670,8 @@ units = {
             is_name_ordered = yes
             name_order = 19
         }
-        location = 12342
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.6
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 20
-        }
-        location = 4551
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.3
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 21
-        }
-        location = 681
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.8
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 22
-        }
-        location = 3753
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.3
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 23
-        }
-        location = 4551
-        division_template = "Hohei Shidan"
+        location = 7672
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.5
     }
@@ -845,10 +679,21 @@ units = {
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 24
+            name_order = 9
         }
-        location = 12412
-        division_template = "Hohei Shidan"
+        location = 7672
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.3
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 10
+        }
+        location = 11719
+        division_template = "NKVD Pogranichnaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.8
     }
@@ -856,21 +701,43 @@ units = {
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 25
+            name_order = 11
         }
-        location = 10521
-        division_template = "Hohei Shidan"
+        location = 12189
+        division_template = "NKVD Pogranichnaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.8
+        start_equipment_factor = 0.7
     }
             
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 16
+            name_order = 20
         }
-        location = 12342
-        division_template = "Kihei Shidan"
+        location = 12189
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 21
+        }
+        location = 1504
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.5
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 22
+        }
+        location = 7672
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.6
     }
@@ -878,12 +745,45 @@ units = {
     division= {
         division_name = {
             is_name_ordered = yes
+            name_order = 13
+        }
+        location = 11719
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.6
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 12
+        }
+        location = 6774
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
             name_order = 23
         }
-        location = 10463
-        division_template = "Chuton-chi Shidan"
+        location = 4649
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.8
+        start_equipment_factor = 0.5
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 14
+        }
+        location = 6774
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.6
     }
             
     division= {
@@ -891,10 +791,10 @@ units = {
             is_name_ordered = yes
             name_order = 24
         }
-        location = 7652
-        division_template = "Chuton-chi Shidan"
+        location = 1504
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.8
+        start_equipment_factor = 0.7
     }
             
     division= {
@@ -902,30 +802,8 @@ units = {
             is_name_ordered = yes
             name_order = 25
         }
-        location = 12412
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.3
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 26
-        }
-        location = 3723
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.4
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 27
-        }
-        location = 3753
-        division_template = "Chuton-chi Shidan"
+        location = 10466
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.8
     }
@@ -933,12 +811,12 @@ units = {
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 17
+            name_order = 13
         }
-        location = 12412
-        division_template = "Kihei Shidan"
+        location = 10368
+        division_template = "NKVD Pogranichnaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.3
+        start_equipment_factor = 0.7
     }
             
     division= {
@@ -946,8 +824,19 @@ units = {
             is_name_ordered = yes
             name_order = 26
         }
-        location = 10521
-        division_template = "Hohei Shidan"
+        location = 1545
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 15
+        }
+        location = 725
+        division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.7
     }
@@ -957,8 +846,19 @@ units = {
             is_name_ordered = yes
             name_order = 27
         }
-        location = 681
-        division_template = "Hohei Shidan"
+        location = 1504
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.9
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 16
+        }
+        location = 10466
+        division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.7
     }
@@ -966,43 +866,10 @@ units = {
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 28
+            name_order = 14
         }
-        location = 9623
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.7
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 28
-        }
-        location = 12412
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.7
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 29
-        }
-        location = 10521
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.4
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 29
-        }
-        location = 7652
-        division_template = "Chuton-chi Shidan"
+        location = 4649
+        division_template = "NKVD Pogranichnaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.6
     }
@@ -1010,23 +877,23 @@ units = {
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 30
+            name_order = 28
         }
-        location = 10463
-        division_template = "Hohei Shidan"
+        location = 1545
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.3
+        start_equipment_factor = 0.7
     }
             
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 30
+            name_order = 17
         }
-        location = 10521
-        division_template = "Chuton-chi Shidan"
+        location = 7582
+        division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.7
+        start_equipment_factor = 0.9
     }
             
     division= {
@@ -1034,74 +901,8 @@ units = {
             is_name_ordered = yes
             name_order = 18
         }
-        location = 11643
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.6
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 31
-        }
-        location = 10521
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.3
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 32
-        }
-        location = 7670
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.7
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 31
-        }
-        location = 10433
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.7
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 19
-        }
-        location = 4551
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.7
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 32
-        }
-        location = 681
-        division_template = "Hohei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.7
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 33
-        }
-        location = 11629
-        division_template = "Hohei Shidan"
+        location = 7672
+        division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.4
     }
@@ -1109,10 +910,21 @@ units = {
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 33
+            name_order = 19
         }
-        location = 3695
-        division_template = "Chuton-chi Shidan"
+        location = 7526
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.3
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 15
+        }
+        location = 12189
+        division_template = "NKVD Pogranichnaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.6
     }
@@ -1120,10 +932,54 @@ units = {
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 34
+            name_order = 16
         }
-        location = 12412
-        division_template = "Hohei Shidan"
+        location = 7582
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 29
+        }
+        location = 10368
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.5
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 30
+        }
+        location = 11719
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.4
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 31
+        }
+        location = 7526
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.9
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 32
+        }
+        location = 11719
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.8
     }
@@ -1133,41 +989,19 @@ units = {
             is_name_ordered = yes
             name_order = 20
         }
-        location = 12412
-        division_template = "Kihei Shidan"
+        location = 10368
+        division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.3
+        start_equipment_factor = 0.6
     }
             
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 21
+            name_order = 17
         }
-        location = 9623
-        division_template = "Kihei Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.7
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 34
-        }
-        location = 10433
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.4
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 22
-        }
-        location = 3695
-        division_template = "Kihei Shidan"
+        location = 4805
+        division_template = "NKVD Pogranichnaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.9
     }
@@ -1175,10 +1009,21 @@ units = {
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 35
+            name_order = 21
         }
-        location = 4551
-        division_template = "Hohei Shidan"
+        location = 7672
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 18
+        }
+        location = 10466
+        division_template = "NKVD Pogranichnaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.8
     }
@@ -1186,12 +1031,12 @@ units = {
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 36
+            name_order = 22
         }
-        location = 7670
-        division_template = "Hohei Shidan"
+        location = 11719
+        division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.3
+        start_equipment_factor = 0.5
     }
             
     division= {
@@ -1199,10 +1044,43 @@ units = {
             is_name_ordered = yes
             name_order = 23
         }
-        location = 681
-        division_template = "Kihei Shidan"
+        location = 11719
+        division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
-        start_equipment_factor = 0.8
+        start_equipment_factor = 0.6
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 33
+        }
+        location = 4805
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.4
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 19
+        }
+        location = 1504
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.4
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 34
+        }
+        location = 10466
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.5
     }
             
     division= {
@@ -1210,52 +1088,8 @@ units = {
             is_name_ordered = yes
             name_order = 35
         }
-        location = 7652
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.4
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 36
-        }
-        location = 10463
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.6
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 37
-        }
-        location = 12355
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.6
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 38
-        }
-        location = 10463
-        division_template = "Chuton-chi Shidan"
-        start_experience_factor = 0.2
-        start_equipment_factor = 0.4
-    }
-            
-    division= {
-        division_name = {
-            is_name_ordered = yes
-            name_order = 39
-        }
-        location = 10433
-        division_template = "Chuton-chi Shidan"
+        location = 4649
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.8
     }
@@ -1265,8 +1099,19 @@ units = {
             is_name_ordered = yes
             name_order = 24
         }
-        location = 681
-        division_template = "Kihei Shidan"
+        location = 1504
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 25
+        }
+        location = 7526
+        division_template = "Strelkovaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.4
     }
@@ -1274,12 +1119,111 @@ units = {
     division= {
         division_name = {
             is_name_ordered = yes
-            name_order = 37
+            name_order = 26
         }
-        location = 3753
-        division_template = "Hohei Shidan"
+        location = 1545
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.4
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 36
+        }
+        location = 11719
+        division_template = "Kavaleriyskaya Diviziya"
         start_experience_factor = 0.2
         start_equipment_factor = 0.9
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 37
+        }
+        location = 753
+        division_template = "Kavaleriyskaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.3
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 27
+        }
+        location = 4649
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.5
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 28
+        }
+        location = 4805
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 29
+        }
+        location = 4805
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.6
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 20
+        }
+        location = 7582
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.4
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 30
+        }
+        location = 753
+        division_template = "Strelkovaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.3
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 21
+        }
+        location = 10379
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.8
+    }
+            
+    division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 22
+        }
+        location = 10379
+        division_template = "NKVD Pogranichnaya Diviziya"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.7
     }
             }
 
@@ -1287,7 +1231,7 @@ instant_effect = {
     add_equipment_production = {
         equipment = {
             type = infantry_equipment_1
-            creator = "JAP"
+            creator = "SOV"
         }
         requested_factories = 3
         progress = 0.1
@@ -1297,7 +1241,7 @@ instant_effect = {
     add_equipment_production = {
         equipment = {
             type = support_equipment_1
-            creator = "JAP" 
+            creator = "SOV" 
         }
         requested_factories = 1
         progress = 0.3

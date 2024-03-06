@@ -1,24 +1,24 @@
-on_actions = {
-    on_startup = {
-        effect = { # NEVER FORGET! Important to include this line to distinguish it from random_events = { ... }
-            # every_country = {
-            #     limit = {
-            #         is_ai = no
-            #     }
-            #     country_event = welcome_event.1
-            # }
-            # ENG = {
-            #     country_event = { 
-            #         id = new_year.1
-            #         days = 365  # Fires on January 1 1937. Remember that leap days do not exist in-game.
-            #     }
-            # }
-			SOV = {
-				news_event = {
-					id = wwo_news.1
-					days = 1
-				}
-			}
-        }
-    }
-}
+# on_actions = {
+#     on_startup = {
+#         effect = { # NEVER FORGET! Important to include this line to distinguish it from random_events = { ... }
+#             # every_country = {
+#             #     limit = {
+#             #         is_ai = no
+#             #     }
+#             #     country_event = welcome_event.1
+#             # }
+#             # ENG = {
+#             #     country_event = { 
+#             #         id = new_year.1
+#             #         days = 365  # Fires on January 1 1937. Remember that leap days do not exist in-game.
+#             #     }
+#             # }
+# 			SOV = {
+# 				news_event = {
+# 					id = wwo_news.1
+# 					days = 1
+# 				}
+# 			}
+#         }
+#     }
+# }

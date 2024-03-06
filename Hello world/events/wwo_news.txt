@@ -1,5 +1,5 @@
 add_namespace = wwo_news	
-#日俄战争的终结
+#日俄战争的终结————日本获胜
 news_event = {
 
 	id = wwo_news.1
@@ -66,6 +66,88 @@ news_event = {
 	#皆不是
 	option = {
 		name = wwo_news.1.c
+		trigger = {
+			AND = {
+			NOT = {tag = SOV}
+			NOT = {tag = JAP}}
+		}
+	}
+}
+#日俄战争的终结————俄国获胜
+news_event = {
+
+	id = wwo_news.2
+	title = wwo_news.2.t
+	desc = wwo_news.2.d
+	picture = GFX_news_event_chinese_soldiers_march
+	# trigger = {
+	# 	date > 1905.1.1
+	# }
+	#fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	immediate = {
+		set_global_flag = nippon_russian_war_ended
+		hidden_effect = {
+			#日本和苏联的稳定性和战争支持度
+			MAN = {
+				transfer_state = 714
+				transfer_state = 761
+				transfer_state = 716
+				transfer_state = 328
+				transfer_state = 717
+			}
+			SOV = {
+				transfer_state = 408
+				transfer_state = 655
+				transfer_state = 537
+				transfer_state = 745
+				transfer_state = 555
+				add_stability = 0.2
+				add_war_support = 0.2
+				puppet = {
+					target = KOR
+					autonomous_state = integrated_puppet
+				}
+			}
+			JAP = {
+				white_peace = {
+					tag = SOV
+					message = nippon_russian_war_ended_alt_tt
+				}
+				add_stability = -0.2
+				add_stability = -0.2
+				add_popularity = { ideology = communism popularity = 0.15 }
+			}
+		}	
+	}
+	option = {
+		name = wwo_news.2.a
+		trigger = {
+			tag = SOV
+		}
+		effect = {
+			SOV = {
+				add_stability = 0.2
+				add_war_support = 0.2
+			}
+		}
+	}
+	option = {
+		name = wwo_news.1.b
+		trigger = {
+			tag =JAP
+		}
+		effect = {
+			JAP = {
+				add_stability = -0.2
+				add_war_support = -0.2
+			}
+		}
+	}
+	#皆不是
+	option = {
+		name = wwo_news.2.c
 		trigger = {
 			AND = {
 			NOT = {tag = SOV}
