@@ -1,0 +1,156 @@
+nippon_russian_war_category = {
+	anti_war_flood = {
+
+		allowed = { tag = SOV }
+
+		icon = GFX_decision_SWI_consolidate_council_power
+
+		available = {
+			408 = {
+				is_controlled_by = ROOT
+			}
+		}
+
+		days_mission_timeout = 90
+		is_good = no
+		fire_only_once = yes
+		
+		activation = {
+			AND = {
+				NOT = {
+					408 = {
+						is_controlled_by = ROOT
+					}
+
+				}
+				custom_trigger_tooltip = {
+					tooltip = nippon_russian_war_not_ended_tt
+					NOT = {
+						has_global_flag = nippon_russian_war_ended
+					}
+				}
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+		
+		cancel_effect = {
+		
+		}
+		complete_effect = 	{
+			add_war_support = 0.2
+		}
+		timeout_effect = {
+			news_event = {
+				id = wwo_news.1
+				days = 1
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+	defend_korea = {
+
+		allowed = { tag = SOV }
+
+		icon = GFX_decision_generic_mountain_fortification
+
+		available = {
+			NOT = {
+				525 = {
+					is_controlled_by = SOV
+				}
+				527 = {
+					is_controlled_by = SOV
+				}
+			}
+		}
+
+		days_mission_timeout = 30
+		is_good = yes
+		fire_only_once = yes
+		
+		activation = {
+			525 = {
+				is_controlled_by = SOV
+			}
+			527 = {
+				is_controlled_by = SOV
+			}
+			custom_trigger_tooltip = {
+				tooltip = nippon_russian_war_not_ended_tt
+				NOT = {
+					has_global_flag = nippon_russian_war_ended
+				}
+			}
+		}
+
+		visible = {
+			always = yes
+		}
+		
+		cancel_effect = {
+		
+		}
+		complete_effect = 	{
+			
+		}
+		timeout_effect = {
+			news_event = {
+				id = wwo_news.2
+				days = 1
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+
+	attack_korea = {
+		available = {
+			NOT = {
+				has_global_flag = nippon_russian_war_ended
+			}
+			408 = {
+				is_controlled_by = SOV
+			}
+			717 = {
+				is_controlled_by = SOV
+			}
+			328 = {
+				is_controlled_by = SOV
+			}
+		}
+		visible = {
+			NOT = {
+				has_global_flag = nippon_russian_war_ended
+			}
+			408 = {
+				is_controlled_by = SOV
+			}
+			717 = {
+				is_controlled_by = SOV
+			}
+			328 = {
+				is_controlled_by = SOV
+			}
+			SOV = {
+				NOT = {
+					has_war_with = KOR
+				}
+			}
+		}
+		complete_effect = {
+			declare_war_on = {
+				target = KOR
+				type = annex_everything
+			}
+		}
+	}
+}

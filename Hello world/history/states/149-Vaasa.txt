@@ -9,7 +9,9 @@ state = {
 	
 	
 	history = {
-		owner = SOV
+owner = FIN
+add_core_of = FIN
+add_core_of = FIN
 		add_core_of = SOV
 		
 		victory_points = { #Vaasa
