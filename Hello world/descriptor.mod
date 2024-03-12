@@ -17,5 +17,10 @@ tags={
 	"Map"
 }
 replace_path="common/bookmarks"
+replace_path="common/technologies"
+replace_path="common/technology_tags"
+replace_path="common/technology_sharing"
+replace_path="history/units"
+
 name="Hello world"
 supported_version="1.13.6"

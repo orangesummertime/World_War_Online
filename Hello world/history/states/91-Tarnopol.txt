@@ -6,7 +6,8 @@ state={
 	state_category = city
 	
 	history={
-		owner = GLZ
+owner = GLZ
+add_core_of = GLZ
 		victory_points = {
 			11479 3
 		}
@@ -20,7 +21,6 @@ state={
 		}
 		add_core_of = POL
 		add_core_of = UKR
-		add_core_of = GLZ
 	}
 
 	provinces={

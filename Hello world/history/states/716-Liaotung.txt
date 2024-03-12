@@ -7,6 +7,8 @@ state={
 
 	history={
 owner = JAP
+add_core_of = MAN
+controller = JAP
 		add_core_of = CHI
 		add_core_of = MAN
 		add_core_of = PRC

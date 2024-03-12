@@ -8,8 +8,9 @@ state=
 	
 	history=
 	{
-		owner = MAN
-		add_core_of = MAN
+owner = MAN
+add_core_of = MAN
+		add_core_of = SHX
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
@@ -23,7 +24,8 @@ state=
 
 		1938.10.25 = {
 			#remove_core_of = SHX
-			owner = PRC
+owner = MAN
+add_core_of = MAN
 			controller = JAP
 			PRC = {
 				set_province_controller = 1034

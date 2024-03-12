@@ -6,7 +6,8 @@ state={
 	
 	state_category = city
 	history={
-		owner = GER
+owner = GER
+add_core_of = GER
 		victory_points = {
 			9263 5
 		}
@@ -27,7 +28,9 @@ state={
 		}
 		add_core_of = POL
 		add_core_of = KSH
-		add_core_of = GER
+		1938.3.12 = {
+			add_claim_by = GER
+		}
 	}
 
 	provinces={

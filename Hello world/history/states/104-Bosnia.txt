@@ -12,8 +12,8 @@ state={
 	}
 
 	history={
-		#owner = BOS
-		owner = CRO
+owner = CRO
+add_core_of = CRO
 		victory_points = {
 			11899 5 
 		}
@@ -27,7 +27,6 @@ state={
 		}
 		add_core_of = YUG
 		add_core_of = BOS
-		add_core_of = CRO
 	}
 
 	provinces={

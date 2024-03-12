@@ -10,7 +10,8 @@ state={
 		victory_points = {
 			9602 3 
 		}
-		owner = SER
+owner = SER
+add_core_of = SER
 		buildings = {
 			infrastructure = 2
 

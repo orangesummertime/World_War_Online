@@ -20,7 +20,8 @@ state=
 		victory_points = {
 			11401 3
 		}
-		owner = BOH
+owner = BOH
+add_core_of = BOH
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
@@ -55,10 +56,11 @@ state=
 			}
 
 		}
-		add_core_of = BOH
+		add_core_of = CZE
 
 		1938.9.30 = {
-			owner = GER
+owner = BOH
+add_core_of = BOH
 			controller = GER
 		}
 	}

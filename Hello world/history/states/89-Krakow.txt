@@ -9,7 +9,8 @@ state={
 		#victory_points = {
 		#	6483 1
 		#}
-		owner = GLZ
+owner = GLZ
+add_core_of = GLZ
 		buildings = {
 			infrastructure = 3
 			air_base = 3
@@ -17,7 +18,6 @@ state={
 		}
 		add_core_of = POL
 		add_core_of = UKR
-		add_core_of = GLZ
 
 	}
 

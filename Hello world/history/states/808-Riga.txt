@@ -1,3 +1,4 @@
+
 state={
 	id=808
 	name="STATE_808"
@@ -6,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = SOV
+owner = SOV
+add_core_of = SOV
 		victory_points = {
 			9340 5 
 		}
@@ -21,7 +23,6 @@ state={
 
 		}
 		add_core_of = LAT
-		add_core_of = SOV
 
 	}
 
