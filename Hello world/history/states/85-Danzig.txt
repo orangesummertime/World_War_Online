@@ -5,13 +5,13 @@ state={
 	
 	state_category = city
 	history={
-owner = GER
-add_core_of = GER
+	owner = GER
+	add_core_of = GER
 		victory_points = {
 			362 10
 		}
 		
-		set_demilitarized_zone = yes
+		#
 		
 		buildings = {
 			infrastructure = 3
