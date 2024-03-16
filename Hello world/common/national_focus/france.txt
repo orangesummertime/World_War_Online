@@ -8,11 +8,12 @@ focus_tree={
 	}
 	default=no
 	continuous_focus_position={
-		x=55
-		y=2500
+		x=3690
+		y=740
 	}
 	focus={
 		id=FRA_0
+		icon = GFX_goal_generic_political_pressure
 		x=30
 		y=0
 		mutually_exclusive={focus=FRA_1 focus=FRA_2 }
@@ -28,6 +29,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_1
+		icon = GFX_focus_rom_royal_dictatorship
 		x=52
 		y=0
 		mutually_exclusive={focus=FRA_0 focus=FRA_2 }
@@ -43,6 +45,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_2
+		icon = GFX_focus_focus_fra_revolution_utmost
 		x=7
 		y=0
 		mutually_exclusive={focus=FRA_0 focus=FRA_1 }
@@ -58,6 +61,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_3
+		icon = GFX_goal_generic_political_pressure
 		x=5
 		y=1
 		prerequisite={focus=FRA_2}
@@ -74,6 +78,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_4
+		icon = GFX_focus_generic_support_the_left_right
 		x=9
 		y=1
 		prerequisite={focus=FRA_2}
@@ -90,6 +95,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_5
+		icon = GFX_goal_generic_military_sphere
 		x=7
 		y=2
 		prerequisite={focus=FRA_4 focus=FRA_3 }
@@ -105,6 +111,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_6
+		icon = GFX_goal_generic_propaganda
 		x=7
 		y=3
 		prerequisite={focus=FRA_5}
@@ -120,6 +127,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_7
+		icon = GFX_goal_generic_demand_territory
 		x=7
 		y=4
 		prerequisite={focus=FRA_6}
@@ -136,6 +144,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_8
+		icon = GFX_goal_generic_construct_mil_factory
 		x=5
 		y=5
 		prerequisite={focus=FRA_7}
@@ -152,6 +161,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_9
+		icon = GFX_goal_generic_construct_military
 		x=9
 		y=5
 		prerequisite={focus=FRA_7}
@@ -168,6 +178,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_10
+		icon = GFX_goal_generic_small_arms
 		x=5
 		y=6
 		prerequisite={focus=FRA_8}
@@ -183,6 +194,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_11
+		icon = GFX_focus_ITA_peasants_rise
 		x=9
 		y=6
 		prerequisite={focus=FRA_9}
@@ -198,6 +210,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_12
+		icon = GFX_focus_ITA_il_sol_dell_avvenire
 		x=7
 		y=7
 		prerequisite={focus=FRA_11 focus=FRA_10 }
@@ -213,6 +226,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_13
+		icon = GFX_goal_generic_military_sphere
 		x=3
 		y=8
 		prerequisite={focus=FRA_12}
@@ -228,6 +242,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_14
+		icon = GFX_focus_ITA_corpo_volontari_della_liberta
 		x=7
 		y=8
 		prerequisite={focus=FRA_12}
@@ -243,6 +258,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_15
+		icon = GFX_goal_support_communism
 		x=11
 		y=8
 		prerequisite={focus=FRA_12}
@@ -259,6 +275,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_16
+		icon = GFX_goal_generic_national_unity
 		x=14
 		y=8
 		prerequisite={focus=FRA_12}
@@ -275,6 +292,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_17
+		icon = GFX_goal_generic_construct_civ_factory
 		x=3
 		y=9
 		prerequisite={focus=FRA_13}
@@ -290,6 +308,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_18
+		icon = GFX_focus_prc_infiltration
 		x=3
 		y=10
 		prerequisite={focus=FRA_17}
@@ -305,6 +324,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_19
+		icon = GFX_focus_SOV_mobilization_plan
 		x=7
 		y=9
 		prerequisite={focus=FRA_14}
@@ -320,6 +340,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_20
+		icon = GFX_goal_generic_army_tanks
 		x=7
 		y=10
 		prerequisite={focus=FRA_19}
@@ -335,6 +356,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_21
+		icon = GFX_focus_spr_crush_the_revolution
 		x=11
 		y=9
 		prerequisite={focus=FRA_15}
@@ -350,6 +372,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_22
+		icon = GFX_focus_SOV_organize_wreckers
 		x=11
 		y=10
 		prerequisite={focus=FRA_21}
@@ -365,6 +388,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_23
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		x=14
 		y=9
 		prerequisite={focus=FRA_16}
@@ -380,6 +404,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_24
+		icon = GFX_focus_SOV_breadbasket_of_the_union
 		x=14
 		y=10
 		prerequisite={focus=FRA_23}
@@ -395,6 +420,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_25
+		icon = GFX_goal_generic_improve_relations
 		x=17
 		y=10
 		prerequisite={focus=FRA_23}
@@ -410,6 +436,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_26
+		icon = GFX_focus_spr_class_war
 		x=17
 		y=11
 		prerequisite={focus=FRA_25}
@@ -425,6 +452,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_27
+		icon = GFX_goal_support_democracy
 		x=14
 		y=11
 		prerequisite={focus=FRA_24}
@@ -440,6 +468,8 @@ focus_tree={
 	}
 	focus={
 		id=FRA_28
+		icon = GFX_focus_mex_triumph_over_the_cristeros
+		icon = GFX_focus_ITA_corpo_volontari_della_liberta
 		x=14
 		y=12
 		prerequisite={focus=FRA_27}
@@ -455,6 +485,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_29
+		icon = GFX_focus_por_workers_of_iberia
 		x=17
 		y=12
 		prerequisite={focus=FRA_26}
@@ -470,6 +501,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_30
+		icon = GFX_focus_generic_military_mission
 		x=7
 		y=11
 		prerequisite={focus=FRA_20}
@@ -485,6 +517,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_31
+		icon = GFX_focus_SOV_builder_of_the_red_army
 		x=7
 		y=12
 		prerequisite={focus=FRA_30}
@@ -503,6 +536,7 @@ focus_tree={
 		x=11
 		y=11
 		prerequisite={focus=FRA_22}
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost=10
 		ai_will_do={
 			factor=1
@@ -515,6 +549,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_33
+		icon = GFX_goal_generic_demand_territory
 		x=11
 		y=12
 		prerequisite={focus=FRA_32}
@@ -530,6 +565,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_34
+		icon = GFX_goal_generic_construct_infrastructure
 		x=3
 		y=11
 		prerequisite={focus=FRA_18}
@@ -545,6 +581,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_35
+		icon = GFX_focus_prc_agrarian_socialism
 		x=3
 		y=12
 		prerequisite={focus=FRA_34}
@@ -560,6 +597,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_36
+		icon = GFX_goal_generic_position_armies
 		x=0
 		y=11
 		prerequisite={focus=FRA_18}
@@ -575,6 +613,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_37
+		icon = GFX_focus_usa_reestablish_the_gold_standard
 		x=0
 		y=12
 		prerequisite={focus=FRA_36}
@@ -590,6 +629,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_38
+		icon = GFX_focus_generic_women_in_military
 		x=9
 		y=11
 		prerequisite={focus=FRA_20}
@@ -605,6 +645,8 @@ focus_tree={
 	}
 	focus={
 		id=FRA_39
+		icon = GFX_focus_SOV_proclaim_soviet_hegemony
+		icon = GFX_focus_SOV_international_union_of_soviet_republics
 		x=5
 		y=13
 		prerequisite={focus=FRA_35}
@@ -622,6 +664,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_40
+		icon = GFX_focus_ger_great_red_menace
 		x=9
 		y=13
 		prerequisite={focus=FRA_31 focus=FRA_35}
@@ -638,6 +681,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_41
+		icon = GFX_focus_SOV_the_supreme_soviet
 		x=5
 		y=15
 		prerequisite={focus=FRA_44}
@@ -655,6 +699,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_42
+		icon = GFX_focus_generic_support_the_left_right
 		x=9
 		y=15
 		prerequisite={focus=FRA_45}
@@ -672,6 +717,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_43
+		icon = GFX_focus_spr_class_war
 		x=7
 		y=14
 		prerequisite={focus=FRA_39 focus=FRA_40 }
@@ -687,6 +733,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_44
+		icon = GFX_goal_generic_production2
 		x=5
 		y=14
 		prerequisite={focus=FRA_39}
@@ -702,6 +749,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_45
+		icon = GFX_goal_generic_war_with_comintern
 		x=9
 		y=14
 		prerequisite={focus=FRA_40}
@@ -717,6 +765,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_46
+		icon = GFX_goal_generic_attack_allies
 		x=3
 		y=14
 		prerequisite={focus=FRA_39}
@@ -732,6 +781,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_47
+		icon = GFX_focus_YUG_pan_slavic_congress
 		x=11
 		y=14
 		prerequisite={focus=FRA_40}
@@ -747,6 +797,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_48
+		icon = GFX_goal_generic_propaganda
 		x=20
 		y=13
 		prerequisite={focus=FRA_29 focus=FRA_63 }
@@ -762,6 +813,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_49
+		icon = GFX_focus_generic_self_management
 		x=20
 		y=14
 		prerequisite={focus=FRA_48}
@@ -777,6 +829,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_50
+		icon = GFX_focus_focus_fra_liberte_egalite_solidarite
 		x=20
 		y=15
 		prerequisite={focus=FRA_49}
@@ -792,6 +845,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_51
+		icon = GFX_goal_generic_forceful_treaty
 		x=28
 		y=1
 		prerequisite={focus=FRA_0}
@@ -808,6 +862,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_52
+		icon = GFX_focus_generic_support_the_left_right
 		x=32
 		y=1
 		prerequisite={focus=FRA_0}
@@ -824,6 +879,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_53
+		icon = GFX_goal_generic_more_territorial_claims
 		x=30
 		y=2
 		prerequisite={focus=FRA_51 focus=FRA_52 }
@@ -839,6 +895,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_54
+		icon = GFX_goal_anti_comintern_pact
 		x=30
 		y=3
 		prerequisite={focus=FRA_53}
@@ -854,6 +911,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_55
+		icon = GFX_goal_generic_war_with_comintern
 		x=30
 		y=4
 		prerequisite={focus=FRA_54}
@@ -869,6 +927,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_56
+		icon = GFX_focus_generic_manpower
 		x=30
 		y=5
 		prerequisite={focus=FRA_55}
@@ -884,6 +943,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_57
+		icon = GFX_focus_generic_self_management
 		x=30
 		y=6
 		prerequisite={focus=FRA_56}
@@ -899,6 +959,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_58
+		icon = GFX_goal_generic_attack_allies
 		x=30
 		y=7
 		prerequisite={focus=FRA_57}
@@ -914,6 +975,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_61
+		icon = GFX_focus_generic_secret_service_agency
 		x=30
 		y=10
 		prerequisite={focus=FRA_75}
@@ -929,6 +991,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_62
+		icon = GFX_focus_fra_milice
 		x=30
 		y=11
 		prerequisite={focus=FRA_61}
@@ -944,6 +1007,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_63
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		x=23
 		y=12
 		prerequisite={focus=FRA_64}
@@ -959,6 +1023,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_64
+		icon = GFX_focus_generic_treaty
 		x=23
 		y=11
 		prerequisite={focus=FRA_65}
@@ -974,6 +1039,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_65
+		icon = GFX_goal_generic_improve_relations
 		x=23
 		y=10
 		prerequisite={focus=FRA_66}
@@ -989,6 +1055,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_66
+		icon = GFX_focus_generic_soviet_politics
 		x=23
 		y=9
 		prerequisite={focus=FRA_67}
@@ -1005,6 +1072,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_67
+		icon = GFX_focus_generic_military_academy
 		x=25
 		y=8
 		prerequisite={focus=FRA_58}
@@ -1020,6 +1088,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_68
+		icon =  GFX_focus_generic_concessions
 		x=27
 		y=9
 		prerequisite={focus=FRA_67}
@@ -1036,6 +1105,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_69
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		x=27
 		y=10
 		prerequisite={focus=FRA_68}
@@ -1051,6 +1121,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_70
+		icon = GFX_goal_generic_dangerous_deal
 		x=27
 		y=11
 		prerequisite={focus=FRA_69}
@@ -1066,6 +1137,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_71
+		icon = GFX_focus_chi_reach_out_to_france
 		x=27
 		y=12
 		prerequisite={focus=FRA_70}
@@ -1081,6 +1153,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_72
+		icon = GFX_goal_anti_comintern_pact
 		x=27
 		y=13
 		prerequisite={focus=FRA_71}
@@ -1099,6 +1172,7 @@ focus_tree={
 		x=27
 		y=14
 		prerequisite={focus=FRA_72}
+		icon = GFX_goal_support_democracy
 		cost=10
 		ai_will_do={
 			factor=1
@@ -1111,6 +1185,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_74
+		icon = GFX_focus_attack_germany
 		x=30
 		y=8
 		prerequisite={focus=FRA_58}
@@ -1126,6 +1201,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_75
+		icon = GFX_focus_generic_military_mission
 		x=30
 		y=9
 		prerequisite={focus=FRA_74}
@@ -1141,6 +1217,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_76
+		icon = GFX_focus_mex_privatisation
 		x=33
 		y=9
 		prerequisite={focus=FRA_77}
@@ -1156,6 +1233,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_77
+		icon = GFX_focus_generic_treaty
 		x=33
 		y=8
 		prerequisite={focus=FRA_58}
@@ -1171,6 +1249,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_78
+		icon = GFX_focus_generic_annex_country_2
 		x=33
 		y=10
 		prerequisite={focus=FRA_76}
@@ -1186,6 +1265,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_79
+		icon = GFX_focus_eng_move_to_secure_the_dominions
 		x=33
 		y=11
 		prerequisite={focus=FRA_78}
@@ -1201,6 +1281,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_80
+		icon = GFX_focus_chi_mission_to_the_us
 		x=35
 		y=9
 		prerequisite={focus=FRA_77}
@@ -1216,6 +1297,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_81
+		icon = GFX_focus_focus_fra_maquis
 		x=35
 		y=10
 		prerequisite={focus=FRA_80}
@@ -1231,6 +1313,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_82
+		icon = GFX_focus_chi_british_cooperation
 		x=37
 		y=9
 		prerequisite={focus=FRA_77}
@@ -1246,6 +1329,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_83
+		icon = GFX_focus_attack_germany
 		x=37
 		y=10
 		prerequisite={focus=FRA_82}
@@ -1261,6 +1345,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_84
+		icon = GFX_focus_ger_great_red_menace
 		x=37
 		y=11
 		prerequisite={focus=FRA_115 focus=FRA_83 }
@@ -1276,6 +1361,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_85
+		icon = GFX_focus_ger_strike_at_the_source
 		x=37
 		y=12
 		prerequisite={focus=FRA_84}
@@ -1291,6 +1377,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_86
+		icon = GFX_goal_generic_military_deal
 		x=37
 		y=13
 		prerequisite={focus=FRA_85}
@@ -1306,6 +1393,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_87
+		icon = GFX_goal_generic_military_deal
 		x=35
 		y=13
 		prerequisite={focus=FRA_85}
@@ -1321,6 +1409,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_88
+		icon = GFX_goal_generic_military_deal
 		x=39
 		y=13
 		prerequisite={focus=FRA_85}
@@ -1336,6 +1425,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_89
+		icon = GFX_goal_generic_military_deal
 		x=33
 		y=13
 		prerequisite={focus=FRA_85}
@@ -1351,6 +1441,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_90
+		icon = GFX_goal_generic_military_deal
 		x=41
 		y=13
 		prerequisite={focus=FRA_85}
@@ -1366,6 +1457,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_91
+		icon = GFX_goal_generic_military_deal
 		x=31
 		y=13
 		prerequisite={focus=FRA_85}
@@ -1381,6 +1473,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_92
+		icon = GFX_goal_generic_military_deal
 		x=43
 		y=13
 		prerequisite={focus=FRA_85}
@@ -1396,6 +1489,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_93
+		icon = GFX_focus_ger_bulwark_against_bolshevism
 		x=37
 		y=14
 		prerequisite={focus=FRA_91 focus=FRA_89 focus=FRA_87 focus=FRA_86 focus=FRA_88 focus=FRA_90 focus=FRA_92 }
@@ -1411,6 +1505,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_94
+		icon = GFX_goal_generic_occupy_states_ongoing_war
 		x=35
 		y=15
 		prerequisite={focus=FRA_93}
@@ -1426,6 +1521,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_95
+		icon = GFX_goal_generic_war_with_comintern
 		x=37
 		y=15
 		prerequisite={focus=FRA_93}
@@ -1441,6 +1537,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_96
+		icon = GFX_goal_anti_comintern_pact
 		x=39
 		y=15
 		prerequisite={focus=FRA_93}
@@ -1456,6 +1553,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_97
+		icon = GFX_focus_eng_move_to_secure_the_dominions
 		x=50
 		y=1
 		prerequisite={focus=FRA_1}
@@ -1472,6 +1570,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_98
+		icon = GFX_focus_generic_military_mission
 		x=54
 		y=1
 		prerequisite={focus=FRA_1}
@@ -1488,6 +1587,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_99
+		icon = GFX_focus_generic_improve_the_administration 
 		x=50
 		y=2
 		prerequisite={focus=FRA_97}
@@ -1503,6 +1603,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_100
+		icon = GFX_focus_SWI_dissolve_the_federal_council
 		x=50
 		y=3
 		prerequisite={focus=FRA_99}
@@ -1518,6 +1619,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_101
+		icon = GFX_focus_generic_horse_studs
 		x=50
 		y=4
 		prerequisite={focus=FRA_100}
@@ -1533,6 +1635,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_102
+		icon = GFX_goal_generic_political_pressure
 		x=50
 		y=5
 		prerequisite={focus=FRA_101}
@@ -1548,6 +1651,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_103
+		icon = GFX_goal_generic_occupy_states_ongoing_war
 		x=50
 		y=6
 		prerequisite={focus=FRA_102}
@@ -1563,6 +1667,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_104
+		icon = GFX_focus_generic_military_dictatorship
 		x=54
 		y=2
 		prerequisite={focus=FRA_98}
@@ -1578,6 +1683,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_105
+		icon = GFX_focus_spr_crush_the_revolution
 		x=54
 		y=3
 		prerequisite={focus=FRA_104}
@@ -1593,6 +1699,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_106
+		icon = GFX_goal_support_fascism
 		x=54
 		y=4
 		prerequisite={focus=FRA_105}
@@ -1608,6 +1715,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_107
+		icon = GFX_focus_generic_annex_country
 		x=54
 		y=5
 		prerequisite={focus=FRA_106}
@@ -1623,6 +1731,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_108
+		icon = GFX_focus_usa_reestablish_the_gold_standard
 		x=54
 		y=6
 		prerequisite={focus=FRA_107}
@@ -1638,6 +1747,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_109
+		icon = GFX_focus_rom_royal_dictatorship
 		x=52
 		y=7
 		prerequisite={focus=FRA_103 focus=FRA_108 }
@@ -1653,6 +1763,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_110
+		icon = GFX_goal_generic_positive_trade_relations
 		x=48
 		y=8
 		prerequisite={focus=FRA_109}
@@ -1668,6 +1779,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_111
+		icon = GFX_goal_generic_secret_weapon
 		x=56
 		y=8
 		prerequisite={focus=FRA_109}
@@ -1683,6 +1795,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_112
+		icon = GFX_focus_ITA_garibaldi_legion
 		x=48
 		y=9
 		prerequisite={focus=FRA_110}
@@ -1698,6 +1811,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_113
+		icon = GFX_focus_generic_treaty
 		x=46
 		y=9
 		prerequisite={focus=FRA_110}
@@ -1713,6 +1827,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_114
+		icon = GFX_focus_chi_mission_to_the_us
 		x=44
 		y=9
 		prerequisite={focus=FRA_110}
@@ -1728,6 +1843,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_115
+		icon = GFX_goal_generic_war_with_comintern
 		x=44
 		y=10
 		prerequisite={focus=FRA_114 focus=FRA_113 focus=FRA_112 }
@@ -1743,6 +1859,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_116
+		icon = GFX_goal_generic_national_unity
 		x=52
 		y=8
 		prerequisite={focus=FRA_109}
@@ -1758,6 +1875,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_117
+		icon = GFX_focus_focus_fra_border
 		x=52
 		y=9
 		prerequisite={focus=FRA_116}
@@ -1773,6 +1891,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_118
+		icon = GFX_focus_generic_diplomatic_treaty
 		x=52
 		y=10
 		prerequisite={focus=FRA_117}
@@ -1788,6 +1907,8 @@ focus_tree={
 	}
 	focus={
 		id=FRA_119
+		icon = GFX_focus_generic_support_the_left_right
+		#反对你妈
 		x=52
 		y=11
 		prerequisite={focus=FRA_118}
@@ -1803,6 +1924,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_120
+		icon = GFX_focus_rom_parties_end
 		x=50
 		y=11
 		prerequisite={focus=FRA_118}
@@ -1818,6 +1940,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_121
+		icon = GFX_goal_generic_intelligence_exchange
 		x=54
 		y=11
 		prerequisite={focus=FRA_118}
@@ -1833,6 +1956,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_122
+		icon = GFX_goal_generic_propaganda
 		x=56
 		y=9
 		prerequisite={focus=FRA_111}
@@ -1848,6 +1972,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_123
+		icon = GFX_goal_anti_comintern_pact
 		x=56
 		y=10
 		prerequisite={focus=FRA_122}
@@ -1863,6 +1988,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_124
+		icon = GFX_focus_generic_self_management
 		x=56
 		y=11
 		prerequisite={focus=FRA_123 focus=FRA_130 focus=FRA_131 }
@@ -1878,6 +2004,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_125
+		icon = GFX_goal_tfv_sever_ties_with_uk
 		x=56
 		y=12
 		prerequisite={focus=FRA_124}
@@ -1893,6 +2020,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_126
+		icon = GFX_focus_focus_fra_third_empire
 		x=54
 		y=12
 		prerequisite={focus=FRA_120 focus=FRA_119 focus=FRA_121 }
@@ -1909,6 +2037,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_127
+		icon = GFX_focus_focus_fra_orleans_restoration
 		x=50
 		y=12
 		prerequisite={focus=FRA_120 focus=FRA_119 focus=FRA_121 }
@@ -1925,6 +2054,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_128
+		icon = GFX_goal_generic_improve_relations
 		x=58
 		y=9
 		prerequisite={focus=FRA_111}
@@ -1940,6 +2070,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_129
+		icon = GFX_goal_generic_major_alliance
 		x=60
 		y=9
 		prerequisite={focus=FRA_111}
@@ -1955,6 +2086,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_130
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		x=58
 		y=10
 		prerequisite={focus=FRA_128}
@@ -1970,6 +2102,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_131
+		icon = GFX_goal_demand_sudetenland
 		x=60
 		y=10
 		prerequisite={focus=FRA_129}
@@ -1985,6 +2118,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_132
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		x=50
 		y=13
 		prerequisite={focus=FRA_127}
@@ -2000,6 +2134,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_133
+		icon = GFX_goal_generic_neutrality_focus
 		x=50
 		y=14
 		prerequisite={focus=FRA_132}
@@ -2015,6 +2150,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_134
+		icon = GFX_focus_fra_french_union
 		x=54
 		y=13
 		prerequisite={focus=FRA_126}
@@ -2030,6 +2166,8 @@ focus_tree={
 	}
 	focus={
 		id=FRA_135
+		icon = GFX_focus_fra_le_deluge
+		#妈的给我改成我即浪潮
 		x=54
 		y=14
 		prerequisite={focus=FRA_134}
@@ -2046,6 +2184,7 @@ focus_tree={
 	focus={
 
 		id=FRA_136
+		icon = GFX_focus_generic_tank_air_support
 		x=41
 		y=1
 		cost=10
@@ -2060,6 +2199,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_137
+		icon = GFX_focus_generic_industry_3
 		x=17
 		y=1
 		cost=10
@@ -2074,6 +2214,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_138
+		icon = GFX_focus_research
 		x=17
 		y=2
 		prerequisite={focus=FRA_137}
@@ -2089,6 +2230,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_139
+		icon = GFX_goal_generic_construction
 		x=13
 		y=2
 		prerequisite={focus=FRA_137}
@@ -2105,6 +2247,7 @@ focus_tree={
 
 	focus={
 		id=FRA_140
+		icon = GFX_goal_generic_production
 		x=21
 		y=2
 		prerequisite={focus=FRA_137}
@@ -2121,6 +2264,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_141
+		icon = GFX_goal_generic_construct_infrastructure
 		x=13
 		y=3
 		prerequisite={focus=FRA_139}
@@ -2137,6 +2281,7 @@ focus_tree={
 
 	focus={
 		id=FRA_142
+		icon = GFX_focus_generic_the_giant_wakes
 		x=21
 		y=3
 		prerequisite={focus=FRA_140}
@@ -2152,6 +2297,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_143
+		icon = GFX_goal_generic_construct_civ_factory
 		x=15
 		y=3
 		prerequisite={focus=FRA_138}
@@ -2168,6 +2314,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_144
+		icon = GFX_focus_SOV_organize_wreckers
 		x=19
 		y=3
 		prerequisite={focus=FRA_138}
@@ -2185,6 +2332,7 @@ focus_tree={
 
 	focus={
 		id=FRA_145
+		icon = GFX_goal_generic_oil_refinery
 		x=13
 		y=4
 		prerequisite={focus=FRA_141}
@@ -2201,6 +2349,7 @@ focus_tree={
 
 	focus={
 		id=FRA_146
+		icon = GFX_focus_fra_devalue_the_franc
 		x=21
 		y=4
 		prerequisite={focus=FRA_142}
@@ -2218,6 +2367,7 @@ focus_tree={
 
 	focus={
 		id=FRA_147
+		icon = GFX_goal_reichsautobahn
 		x=17
 		y=4
 		prerequisite={focus=FRA_143 focus=FRA_144 }
@@ -2234,6 +2384,7 @@ focus_tree={
 
 	focus={
 		id=FRA_148
+		icon = GFX_goal_generic_construction2
 		x=13
 		y=5
 		prerequisite={focus=FRA_145}
@@ -2249,6 +2400,7 @@ focus_tree={
 	}
 	focus={
 		id=FRA_149
+		icon = GFX_focus_generic_industry_1
 		x=21
 		y=5
 		prerequisite={focus=FRA_146}
@@ -2266,6 +2418,7 @@ focus_tree={
 
 	focus={
 		id=FRA_150
+		icon = GFX_focus_generic_industry_1
 		x=18
 		y=5
 		prerequisite={focus=FRA_146}
@@ -2283,6 +2436,7 @@ focus_tree={
 
 	focus={
 		id=FRA_151
+		icon = GFX_focus_generic_industry_1
 		x=24
 		y=5
 		prerequisite={focus=FRA_146}
@@ -2300,6 +2454,7 @@ focus_tree={
 
 	focus={
 		id=FRA_152
+		icon = GFX_goal_tfv_generic_tech_sharing
 		x=38
 		y=2
 		prerequisite={focus=FRA_136}
@@ -2316,6 +2471,7 @@ focus_tree={
 
 	focus={
 		id=FRA_153
+		icon = GFX_goal_generic_axis_build_infantry
 		x=38
 		y=4
 		prerequisite={focus=FRA_154}
@@ -2332,6 +2488,7 @@ focus_tree={
 
 	focus={
 		id=FRA_154
+		icon = GFX_focus_eng_move_to_secure_the_dominions
 		x=38
 		y=3
 		prerequisite={focus=FRA_152}
@@ -2348,6 +2505,7 @@ focus_tree={
 
 	focus={
 		id=FRA_155
+		icon = GFX_focus_rocketry
 		x=41
 		y=2
 		prerequisite={focus=FRA_136}
@@ -2364,6 +2522,7 @@ focus_tree={
 
 	focus={
 		id=FRA_156
+		icon = GFX_goal_generic_army_artillery2
 		x=44
 		y=2
 		prerequisite={focus=FRA_136}
@@ -2380,6 +2539,7 @@ focus_tree={
 
 	focus={
 		id=FRA_157
+		icon = GFX_goal_generic_army_tanks
 		x=44
 		y=3
 		prerequisite={focus=FRA_156}
@@ -2396,6 +2556,7 @@ focus_tree={
 	 
 	focus={     
 		id=FRA_158
+		icon = GFX_focus_generic_tank_production
 		x=44
 		y=4
 		prerequisite={focus=FRA_157}
@@ -2412,6 +2573,7 @@ focus_tree={
 
 	focus={
 		id=FRA_159
+		icon = GFX_focus_wonderweapons
 		x=41
 		y=3
 		prerequisite={focus=FRA_155}
@@ -2429,6 +2591,7 @@ focus_tree={
 
 	focus={
 		id=FRA_160
+		icon = GFX_goal_generic_air_fighter2
 
 		x=41
 
