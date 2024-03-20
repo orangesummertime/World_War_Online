@@ -287,7 +287,7 @@
  STATE_275: "德兰士瓦"
  STATE_276: "南安大略"
  STATE_277: "墨西哥城"
- STATE_278: "潘帕斯"
+ STATE_278: "布宜诺斯艾利斯" #Was Pampas
  STATE_279: "圣地亚哥"
  STATE_280: "马托格罗索"
  STATE_281: "马尔代夫"
@@ -309,7 +309,7 @@
  STATE_297: "赤道几内亚"
  STATE_298: "利比里亚"
  STATE_299: "福克兰群岛"
- STATE_300: "乌拉圭"
+ STATE_300: "蒙得维的亚" #was uruguay
  STATE_301: "巴拉圭"
  STATE_302: "拉巴斯"
  STATE_303: "利马"
@@ -513,15 +513,15 @@
  STATE_501: "圣保罗"
  STATE_502: "南里奥格兰德"
  STATE_503: "圣卡塔琳娜"
- STATE_504: "伊瓜苏"
+ STATE_504: "蓬塔波朗" #Was Iguaçú
  STATE_505: "戈亚斯"
  STATE_506: "安托法加斯塔"
  STATE_507: "麦哲伦"
  STATE_508: "图库曼"
  STATE_509: "南查科"
- STATE_510: "美索不达米亚"
+ STATE_510: "美索不达米亚" #Was Mesopotamia
  STATE_511: "门多萨"
- STATE_512: "巴塔哥尼亚"
+ STATE_512: "里奥内格罗" #Was Patagonia
  STATE_513: "特莱姆森"
  STATE_514: "阿尔及利亚沙漠"
  STATE_515: "南撒哈拉"
@@ -950,3 +950,38 @@
  STATE_932: "马恩岛"
  STATE_933: "设得兰群岛"
  STATE_934: "斯库台"
+ STATE_935: "塞阿拉"
+ STATE_936: "伯南布哥"
+ STATE_937: "皮奥伊"
+ STATE_938: "帕拉"
+ STATE_939: "阿马帕"
+ STATE_940: "阿克里"
+ STATE_941: "托坎廷斯"
+ STATE_942: "瓜波雷" #can be renamed to Rondônia later
+ STATE_943: "圣埃斯皮里图"
+ STATE_944: "巴拉那"
+ STATE_945: "塞罗拉戈"
+ STATE_946: "派桑杜"
+ STATE_947: "塔克纳-莫克瓜"
+ STATE_948: "复活节岛"
+ STATE_949: "艾森"
+ STATE_950: "阿劳卡尼亚"
+ STATE_951: "阿里卡和塔拉帕卡"
+ STATE_952: "阿塔卡马"
+ STATE_953: "火地岛"
+ STATE_954: "圣克鲁斯"
+ STATE_955: "丘布特"
+ STATE_956: "圣菲"
+ STATE_957: "福莫萨"
+ STATE_958: "圣路易斯和拉潘帕"
+ STATE_959: "洛斯安第斯"
+ STATE_960: "圣胡安和拉里奥哈"
+ STATE_961: "亚马逊" #impassables
+ STATE_962: "亚马逊" #impassables
+ STATE_963: "亚马逊" #impassables
+ STATE_964: "亚马逊" #impassables
+ STATE_965: "亚马逊" #impassables
+ STATE_966: "亚马逊" #impassables
+ STATE_967: "亚马逊" #impassables
+ STATE_968: "亚马逊" #impassables
+ STATE_969: "里奥布朗库"
